@@ -323,7 +323,7 @@ A Start Marker Without A Name Fails That Task And Writes Nothing For It
     ...    taskGroups: [{name: group, object: object.yaml, tasks: [{template: template.tera, output: output.txt}]}]
     ${result}=    Run Crank In Directory    ${dir}
     Should Be Equal As Integers    ${result.rc}    1
-    Should Contain    ${result.stderr}    Invalid crank header in ./template.tera
+    Should Contain    ${result.stderr}    Invalid crank header in .${/}template.tera
     Should Contain    ${result.stderr}    must contain `{name}` exactly once
     File Should Not Exist    ${dir}/output.txt
 
@@ -386,5 +386,5 @@ Unusable Pocket Markers In Crank Fail The Whole Run Before Any Output Is Written
     ...    tasks: [{template: template.tera, output: output.txt}]}]
     ${result}=    Run Crank In Directory    ${dir}
     Should Be Equal As Integers    ${result.rc}    1
-    Should Contain    ${result.stderr}    Failed to use the pocketMarkers in ./.crank
+    Should Contain    ${result.stderr}    Failed to use the pocketMarkers in .${/}.crank
     File Should Not Exist    ${dir}/output.txt
