@@ -9,6 +9,8 @@ minor release.
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-10-21
+
 The first release of crank. See [`docs/features.md`](docs/features.md)
 for an overview, and [`docs/crank-file-format.md`](docs/crank-file-format.md)
 and [`docs/usage.md`](docs/usage.md) for the full reference.

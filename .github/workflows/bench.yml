@@ -14,12 +14,12 @@ name: Benchmark
 # a read-only token and only ever uploads an artifact. Everything that
 # needs write access lives in bench-publish.yml, which runs from `main`
 # and never executes PR code. Don't add write permissions here.
-
-# Off until the repository is public, to save private Actions minutes.
-# It needs a PR to run against, so it can't usefully be run by hand
-# meanwhile. To turn it back on, revert the commit that added this note.
 on:
-  workflow_dispatch:
+  pull_request:
+    # Cheap first filter: don't even start a runner unless the code or
+    # its locked dependencies changed. The gate job below then skips PRs
+    # whose src/ changes are unit tests only.
+    paths: ["src/**", "Cargo.lock"]
 
 permissions:
   contents: read

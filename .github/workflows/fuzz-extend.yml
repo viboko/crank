@@ -8,11 +8,9 @@ name: Fuzz (extend)
 # as the bot app so that CI runs on it. A crash fails the job instead,
 # with the crashing input uploaded as an artifact; nothing is pushed.
 # Every PR's corpus replay is fuzz.yml's. See docs/fuzzing.md.
-
-# Off until the repository is public, to save private Actions minutes:
-# runnable by hand from the Actions tab only. To turn it back on,
-# revert the commit that added this note.
 on:
+  schedule:
+    - cron: "41 3 * * 1"
   workflow_dispatch:
     inputs:
       minutes:

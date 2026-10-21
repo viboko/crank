@@ -7,11 +7,18 @@ name: Coverage (main)
 # could change it, and publishes the HTML reports to coverage/ on the
 # GitHub Pages site. coverage.yml does the same for PRs, against their
 # base commit. See docs/coverage.md and docs/github-pages.md.
-
-# Off until the repository is public, to save private Actions minutes:
-# runnable by hand from the Actions tab only. To turn it back on,
-# revert the commit that added this note.
 on:
+  push:
+    branches: [main]
+    # The same files as coverage.yml's gate.
+    paths:
+      - "src/**"
+      - "e2e/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "justfile"
+      - ".github/workflows/coverage-main.yml"
+      - ".github/scripts/coverage-report.py"
   workflow_dispatch:
 
 # Only the publish job gets write access.

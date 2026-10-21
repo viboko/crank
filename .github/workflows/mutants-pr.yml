@@ -15,12 +15,8 @@ name: Mutation testing (PR)
 # Everything that needs write access lives in mutants-pr-publish.yml,
 # which runs from `main` and never executes PR code. Don't add write
 # permissions here.
-
-# Off until the repository is public, to save private Actions minutes.
-# It needs a PR to run against, so it can't usefully be run by hand
-# meanwhile. To turn it back on, revert the commit that added this note.
 on:
-  workflow_dispatch:
+  pull_request:
 
 permissions:
   contents: read

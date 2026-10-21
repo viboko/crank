@@ -9,11 +9,9 @@ name: Mutation testing
 # a tracking issue, opened while any mutant is missed and closed once
 # none are. Informational: missed mutants never fail the run — only a
 # broken one does. See docs/mutation-testing.md.
-
-# Off until the repository is public, to save private Actions minutes:
-# runnable by hand from the Actions tab only. To turn it back on,
-# revert the commit that added this note.
 on:
+  schedule:
+    - cron: "37 4 * * 1"
   workflow_dispatch:
 
 permissions:

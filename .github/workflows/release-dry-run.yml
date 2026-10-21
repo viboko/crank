@@ -7,12 +7,8 @@ name: Release dry run
 # to publishing, for every target — so a change that would break the
 # next release fails here rather than on its tag. Publishing itself is
 # release.yml's, which only runs on a version tag.
-
-# Off until the repository is public, to save private Actions minutes:
-# runnable by hand from the Actions tab only. To turn it back on,
-# revert the commit that added this note.
 on:
-  workflow_dispatch:
+  pull_request:
 
 permissions:
   contents: read

@@ -10,11 +10,10 @@ name: Benchmark (main)
 #
 # Can also be started by hand from the Actions tab (it only publishes
 # when started on main).
-
-# Off until the repository is public, to save private Actions minutes:
-# runnable by hand from the Actions tab only. To turn it back on,
-# revert the commit that added this note.
 on:
+  push:
+    branches: [main]
+    paths: ["src/**", "Cargo.lock", "benches/**"]
   workflow_dispatch:
 
 # Only the publish job gets write access.

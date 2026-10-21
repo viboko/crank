@@ -17,12 +17,8 @@ name: Benchmark (instruction counts)
 # status check, and a required check whose workflow never starts blocks
 # the PR forever. The gate job decides instead, and a job skipped by its
 # `if` counts as passing.
-
-# Off until the repository is public, to save private Actions minutes.
-# It needs a PR to run against, so it can't usefully be run by hand
-# meanwhile. To turn it back on, revert the commit that added this note.
 on:
-  workflow_dispatch:
+  pull_request:
 
 permissions:
   contents: read
