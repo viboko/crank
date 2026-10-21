@@ -37,14 +37,14 @@ Rust version" in [`docs/tooling.md`](../tooling.md).
    into the crate.
 8. **Bump the Homebrew formula** in
    [`viboko/homebrew-tap`](https://github.com/viboko/homebrew-tap)'s
-   `Formula/crank.rb`: for each of its four targets (macOS arm64 and
+   `Formula/crank-cli.rb`: for each of its four targets (macOS arm64 and
    x86_64, Linux arm64 and x86_64), the version in the archive's `url`,
    and the `sha256` from the release's `.sha256` file beside it.
-   Then `brew install --build-from-source viboko/tap/crank`, `brew
+   Then `brew install --build-from-source viboko/tap/crank-cli`, `brew
    test` and `brew audit --strict --online` on it, as a PR to the tap.
    (For the first release, the formula doesn't exist yet: add it,
-   modelled on `Formula/flint-cli.rb`. Homebrew has no `crank` of its
-   own, so the formula can take the command's name.)
+   modelled on `Formula/flint-cli.rb`. Like flint's, it's named after
+   the crate, `crank-cli`, and installs the `crank` command.)
 9. **Update the version in [`README.md`](../../README.md)'s**
    Installation example (the `shasum` and `gh attestation verify`
    lines), so it names a file the latest release has.

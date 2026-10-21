@@ -114,7 +114,7 @@ it compares with the ones you're most likely to have come across:
 On macOS or Linux, with [Homebrew](https://brew.sh/):
 
 ```bash
-brew install viboko/tap/crank
+brew install viboko/tap/crank-cli
 ```
 
 With Rust 1.88 or newer, from [crates.io](https://crates.io/crates/crank-cli):
@@ -124,7 +124,8 @@ cargo install --locked crank-cli
 ```
 
 The crate is called `crank-cli` because `crank` was already taken on
-crates.io; the command it installs is still `crank`.
+crates.io, and the Homebrew formula takes the same name; the command
+each installs is still `crank`.
 
 Or download a prebuilt binary from the
 [latest release](https://github.com/viboko/crank/releases/latest), for

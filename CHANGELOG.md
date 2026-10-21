@@ -62,7 +62,7 @@ and [`docs/usage.md`](docs/usage.md) for the full reference.
 - Prebuilt binaries for Linux (x86_64, arm64), macOS (Apple silicon,
   Intel) and Windows (x86_64), each with a checksum, an SBOM and a
   signed build provenance attestation; a Homebrew formula (`brew install
-  viboko/tap/crank`); and the `crank-cli` package on crates.io. The
+  viboko/tap/crank-cli`); and the `crank-cli` package on crates.io. The
   minimum supported Rust version is 1.88.
 - A browser playground at <https://crank.viboko.dev/>: edit a pretend
   project and watch crank's output update as you type, with worked
