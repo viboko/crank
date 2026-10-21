@@ -1,0 +1,44 @@
+# SPDX-FileCopyrightText: The crank contributors
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+# cargo-deny configuration: https://embarkstudios.github.io/cargo-deny/
+# Run via `just deny`, which checks the CLI and the playground. Only
+# settings that differ from cargo-deny's defaults are listed.
+
+[advisories]
+# RUSTSEC-2026-0249: smartstring is unmaintained (archived by its owner).
+# Pulled in unconditionally via rhai -> smartstring. No safe upgrade is
+# available per the advisory itself, and it's a transitive dependency
+# crank doesn't control directly — revisit if rhai drops it or a fork
+# appears.
+#
+# RUSTSEC-2024-0449: unsafe-libyaml is unmaintained (archived by its
+# owner). Pulled in via serde_yaml_ng, crank's YAML parser. It's an
+# unmaintained notice, not a known vulnerability, and no safe upgrade is
+# available; getting rid of it means switching to a different YAML parser
+# (the advisory suggests serde-saphyr), which is a change of its own.
+ignore = ["RUSTSEC-2026-0249", "RUSTSEC-2024-0449"]
+
+[licenses]
+# MPL-2.0 is pulled in unconditionally via rhai -> smartstring. MPL-2.0's
+# copyleft is file-level (modifications to MPL-covered files must stay
+# MPL-licensed if distributed), so it doesn't affect crank's own
+# MIT/Apache-2.0 code.
+# CC0-1.0 is pulled in via rhai -> ahash -> const-random -> tiny-keccak.
+# It's a public-domain-equivalent dedication, permissive like the rest of
+# this allow-list.
+allow = ["MIT", "Apache-2.0", "Unicode-3.0", "MPL-2.0", "CC0-1.0"]
+# The playground is never published, so it has no license field of its
+# own to check.
+private = { ignore = true }
+
+[bans]
+multiple-versions = "warn"
+wildcards = "deny"
+# The playground depends on crank by path, with no version, and is never
+# published.
+allow-wildcard-paths = true
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"

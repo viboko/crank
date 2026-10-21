@@ -1,0 +1,7 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+   #servers[0]
+  ! tasks:
+ }})

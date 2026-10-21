@@ -1,0 +1,9 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  -a emn:$words
+    object:(words.yaml
+    tasks:
+      - template: words.txt.text}]}]
+config: {line-

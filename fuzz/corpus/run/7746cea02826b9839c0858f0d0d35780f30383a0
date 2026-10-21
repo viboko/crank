@@ -1,0 +1,9 @@
+filters:
+  backwards: filyers/backwards.rhai
+  pad: filtersilters/backwards.rhai
+!!!!!backRwards.rhai
+  pad: fickwards: filters/backwards.rhai
+  pad: iflters/rs/backwards.rhai
+!!!!!pad.rhai
+taskGroups:
+  - name: words  ou    

@@ -1,0 +1,33 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetariarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.name }} — €{{ di'h.price }}{% if dish.vegetarian %} (v){% endif %}
+{% endfor %}
+Open {% for day, time in hours %}{% if time != "closed" %}{{ day }} {{ tings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be overridden by an environment variable of the same name in upper case.
+settings:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8time }}{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}.

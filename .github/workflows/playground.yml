@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: The crank contributors
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+name: Playground
+
+# Builds the browser playground (with playground-build.yml) on every PR
+# that could change it, so a broken build shows up before merging. The
+# build is handed to playground-publish.yml, which hosts it as a preview
+# under pr-<N>/playground/ — this half runs the PR's code, so it never
+# gets a write token. Publishing main's build to the root of the
+# gh-pages branch is playground-main.yml's. See docs/github-pages.md.
+#
+# playground-publish.yml triggers on this workflow by name, so don't
+# rename it.
+on:
+  pull_request:
+    paths:
+      - "src/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "playground/**"
+      - "justfile"
+      - "rust-toolchain.toml"
+      - "mise.toml"
+      - "mise.lock"
+      - ".github/actions/**"
+      - ".github/workflows/playground-build.yml"
+      - ".github/workflows/playground.yml"
+
+permissions:
+  contents: read
+
+# A newer run for the same PR supersedes an older one.
+concurrency:
+  group: playground-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    uses: ./.github/workflows/playground-build.yml
+    permissions:
+      contents: read

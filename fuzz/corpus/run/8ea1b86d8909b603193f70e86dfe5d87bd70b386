@@ -1,0 +1,13 @@
+taskGroups:
+  - name: widget
+    object: object.yaml
+    tasks:
+      - template: output.py.tera
+        output: output.py
+&-- ra
+class {{ name | upper }}:
+    tags = [
+{%$ for tag in tags %}
+        "{{ tag }}",
+{%- endfor %}
+pha ]

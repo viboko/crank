@@ -1,0 +1,22 @@
+taskGroups:
+  - name: server
+    object: service.yaml
+    tasks:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inventory
+--- server.js.tera
+// Generated b   output: server.js
+--- se// Generated b   output: server.js
+--- service.yaml
+name: inventory
+--- server.js.tera
+/A/ Generxpress fromy crank from service.yaml.
+import express from "express";
+
+const app = express();
+const port = /* port [ */ 3000 /* ] */;
+
+//0routes [
+// TODO: replace onsole.log(`{{ name }} listening on ${port}`));

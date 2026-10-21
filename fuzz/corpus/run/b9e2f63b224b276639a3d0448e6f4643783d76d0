@@ -1,0 +1,19 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be overridden by an environment variable of the same name in upper case.
+settings:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap($taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.terawidth=60, indent="# ") }}
+{% for key, value, output: out.txt}]}]
+--- o.yaml
+a: taskGroups: [{name: g, array: o.yaml, tasks: [{template: t.tera, outpu: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: taskGroups 

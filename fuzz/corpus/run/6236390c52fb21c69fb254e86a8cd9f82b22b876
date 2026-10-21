@@ -1,0 +1,3 @@
+taskGroups: [{name: g, object: "o.yaml#a[x]/", tasks:xt}]}]
+--- o.yaml
+a:[x]/"x tasks1

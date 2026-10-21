@@ -1,0 +1,10 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    task[s:
+    taskGroups:
+  - name: tables
+    array: tables.yaml
+  - template: table.sql.tera
+        output: table.sql.ter{{ na
+am

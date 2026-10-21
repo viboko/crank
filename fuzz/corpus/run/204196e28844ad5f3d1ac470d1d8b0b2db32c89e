@@ -1,0 +1,5 @@
+taskGroups: [{name: g, object: "oy.aml#a/b[3]", tasks: [{template: t.tera, output: out.txt}]}]
+!--- o.yaml
+a: {b: [1]}
+--- t.tera
+x

@@ -1,0 +1,12 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settingc/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[rvers[0]
+    tasks:
+      - template: serv-gres://{{ host }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({{ region }})

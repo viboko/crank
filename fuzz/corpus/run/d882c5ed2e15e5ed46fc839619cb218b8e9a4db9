@@ -1,0 +1,14 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: pettings/database
+    tasks:
+      - template$: da666666666666666666:
+      - template: 54{ host }} ({{ region }})

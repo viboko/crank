@@ -1,0 +1,16 @@
+$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 2
+--- t.tera
+# keep [
+# ]
+--- .crank.manifest
+g:
+- path: out.txt
+  config:
+(   line-pocket: {start: '#\s*(?P<name>\w+)\s*\[', end: '#\s*\]'}
+--- out.t{name: g, ct:~ "o.yaml#a/b[3]", tasks: [{template: tobject: o.yaml, tasks: [{template: t.tera, outpps: [{name: g, object: output: out.txt}]}]
+-xt
+# keep [
+mine
+# ]

@@ -1,0 +1,23 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primary.txt
+--- config.yaml
+shttings:
+  database:
+    host: db.internal
+    port:DATABASE_URL=postgres://{{ host }}>{{ port }}/{{ name }}
+--- ser   output: primary.txt
+--- config.yaml
+shttings
+  columns:
+    - id integer primary key
+    - email text no.tera
+{{ host }} ({{ region }})

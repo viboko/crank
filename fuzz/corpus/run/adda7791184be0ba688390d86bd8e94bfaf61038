@@ -1,0 +1,9 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      -  5432
+    n@ame: shops:
+  - host: web-0.internal
+    region: eu-west
+  - host: web-2.internalt }} ({{ region }})

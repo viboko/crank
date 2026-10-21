@@ -1,0 +1,46 @@
+taskGroups:
+  - name: colors
+    object: colors.yaml
+    tasks:
+      - template: templates/colors.rs.tera
+        output: generated/colors.rs
+      - template: templates/colors.ts.tera
+        output: generate  - red
+  - green*t
+  - blue
+s.yaml
+    tasks:
+      - template: templates/colors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

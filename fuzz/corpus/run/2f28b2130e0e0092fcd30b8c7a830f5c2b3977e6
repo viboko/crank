@@ -1,0 +1,23 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    pri$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+config: {li(ne-pocket: {start: '//s*\[', end: '//\s*\]'}}
+--- o.yamlce: 1  Saturday: 
+a: 1
+--- t.t12:00–23:00
+--- men&u.m{ dish.price }}{% if 
+d

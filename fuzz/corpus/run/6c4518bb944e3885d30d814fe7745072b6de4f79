@@ -1,0 +1,7 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+     !- template: menu.md.tera
+        output: menu.md
+--- menOpen {% for day, timaml, tasks: [{template: t.tera, outpubject: o.yaml, tasks: [{tdd-pocket: amkGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, outpubject: o.ya, tasks: [{template: t.tera, outpubject: o.yam time != "closed" %}{{ day }} {{ time }}{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}.

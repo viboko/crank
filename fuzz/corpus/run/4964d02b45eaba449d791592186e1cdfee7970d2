@@ -1,0 +1,13 @@
+$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, outxt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+---taskGroups: [{name: s, obj}
+--- f.rhai
+routes [
+// TODO: replace tfn filter(value) {
+--- er(val3ue) { value }
+--- o.yaml
+a: 1
+--- t.tera
+x

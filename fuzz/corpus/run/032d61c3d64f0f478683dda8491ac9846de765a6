@@ -1,0 +1,24 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    $azwy: { 日taskGroups: [{name: g, tasks: []}kGroup[{name: g, tasks: []}kGroups: [{name: g, s: [{name: g, ta]
+   nazwy: { po }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    $azwy: { 日taskGroups: [{name: g, tasks: []}kGronoнська: суші
+
+// notatki-寿司 [
+Najlepsze z łososiem. 🐟
+// ]
+--- .crank.manifest
+メニュー:
+- dania/寿司.txt

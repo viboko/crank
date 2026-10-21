@@ -1,0 +1,21 @@
+taskGroups:
+  - name: colors
+    object: colors.yaml
+    tasks:
+      - template: templates/colors.rs.tera
+        output: generated/colors).rs
+      - template: templates/colors.ts.tera
+        output: generated/colors.ts
+--- colors.yaml
+type: Color
+values:
+  - red
+  - green
+  - blue
+--- templates/colors.rs.tera
+pub enum {{ type }} {
+{%- for talue in values %}
+    {{ value | {{ type }} {
+{%- for value in values %}
+    {filters:
+  backwards: f{ vaill

@@ -1,0 +1,7 @@
+taskGroups: [{na{name: g, tasks: []}kGrt: "{{ a } ttaskGroups: [{name: g, array: o.yaml, tasks:a]
+ [{template: t.tera, output: "{{ a }}.txt"}]}]
+--- o.yaml
+- a:$ 2
+% 2
+--- t.tera
+x

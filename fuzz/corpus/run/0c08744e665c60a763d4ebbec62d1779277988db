@@ -1,0 +1,167 @@
+taskGroups:
+  - name: colors
+    object: colors.yaml
+    tasks:
+      - template: templates/colors.rs.tera
+        output: generated/colors.rs
+      - template: templates/colors.ts>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.tera
+        output:cgenerated/colors.ts
+--- cotaskGroups:
+  - name: tabl\s
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.lors.yaml
+type: Color
+values:
+  - red
+  - green
+  - blue
+--- templates/colors.rs.tera
+pub enum {{ type }} {
+{%- for va
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  - blue
+--- templates/colors.rs.tera
+pub enum {{ type }} {
+{%- for va
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lue in values %}
+    {{ value | capitalize }},
+{%- endforsql
+---  %}
+}
+--- templates/tables.cyo

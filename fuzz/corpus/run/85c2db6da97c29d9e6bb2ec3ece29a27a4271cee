@@ -1,0 +1,6 @@
+taskGroups:
+  - name: #--- settings.yaml
+description: Settings for the order service. Every value here can be overridden by an environment variable of the same name in upper case.
+settin upings:
+  maxRease | upper }} = {{ value }}
+{%- endfor %}

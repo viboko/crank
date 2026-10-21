@@ -1,0 +1,13 @@
+taskGroups:
+  - name: database
+    object: config.yaml#%ettings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        ou

@@ -1,0 +1,72 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{te[
+// ]
+--- >crank.manifest
+g:
+- one.txt
+- two.txt
+--- one.txt
+// a [
+old one
+//mplate: t.tera, outp//mplate: t.tera, output: one.txt}]}]
+--- o.iaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- one.txt
+- two.txt
+--- one.txt
+// a [
+old one
+// ]
+--- two.txtlt;
+    }
+  $ result
+}
+--- filters/pad.rhai
+fn filter(val
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.man--- o.iaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- one.txt
+- two.txt
+--- one.txt
+// a [
+old one
+// ]
+--- two.txtlt;
+    }
+  $ result
+}
+--- filters/pad.rhai
+fn filter(val
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- one.txt
+- two.txt
+--- one.txt
+// a [
+old one
+// ]
+--- two.txtlt;
+    }
+  $ result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let widtue, args) {
+    let width = if args.contains("width") / ]

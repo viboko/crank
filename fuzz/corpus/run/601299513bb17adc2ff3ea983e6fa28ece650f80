@@ -1,0 +1,41 @@
+taskGroups: 
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+     object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    v price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 12:[{name: g, array: o.yaml, tasks: [{templatez t.tera, output: "{{ a }}.txt"}]}]
+--- o.yaml
+- a: 1
+- 2
+--- t.tera
+x

@@ -1,0 +1,25 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: vords.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {i
+fn filter(value) {
+    let result = "";
+    for ch result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if ar(t(tas: o.yaml,barray:gs.contains("width") { args.get("width") } else { 15 s: [{n };
+    let textps: [5 = value.to_string();
+    while text.len() < width {
+    10) }} {{ wor
+d | backwards }}
+{% endfor -%}

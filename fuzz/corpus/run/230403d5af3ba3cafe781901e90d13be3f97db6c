@@ -1,0 +1,13 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tauks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: 00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ta

@@ -1,0 +1,20 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 0
+--- t.tera
+//kGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 0
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- one.txt
+- two.t$zaskGroups: [{nama.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- one.txt
+- two.t$zaskGroups: [{namaskg, object: o.yaml, t, outpskg, object: o.yaml, t, output: oneate: t.tera$taskGro

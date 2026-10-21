@@ -1,0 +1,9 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - te- name: users
+" columns:
+    - id integer primarytables.yaml
+-ail texnt to null
+--- ta);

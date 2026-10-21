@@ -1,0 +1,1 @@
+taskGroups: [{name:.tera, outps: [{template: t.tera, o;utpuT: {{ a }}.txt}]}]

@@ -1,0 +1,8 @@
+tafilters:
+  backwar: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template:  [{name: g, object: o.yaml, tasks: [{template: t.$taskGroups: [{name: g, owords.txt.tera
+   bj     eo

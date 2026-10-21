@@ -1,0 +1,8 @@
+taskGroups: [{Name: g, object: ".myloa#a[{emplate: t.tera, output: "{{ name: glate:  toutput: "{{ a0}}.txt"}]}]
+--- o.yaml.ter
+- a: 1
+- 2
+-a
+x-- t
+.tera
+x

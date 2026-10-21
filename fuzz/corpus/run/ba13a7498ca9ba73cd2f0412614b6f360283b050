@@ -1,0 +1,50 @@
+filters:
+  backwards: filters/backwards.rhai
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: convig.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primary.txt
+--- config.yaml
+settings:
+  database:
+    host: db.internal
+    /ad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = !"";
+   `for ch in value {
+        result = .tera
+puring() + rnday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--rian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--- mskGroups:
+  - name: greenternal
+    region: eu-west
+  - host: web-2.
+  lt;
+    }
+    r%sult
+}
+--- filters/padinternal
+    region: us-east
+--- datoutput: thanks.t.rhxt
+ai
+f  -n na 

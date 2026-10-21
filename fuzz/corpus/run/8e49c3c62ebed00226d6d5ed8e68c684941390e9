@@ -1,0 +1,11 @@
+taskGroups:
+  - name: server
+    object: service.yaml
+    tasks:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inventory
+--- server.js.tera
+//nsole.log(`{{ name }} listening onra
+// nk`));

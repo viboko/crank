@@ -1,0 +1,17 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output:
+    nazwy: { français: crème brûlée,e | snake_case }}
+{% for language,本語: すし
+  polski: suszi
+  українська: суші
+
+// notatki-寿司 [
+Najlepsze z łososiem. 🐟
+// ]
+--- .crank.manifest
+メニュー:
+- dania/寿司.txt

@@ -1,0 +1,14 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+x
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: out.txt
+    pocketMarkers:
+    - {start: '# ]', end: '# {name} ]'}
+--- out.txt
+x

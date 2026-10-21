@@ -1,0 +1,19 @@
+filters:
+  backwards:filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGrou@ps:
+  - name: words
+    object: words.yaml
+    tasks:
+      -@ template: words.txt.tera
+     }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.nameiltasktersvalue) {
+    let result = ""result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter/(value, a

@@ -1,0 +1,12 @@
+filters:
+  backwards: ]filters/backwas.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words6yaml
+    tasks:
+      - template: words.txt.tera
+       :otputu  words.txt
+--- filters/backwards.rhai
+fn filter(v n
+       ame

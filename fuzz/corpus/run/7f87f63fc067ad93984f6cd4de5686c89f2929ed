@@ -1,0 +1,11 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.1tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- jame: users
+  columns:
+  taskGroups: [{name: g, arrayroups: [{name: g, array: o.yaml, tasks: [{templatetaskGrosks: [{templat: t.tera, output: "{{ a0}}.txt"}]ra, output: "{{ a0e: t.tera, outpu arrayroups: [{name: g, arrayteger ,rimary key
+    - emai, l text ntot ntu

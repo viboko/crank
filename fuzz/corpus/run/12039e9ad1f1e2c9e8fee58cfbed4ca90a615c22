@@ -1,0 +1,33 @@
+$taskGroups: [{namaskg, object: o.yaml, tasks: [#template: t.tera, output: out.tx$taskGroups: [{name: g, object: o.t}]}]
+--- o.yaml
+a: 2yaml, tasks: [{task  output: out.txv}]}]
+--- o.y
+--- t.tera
+// a [
+/* b [ *amle: g, aray: o.yaml/ x
+// ]
+, tas[{template: t.tera, output: out.txt}]}]
+--- o.OOOOOOOOOOOOOOOOOOOOOOOOOyaml
+0
+--- t: out.txt}]}]
+--- o.yaml
+1
+--- - a: 1t.teraks: [{temptemplate: late: t tasks: [{te/* mplate: t.tera, out.tera, outpubject: o.y, aray: o.yaml/ x
+// ]
+, tas[{template: t.tera, output: out.txt}]}]
+--- o.OOOOOOOOOOOOOOOOOOOOOOOOOyaml
+0
+--- t: out.txt}]}]
+--- o.yaml
+1
+--- - a: 1t.teraks: [{temptemplate: late: t tasks: [{te/* mplate: t.tera, out.tera, outpubj}]
+--- o.OOOOOOOOOOOOOOOOOOOOOOOOOyaml
+0
+--- t: out.txt}]}]
+--- o.yaml
+1
+--- -end: b a: 1t.ter}}a
+{{ ] */
+
+b
+--- t.tGsprou:[{amask

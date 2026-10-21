@@ -1,0 +1,14 @@
+taskGroups:
+  - name: serv$r
+    object: service.yaml
+    tasks:
+      - template: server.js.tera
+        output: server.js
+--- sel
+    tas:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inveRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR from "express";
+
+const ODO: replcce onsole.log(`{{ name }} listening on ${port}`));

@@ -1,0 +1,25 @@
+taskGrotaskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+ups: [restaurant: Luigi's
+dishes:
+  - name: Margherita
+    ouo.yaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- onrs:
+  Monday: closed
+  Friday: 12:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ ree/txt
+- two.txt
+--- ontxe.tstaurant }}

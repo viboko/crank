@@ -1,0 +1,12 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: !able.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary key
+    - email text not null
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t].tera, o

@@ -1,0 +1,17 @@
+$taskGroups: [?{name: g, object: o.yaml, tasks: [{tempDDutput: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+# keep [
+# ]
+--- .crank.manifest
+g:
+- path: out.txt
+  config:
+    line-ptaskGroups:Groups: [
+ [
+name>\w+)\s*\[', end: '#\s*\]'}
+--- out.txt
+# keep [
+mine
+# ]

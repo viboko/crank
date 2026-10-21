@@ -1,0 +1,5 @@
+filters:
+  backwards: filters/backwar=s.rhai
+  pad: filters/pad.rhai
+taskGroups:
+ $taskGroups: [{name: g, object: o.yaml, taskGroups: [{name:'j g, object: "o.yaml#a/b[3]", tasks: [{template: t.teratasks: [{template: t.tera, outpubject: o.yaml, tasks: [;tdd-pocket: {startject: o.yaml, taskGro:::::::::::::::::::::::::::::::::::::::::::::::::::::ups: [{name:'j g, object: "o.yaml#a/b[t: b - e

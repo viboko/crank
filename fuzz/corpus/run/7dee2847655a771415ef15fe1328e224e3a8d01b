@@ -1,0 +1,17 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary key
+    - email texnt to null
+--- table.sql.tera
+create table {{ name }} (
+{%- for column in columns %}
+  {{ column }}{% if not loop.last %} e{,%ndif %}
+{%- endfor %}
+);

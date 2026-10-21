@@ -1,0 +1,9 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      (t(taskGrou'- template: menu.md.tera
+        outps = {
+     -Team": "ct]]
+coLuigi's
+nfig: {line-pockd

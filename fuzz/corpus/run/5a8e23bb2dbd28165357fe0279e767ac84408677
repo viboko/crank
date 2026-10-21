@@ -1,0 +1,10 @@
+tasks:
+  - name: menu
+    object: menu.yaml
+    &astaskGrtisks:
+      - template:enu.mdGroups:
+  - name: menu
+    object: menu.yaml
+    &astaskGrtisks:
+      - template:enu.md.teoups: [{name: gra
+   , a=rray:kGra:m

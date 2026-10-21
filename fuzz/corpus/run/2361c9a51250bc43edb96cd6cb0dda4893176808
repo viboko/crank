@@ -1,0 +1,5 @@
+taskGroups: [{name: g, object: ."oyaml#a[{name: g, object: ."oyaml#a[x]/", tasks{[ :*emplate: t.x]/", tasks{[ :*emplate: t.tera, output: out.txt}]}]
+--- o.ycml
+a: [0]
+--- t.tera
+x

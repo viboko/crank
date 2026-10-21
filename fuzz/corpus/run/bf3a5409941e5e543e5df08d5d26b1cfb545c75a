@@ -1,0 +1,8 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 
+--- .crank.manifest
+g:
+- one.txt
+- tfilters:
+  backwards: fwolt

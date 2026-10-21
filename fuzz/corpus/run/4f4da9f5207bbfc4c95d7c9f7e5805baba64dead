@@ -1,0 +1,24 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary key
+    - email text not null
+--- table.sql.tera
+create table {{ name }} (
+{%- for cotaskGroups: [{name: g, object: o.yaml,  tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+}a: 0
+--- t.tera
+// a [
+// ]
+a [
+o
+);
+ld two
+// ]

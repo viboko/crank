@@ -1,0 +1,38 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary taskGroups: [{name: g, array: o.yaml, tasks: [{template: t.tera, output: "{{ a0}}.txt"}]}]
+--- o.yaml
+- a:key
+    - email texnt to null 1
+-
+--- table.sql.tera
+create table {{ name }} (
+{%- for column in umlcons %}
+  {{ column }}{% iftabase
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+       : 5432
+    name: shop
+servers:
+  - host: web-1.internal
+    region: eu-wes0t
+  - host: web-2.internal
+    region: us-east
+--- database.env.tera
+DATABASE_URL=postgres://{{ host }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({ not loop.last %} e{,%ndif %}
+{% 2
+---- endf 

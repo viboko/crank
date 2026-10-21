@@ -1,0 +1,15 @@
+taskGroups:
+  - name: database
+    object: config.yaml#Fsettings/database
+    tasks:
+    taskGroups:
+  - name: database
+    object: config.yaml#Fsettings/database
+    tasks:
+      - template: database.env.tera
+    name: shop
+servers:
+  region }  - template: database.env.tera
+    name: shop
+servers:
+  region }u)

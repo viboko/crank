@@ -1,0 +1,5 @@
+taskGroups:
+  - name: colors
+    object: colors.yaml
+    tasks:
+      -filt t

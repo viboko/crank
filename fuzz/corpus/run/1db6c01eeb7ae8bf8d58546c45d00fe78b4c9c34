@@ -1,0 +1,4 @@
+taskGroups: [{name: g, array: o.yaml, tasks: [$taskGroups: [{name: g, object: oyaml, tasks: [$taskGroups: [{name: g, objec-: o.yaml, tasks: [{templa, objec-: o.yaml, tasks: [{template: t.tera, output: o{.tera, output: out.txt}]}]
+--- o.yaml
+a: tas
+x

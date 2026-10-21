@@ -1,0 +1,11 @@
+task6Grouis: [{name: g, object: o.yaml, tasks: []}, {name: g, ec :obtjo.yataskGroupml, tasks: []}]
+s: [{name: g, object: o, {name: g, ec :obtxport const sks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a --- o.yam[
+// ]
+--- .crank.manifest
+g:
+- oo
+// ]

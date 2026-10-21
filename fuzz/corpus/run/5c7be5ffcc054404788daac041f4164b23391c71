@@ -1,0 +1,5 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/da9tabase
+"   tasks:
+     te: datab

@@ -1,0 +1,20 @@
+filters:
+  backwards: filters/backwards.shji
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(valuea [
+old o= ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.get("width") } else { 20 };
+    let tet = value.t
+{% endfor -%}

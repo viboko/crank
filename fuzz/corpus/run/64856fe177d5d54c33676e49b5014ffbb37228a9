@@ -1,0 +1,11 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filtters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+ el
+  - stressed
+  - drawer
+--- wo&rds.txt.t(width=10) }} {{ word | backwards }}
+{% endfor -%}

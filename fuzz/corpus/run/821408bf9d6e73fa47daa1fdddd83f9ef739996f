@@ -1,0 +1,19 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{tename: g, object: o.yaml, tasksame: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+filters: {spin: spin.rhai}
+--- spi: [{template: t.tera, output: out.txt}]}]
+filters: {spin: spin.rhai}
+--- spin.rhai
+fn f														mplate: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- oneLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLtaskGroups:
+  - name: database
+!   object: confmig.yLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL.txt
+- two.txt
+--- gne.txt
+// aaml#settings/dat 

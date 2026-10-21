@@ -1,0 +1,27 @@
+# SPDX-FileCopyrightText: The crank contributors
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+# Robocop config — run via `just robocop` (lint + format check). See
+# docs/tooling.md.
+
+[tool.robocop]
+# Under the repo's target/ rather than Robocop's default .robocop_cache/
+# in the current directory, which the root .flint would (rightly) flag;
+# `just clean` clears it too. Relative to this file.
+cache_dir = "../target/robocop-cache"
+
+[tool.robocop.lint]
+ignore = [
+  # Test names here are written to be read as a sentence saying what's
+  # being checked; a [Documentation] that restates the name is noise.
+  # Tests that need more than the name say add one anyway.
+  "DOC02",
+]
+configure = [
+  # A crank test writes a data file, a template and a .crank file, runs
+  # crank, often a second time, and checks each file it generated, so it
+  # takes more steps than Robocop's defaults (10 calls, 20 lines) allow.
+  # Split one up only when it checks more than one behavior.
+  "too-many-calls-in-test-case.max_calls=25",
+  "too-long-test-case.max_len=30",
+]

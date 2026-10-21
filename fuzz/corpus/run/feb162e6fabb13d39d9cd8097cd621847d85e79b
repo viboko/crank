@@ -1,0 +1,24 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primary.txt
+--- config.yaml
+shttings:
+  database:
+    host: db.internal
+    port: 5432
+    name: shop
+servers:
+  - host: web-1.internal
+    region: einternal
+    region: eu-west
+  - host: web-2.internal
+    region: us-east
+--- darver.txt.teraes://{{ host }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ horegion: usregion }})

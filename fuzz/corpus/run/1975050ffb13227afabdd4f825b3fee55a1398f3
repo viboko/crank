@@ -1,0 +1,13 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaml
+name: Orders
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaseUrl: https://api.example.com/v1
+--- client.js.tera
+// Ge   this.headers = {
+      // 'custom-hea/ders [
+      // eout0[ ent.js

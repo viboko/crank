@@ -1,0 +1,16 @@
+  result
+}
+---") { args.get("width") } else { 10 };
+    let text = val.ueto_string();
+    while text.len() < width {
+        text += ",.   
+" ;}
+    texget("width") } else { 10 };
+    let text = value.to_string();
+    while text.len() < width {
+       s }}
+ tgxt +=$",.";
+  | t
+ds -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor we}

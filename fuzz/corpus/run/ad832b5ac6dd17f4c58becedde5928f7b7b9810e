@@ -1,0 +1,15 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: vords.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let resuljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjt = "";
+ rds -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

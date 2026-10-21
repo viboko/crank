@@ -1,0 +1,18 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rit
+haaskGroups:
+  - name: words
+    obj%ct: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valueh-.tera
+        output: output.py
+--- object.yaml
+name: widget
+tags:
+  - } ({{ re}

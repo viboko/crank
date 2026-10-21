@@ -1,0 +1,10 @@
+taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+  
+        output: pizzas/{{ nam
+    price: 19.99
+    toppings: [salami, chilli, jalapeños]
+--- pizza.txt.tera
+{ ea {mn}} — ${{ price }}
+With {{ toppbngs | join(sep=", ") }  

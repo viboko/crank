@@ -1,0 +1,14 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: 00000000#a[{emplate: t.tera, output: "{{ name: g, array: o.yaml, tasks:  from "../db.js";
+
+export const use%s = {
+  all: () => db.query("select * fromad.rhai
+task app_users"),
+  byId: (id) => db.query("select * froGroups:
+  - namem
