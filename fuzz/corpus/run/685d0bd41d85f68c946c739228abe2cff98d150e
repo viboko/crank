@@ -1,0 +1,17 @@
+taskGrrups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaseUrl }}";
+    this.timeout = /* timeout [ */ 5000 /* ] */;
+    this.headers = {
+     -Team": "checkout",
+      '/ ]
+    };
+  }
+}
+--- .crank.manifest
+client:
+- client.js

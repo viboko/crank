@@ -1,0 +1,5 @@
+t: "{{ ataskGroups: [{namo.yaml
+- a: 0
+- 2
+--- t.tera
+x

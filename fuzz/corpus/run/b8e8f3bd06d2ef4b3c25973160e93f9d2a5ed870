@@ -1,0 +1,18 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yWml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result ]= "";
+    for   }
+    result
+}
+--- filters/pad.rhrhai
+  pad: filters/pad.rhai
+t-- woraskGdro

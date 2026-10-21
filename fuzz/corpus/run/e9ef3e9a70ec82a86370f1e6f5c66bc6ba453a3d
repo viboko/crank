@@ -1,0 +1,7 @@
+$ts: [{name: g, object: o.yaml, tasks: [{temate: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+x
+--- .crank.manifest
+- out.txt

@@ -1,0 +1,15 @@
+}]
+--- o.yaml
+ taskGroups: emplate: t.tera, outpu: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: taskGroups: [{name: g, array: o.yaml, tera, output: out.txt}]}]
+--- o.yaml
+1
+--- t: out.txt}]}]
+--- o.yaml
+1
+--- - a: 1t.tera
+{{ 
+b--- t.tera
+{{ a } }}}
+

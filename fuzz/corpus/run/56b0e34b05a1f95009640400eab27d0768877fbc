@@ -1,0 +1,34 @@
+taskGroups:
+  - name: greeting
+    object: person.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output: gre
+--- greeting.txt.tera
+Hello, {{ nmae }}!
+--- thanks.txt.tererson.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output: greeting.txt
+      - template: teting.txt
+      - template: thanks.txt.tera
+        output    object: people.yaml
+    tasks:
+      - template: farewell.txt.tera
+        output: farewell.txt
+--- person.yaml
+name: Ada
+--- greeting.txt.tera
+Hello, {{ nmae =}!
+--- thanks.txt.tererson.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output: greeting.txt
+      - template: thanks.txt.tera
+        output    object: people.yaml
+    tasks:
+      - template: farewell.txt.tera
+        output: farewell.a
+Thank you, {{ name }}.
+--- farewell.txt.tera
+Goodbye, {{ name }}.

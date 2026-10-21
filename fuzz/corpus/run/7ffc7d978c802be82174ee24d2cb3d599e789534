@@ -1,0 +1,28 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settingxs/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: priamry.txt
+--- config.yaml
+shsettingxs/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: priamry.txt
+--- config.yaml
+shttings:
+  database:
+    hostttings:
+  database:
+    host: db.internal
+    port: 08{ host }} ({{ region }})

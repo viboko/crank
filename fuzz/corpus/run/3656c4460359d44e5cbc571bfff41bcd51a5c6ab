@@ -1,0 +1,7 @@
+$taskGrnups: [{namaskg, object: o.yaml, tasks: [#template: t.tera, output: oubackwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in va@lue {
+        result = ch.to_string()ers/pad.rhai
+fn filter(value, args) {
+    l

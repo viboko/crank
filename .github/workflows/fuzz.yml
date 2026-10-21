@@ -1,0 +1,97 @@
+# SPDX-FileCopyrightText: The crank contributors
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+name: Fuzz
+
+# Replays the fuzz corpus (see docs/fuzzing.md): `replay`, on PRs and
+# pushes to main, runs every committed seed and corpus input through the
+# fuzz target once. Deterministic and quick — it never generates new
+# inputs, so it can't fail because of a bug the PR didn't touch. Growing
+# the corpus is fuzz-extend.yml's.
+#
+# No `paths` filter on pull_request, unlike push: `replay` is a required
+# status check, and a required check whose workflow never starts blocks
+# the PR forever. The `gate` job applies the same paths instead, and a
+# job skipped by its `if` counts as passing.
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "Cargo.toml"
+      - "Cargo.lock"
+      - "fuzz/**"
+      - "justfile"
+      - "mise.toml"
+      - "mise.lock"
+      - ".github/actions/**"
+      - ".github/workflows/fuzz.yml"
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  # Whether `replay` has anything to check: on a push, always (its
+  # trigger already filters by path); on a PR, only if it changes one of
+  # the paths the push trigger lists.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+    steps:
+      # Depth 2: a PR checks out its merge commit, whose first parent is
+      # the base branch, so `HEAD^1..HEAD` is exactly the PR's changes.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+
+      - name: Check for fuzzed changes
+        id: gate
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          fuzzed='^(src/|fuzz/|\.github/actions/|Cargo\.(toml|lock)$|justfile$|mise\.(toml|lock)$|\.github/workflows/fuzz\.yml$)'
+          if [ "$EVENT" = push ] || git diff --name-only HEAD^1 HEAD | grep -qE "$fuzzed"; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  replay:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # cargo-fuzz needs nightly for its sanitizer flags. Unpinned beyond
+      # "latest nightly", so a broken nightly could fail this job for a
+      # reason unrelated to the PR — rare, and fixed by rerunning later.
+      # Installed with rustup directly, not an action (see ci.yml), and
+      # made the job's toolchain (overriding rust-toolchain.toml) so
+      # rust-cache's key tracks the nightly in use.
+      - name: Install Rust nightly
+        run: |
+          rustup toolchain install nightly --profile minimal --no-self-update
+          echo "RUSTUP_TOOLCHAIN=nightly" >> "$GITHUB_ENV"
+
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+        with:
+          workspaces: fuzz -> target
+
+      # mise builds cargo-fuzz from source (it publishes no Apple Silicon
+      # binary, so mise.toml installs it with cargo everywhere) and caches
+      # the result, so that's once per version.
+      - uses: ./.github/actions/setup-tools
+        with:
+          tools: just cargo:cargo-fuzz
+
+      - name: Replay seeds and corpus
+        run: just fuzz-replay

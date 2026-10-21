@@ -1,0 +1,15 @@
+taskGroups:
+  - name: メ㋃ュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dantaskGroups: [{name: g, tasks: []}kGroups: [{ia/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: Żurekna
+    emoji: 🥣
+    nazwy: { polski: żurek, français: soupe au levai}
+  - name: 김

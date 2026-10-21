@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: The crank contributors
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+# cargo-mutants config — run via `just mutants`, which also sets
+# CRANK_ROBOT so `cargo test` runs the e2e suite too (tests/robot.rs).
+# See docs/mutation-testing.md.
+
+# mutants.out/ under target/, rather than at the repo root where the
+# root .flint would (rightly) flag it; `just clean` clears it too.
+output = "target"
+
+# Mutants no test can catch, each with why. Matched by exact name, line
+# number included (`just mutants --list` shows the names): if the code
+# moves, the pattern stops matching and the mutant shows up as missed in
+# the next run, to be re-checked and updated here, rather than the
+# pattern silently starting to hide a different mutant.
+exclude_re = [
+    # Caught, by hanging rather than failing: without the sandbox, a
+    # test's filter script that loops forever never stops, so this
+    # mutant only ever times out. Excluded so the weekly run doesn't
+    # report it as a timeout every time.
+    '^src/rhai_filter\.rs:136:5: replace sandboxed_engine -> Engine with Default::default\(\)$',
+]

@@ -1,0 +1,8 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.ptings.yaml
+description: Settings for the order service. Every y, value in settings %}
+{( key | snake_case | upper }} = {{ value }}
+{%- endfor %}

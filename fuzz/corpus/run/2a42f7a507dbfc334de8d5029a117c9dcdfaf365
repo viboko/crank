@@ -1,0 +1,23 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 6.5
+    vegetarian: tr 9.5
+    vegetarian: true
+  - name: Diavola
+ ian: false
+  - name: .5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 12:00–23:00
+  Saturday: if %}{ dish.price }}{% if dish.vegetarian %} (v){% endif %}
+{% endf~or %}
+Open {% for day, time in hours %}{% if time != "closed" %}{{ day }} {{ time }}{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}.

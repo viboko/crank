@@ -1,0 +1,6 @@
+taskGroups:
+  - name: database
+    object: config.yanv.tera
+    name: shop
+servers:
+  region }u)

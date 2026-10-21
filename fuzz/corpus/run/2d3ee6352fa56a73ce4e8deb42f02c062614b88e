@@ -1,0 +1,26 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settingsse
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: confservers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primary.txt
+--- config.yaml
+shttings:
+  database:
+    host: db.internal
+    port: 5432
+    name: shop
+servers:
+  - host: web-1.internal
+    region: eu-west
+  - host: web-2.internal
+    region: us-east
+--- database.env.tera
+DATABASE_URL=postgres://{{ host }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({{ region }})

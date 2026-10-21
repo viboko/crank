@@ -1,0 +1,22 @@
+filters:
+  backwards: filters/backckwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+  $taskGroups: [{name: g, o      result = ch.to_string() + result;
+    }
+  = result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.containswidth") { args.get("width") } else { 10 };
+containswidth") { args.get("width") } else { 10 };
+    let text = valbject: o.yaml, tue.

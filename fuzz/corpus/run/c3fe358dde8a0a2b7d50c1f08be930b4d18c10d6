@@ -1,0 +1,28 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string(국어: 김치, English: kimchi }
+--- шаблони/dish.txt.tera
+{{ emoji ilters/backwards.rhai
+fn filter(value) {y %}
+  {{ language }}: {{ word }}
+{%- endfor %}
+
+// notatki-{{ name | snake_case }} [
+Brak notatek.
+// ]
+--- dania/寿司.txt
+🍣   result
+}
+rds }}
+{% endfor -%}

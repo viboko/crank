@@ -1,0 +1,9 @@
+$taskGroups: [{name: g, object: o.yaml, tasks: [{tempDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDlate: t.tera, output: out.txt}]}]
+---
+- path: out.txt
+  config:
+    line-pocket: {start: '#\s*(?P<name>\w+)\s*\[', end: '#\s*\]'}
+--- out.txt
+# keep [
+mine
+# ]

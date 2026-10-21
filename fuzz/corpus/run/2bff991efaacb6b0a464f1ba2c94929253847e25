@@ -1,0 +1,14 @@
+$taskGroups: [{name: g, object: o.yam ,ltasks:$taskGroups: [{name: g, ct:~ "o.yaml#a/b[3]", tasks: [{template: tobject: o.yaml, tasks: [{template: t.tera, outpps: [: o.yaml, tasks:$taskGroups: [{name: g, object: o.yaml,  o.ay,lm tasks: t[e{mplate: t.tera, output: out-- o.yaml
+a: 1
+--2- t.tera
+// a [
+/* o.yaml
+a: 1
+--2- t.tera
+// a [
+/* b [ */ x
+$//ra
+// keep  ]
+/* ] */
+[
+x

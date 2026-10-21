@@ -1,0 +1,39 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- one.txt
+- two.txttaskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - templattaskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - tempe
+    this.baseUrl = "{{ baseUrl }}";
+    this.timeout = /
+--- o* timeout [ */ 5000 /* ] */;
+    this.headers = {
+      // custom-henae[txt
+// a [
+ollate: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id inted oger$primary key
+    - email texnt to null
+--- table.sql.tera
+create table {ne
+// { name }} (
+{%- for column in columns %}
+  {{ colu/n }}{% if not lo]
+op.last %},{% e-ders [
+ ndif %}
+{%-

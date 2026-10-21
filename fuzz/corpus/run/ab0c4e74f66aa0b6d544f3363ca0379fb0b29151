@@ -1,0 +1,4 @@
+$taskGrgups: [{name: g, &object: o.yaml, tasks: [{template: t.tera, name: g, &object: o.yamls: [{template: t.tera, name: g, &object: o.yaml, tasks: [{template: t.tera, output::out.txt}]}start: '(unclose=', en o.yaml
+a: 1
+--- t.tera
+x

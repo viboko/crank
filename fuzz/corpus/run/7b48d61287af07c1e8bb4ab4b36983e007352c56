@@ -1,0 +1,9 @@
+filters:
+  -  object: config.yaml#settings/database
+    tasks:
+ oATABASE_URL=postgres://{lters/pad.rahi
+taskGroups:
+  - name: words
+d
+  - drawer
+---

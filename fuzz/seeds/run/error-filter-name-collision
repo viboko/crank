@@ -1,0 +1,8 @@
+$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- t.tera
+x

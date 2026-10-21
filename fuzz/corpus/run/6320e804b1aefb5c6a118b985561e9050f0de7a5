@@ -1,0 +1,26 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.t(t
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+    esult;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value,   result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let wrds.txt.tera
+{% for word in words -%}
+{{ word | pad(width=05) }} {{ word | backwards }}
+{% endfor -%}

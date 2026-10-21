@@ -1,0 +1,21 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.0xt}]}]
+--- o.yaml
+aut: one.0xt}]}]
+-: 1
+--- t.tera
+// a [
+// ]--- .crank.manifest
+g:
+- one$taskGroups: [0name: g, object: o.yaml, tasks: [{template: t.tthxt
+- ttow.xt
+--- oNe.txt
+// aera, output: out.t[
+ two
+
+
+- o.yaml
+a: taskGroups: [{name: g, array: o.yaml, tas}}} [
+ two
+
+
+// ]

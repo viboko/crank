@@ -1,0 +1,25 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaml
+na}e: Orders
+baseUrl: https://api.example.com/v3
+--- client.js.tera
+// a
+         // ]
+    };
+  }
+}
+--- client.jhdeaers = {
+      // custom-headers [
+      "X-Team": "checkout",
+      // ]
+    };
+  }
+}
+--- .crank.manifest
+client:
+- client,.js

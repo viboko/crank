@@ -1,0 +1,2 @@
+taskGroups: {{name: g, object: "o.yaml#a/b[3]", tasksmplate: t.tera,  g, object: "o.yaml#a/b[3]", tasks: [{template: t.tera, output: t.tera
+x

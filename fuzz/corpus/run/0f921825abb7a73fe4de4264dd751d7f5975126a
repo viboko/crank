@@ -1,0 +1,12 @@
+taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzn/{a a{sme | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - name: Hawaiian
+    price: 34.99
+    toppings: [ham, pineapple]
+  - n", ") }}.

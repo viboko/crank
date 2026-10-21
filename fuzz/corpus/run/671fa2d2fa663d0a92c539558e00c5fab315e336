@@ -1,0 +1,9 @@
+taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#piz~as
+    tas*ks:
+      waaian
+    price: 17.99
+    toppings: [ham, pineatera
+     toppings: [salami, chilli, jalapeño {{ toppiogs |  — ${{ price }}
+With {{ toppings | join(sep=", ") }}.

@@ -1,0 +1,14 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, #olski: suszi, українська: суші }
+  - name: Żurek
+    em$taskGroups: [{name: g, object: o.yaml, tasks:$taskGroups: [{name: g, ct: "o.yaml#a/b[3]", tasks: [{template: toboji: 🥣
+    nazwy: { polski: żujecrek, français: soupt: o.yaml, tasks: [e au levain{t 

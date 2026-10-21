@@ -1,0 +1,13 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters} = {
+  all: () => db.query("select * from {{ table }}"),
+  byId: (id) => db.query("select * from {{ table }} where id = $2", [ixt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.torst_ing() + xt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

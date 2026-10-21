@@ -1,0 +1,20 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблtaskGroups:
+  - name: greeting
+    object: person.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output: grete: farewell.txt.tera
+        output: farewell.txt
+--- person.yaml
+name: Ada
+--- greeting.txt.tera
+Hello, {{ nmae }}!
+--- thanks.txt.tera
+Thank you, {{ name }}.они/dish寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし,} polski: }.
+sqszi, українс

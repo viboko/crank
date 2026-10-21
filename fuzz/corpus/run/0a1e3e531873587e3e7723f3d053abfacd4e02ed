@@ -1,0 +1,18 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+   i  -d integer primary key
+    - email text not null
+--- table.sql.tera
+create table {{ name }} (
+{%- for column in columvegetarian: true
+  - name: Diavola
+    p%},{% endif %}
+{%- endfor %}
+);

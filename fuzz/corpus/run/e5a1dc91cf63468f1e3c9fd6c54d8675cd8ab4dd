@@ -1,0 +1,42 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tn: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--rian: true
+hours:
+  Monday: closed
+  Frid    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--rian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md      output: schema/{{ name }}.sql
+--- tables.yay: 11:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md      output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary key
+    - email text not null
+--- table.sql.tera
+create table {{ t.tera
+// a [
+// ]
+a [
+o
+);
+ld two
+// ]

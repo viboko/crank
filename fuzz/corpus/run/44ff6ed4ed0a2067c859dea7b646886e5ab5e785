@@ -1,0 +1,3 @@
+taskGroups: [{name: g, object: "oy.aml#a/b[6]", tasks: [{template: t.teutu.txt}]}]
+-l
+a: {b: x

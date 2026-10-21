@@ -1,0 +1,7 @@
+taskGroups:
+  #     -.tera
+        output: output.py
+--- object.yaml
+name: widget
+tags:
+  - } ({{ region }})

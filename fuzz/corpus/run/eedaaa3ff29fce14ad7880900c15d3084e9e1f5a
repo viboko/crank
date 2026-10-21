@@ -1,0 +1,25 @@
+taskGrotaskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+// ] .crank.manifest
+g:
+- one.txt
+- two.txt
+--- one.txt
+// a [
+old one
+// ]
+--- two.txt
+/ups: [{name: g, ob/////////////////////////////ne.txt}]}]
+--- o: [{name: g, object: o.yaml, task
+--- .crank.manifest
+g:]
+--- o.ya}l
+a: [1]
+---/ a  t.te[
+old two
+// ]
+ra
+x

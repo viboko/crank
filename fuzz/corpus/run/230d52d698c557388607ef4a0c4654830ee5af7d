@@ -1,0 +1,12 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+     "- template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料xport class {{ name }} from api.yaml.
+ constructor() {
+    this.baseUrl = "{{ baseUrl }}";
+    this.timeout = /* timeout [ */ 5000]  */ &*/;
+    this.headers = {s: [{template: toboji: 🥣
+    nazwy: { polski: żujecrek, français: soupt: o.yaml, tasks: [e au levain{t 

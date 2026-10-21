@@ -1,0 +1,11 @@
+t#askGroups:
+ ' - name: settings
+    object: settings.yaml
+    tarian: true
+  - name: Diavola
+    price: 11
+    vegetariatarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+te: setti endfor %}

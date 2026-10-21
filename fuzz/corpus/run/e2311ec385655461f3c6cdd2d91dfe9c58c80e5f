@@ -1,0 +1,3 @@
+taskGroups: [{name: g, array: o.yaml, tasks: ~{templaeut: "{{ a0}}.txt"}]}]
+--era
+x

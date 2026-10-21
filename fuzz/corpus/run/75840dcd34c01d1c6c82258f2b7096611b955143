@@ -1,0 +1,20 @@
+taskGroups:
+  - name: client
+    object: *pi.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.jszzzders = {
+      // custom-headers [
+      // 
+}
+--- filters/pad.rhai
+fnin wordsnerated by crank from api.yaml.
+export class O*/;
+    m": "checkout",
+      // ]
+    };
+  }
+}
+--- .crank.manifest
+client:
+- client.js

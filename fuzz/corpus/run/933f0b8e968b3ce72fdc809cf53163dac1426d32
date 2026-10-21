@@ -1,0 +1,6 @@
+filters:
+  backwafilters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+tarskGroups:
+  - ds: filnt

@@ -1,0 +1,2 @@
+taskGroups: [{name: !g, object: o.yaml, tasks: []}, tjo.yaml,]tasks: []}]
+--- o.y 2

@@ -1,0 +1,14 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: orders
+  tafilters:
+  backwards: filters/backwards.rhai
+  padble: app_orders
+--- : model.

@@ -1,0 +1,2 @@
+taskGroups: [{name: g, array: o.yaml, tasks: [{template: t.tera, o.tera
+x

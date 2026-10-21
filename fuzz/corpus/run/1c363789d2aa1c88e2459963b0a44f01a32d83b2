@@ -1,0 +1,18 @@
+taskGroups:
+  - name: client
+?   object: api.yaml
+    tasks:
+      - tperson.yaml
+    tasks:
+      - template: ra TODO: add {{ name }} quer.manifest
+メニュー:
+- d.headers = {
+      // custom-headers [
+      "X-Team": "checkout",
+      // ]
+    };
+  }
+}
+--- .crank.manifest
+client:
+- client.js

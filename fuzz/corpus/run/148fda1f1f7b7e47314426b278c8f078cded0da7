@@ -1,0 +1,17 @@
+taskGroups:
+ ' - name: settings
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+te: sett,i
+gsplate: settaskGroups: [{name: g, object: "o.yaml#a[xe: g, object: o.yaml, tings.py.tera
+        output: settings.py#--- settings.yaml
+descriptiotaskn: Settase | upper }} = {{ vadue }}
+{%- endfor %}s: [{template: t
+.tera, output: one.txt}]}]
+--t: "o.yaml#a[x]/", tasks1

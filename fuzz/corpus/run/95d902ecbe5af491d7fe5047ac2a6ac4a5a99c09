@@ -1,0 +1,23 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{ t.teratasks: [{template:t. tera, outpubject: o.yaml, tasks: [{tdd-pocket: {start: a, end, output: out.txt}]}]
+, task{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name:zwy: { 한국어: 김치, English: kimchi }
+--- шаблони/dish.txt.tera
+{{ emoji }} {{ name uszi
+  українська: суші
+
+// notatki-寿司 [
+Najlepsze z łososiem. 🐟
+// ]
+--- .crank.manifest
+メニュー:
+- dania/寿司.txt

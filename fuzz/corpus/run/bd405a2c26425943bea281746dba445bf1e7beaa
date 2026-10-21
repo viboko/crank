@@ -1,0 +1,21 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price:taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaml
+name: Orders
+baseUrl: https://api.example.com/v2
+--- client.js.tera
+ 9// Ge.nerate5

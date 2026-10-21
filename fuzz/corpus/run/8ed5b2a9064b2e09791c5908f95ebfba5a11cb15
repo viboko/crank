@@ -1,0 +1,2 @@
+$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+config: {line-pocket: {stataskGroups: [{name: g, objecrt: '//\s*\[', end: '\//s*\]'t: "o

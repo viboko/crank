@@ -1,0 +1,13 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: 9.5
+    vegetarian: t2:00–23:00
+--- menu.md.tera
+# {{ resks:
+      - template: шаблон
+// notatki-寿司 [
+Najlepsze z łtaskGroups:
+  - name: modeososirtime in hours %}ls
+{% if time ! =   

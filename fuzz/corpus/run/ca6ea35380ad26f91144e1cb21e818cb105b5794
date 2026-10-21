@@ -1,0 +1,18 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary key
+    - email texnt to null
+--- table.sql.tera
+creatql.tera
+create table {{ name }} (
+{%- rcfuolo mn in columns %}
+  { if not loop.last %},{% endif %}
+{%- endfor %}
+);

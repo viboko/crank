@@ -1,0 +1,6 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    &astaskGrtasks:
+      - template:enu.md.teoups: [{name: gra
+   , a=rray:kGra:m

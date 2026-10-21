@@ -1,0 +1,39 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 12:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in disheegetarian %} (v){% endif %}
+{% endfor %}
+Open {% for day, time in hours %}{% if time != "closed" %}{{ day }} {{ time }}a
+        output: models/{{ name }}.js
+--- modtaskGroupels.yaml
+- name: users
+  table: app_users
+- name: ors:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+  ders
+  table:   app_ord    out

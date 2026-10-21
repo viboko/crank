@@ -1,0 +1,31 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+f%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%n filter(value) {
+    let resultfilters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+   h = if args.co =ntains("width") { args.get("width") } else { 10 };
+    let text RRRRRRRRRRRRR "";
+    for ch in valu%e {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(valueR,

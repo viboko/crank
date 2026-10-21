@@ -1,0 +1,19 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    pricetaskG: 11
+    veroups:
+  - name: database
+    object:getarian: false
+  - name: F confg.yaunghi
+    ml#seprice: 10t.

@@ -1,0 +1,23 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(valCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCue) {
+    let result = "";
+    for ch in value {
+ .get("width") } else { 20 };
+    let text = value.to_string(aml
+words:
+  - level
+  - stressed
+  - drawer
+--- words.txt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

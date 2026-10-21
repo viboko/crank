@@ -1,0 +1,43 @@
+filters:
+  backwards: filters/backwards.rhai
+  /ad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = !"";
+   `for c    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: ŻureutaskGroups:
+  - name: widget
+    object: objectVUUUUUU.yaml
+    tasks:
+      - template: output.py.tera
+  lt;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value,  arh in value {
+        result = ch.to_string() + resшаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: ŻureutaskGroups:
+  - name: widget
+    object: objectVUUUUUU.yaml
+    tasks:
+      - template: output.py.tera
+  lt;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value,  args) {
+    let 

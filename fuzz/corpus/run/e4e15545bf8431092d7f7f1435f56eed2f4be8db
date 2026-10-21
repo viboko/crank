@@ -1,0 +1,2 @@
+$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.teru ,uoaptt: out.txt}]}]
+filters: {=60, indent=" | snake_case | uppn a |

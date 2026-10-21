@@ -1,0 +1,6 @@
+taskGroups: [{name: g, array: o.yaml, tasks: [{template: t.tera, output: "{{ a }}.txt"}]}]
+--- o.yaml
+- a: 2
+- a: 1
+--- t.tera
+x

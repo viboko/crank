@@ -1,0 +1,13 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: clidnt.js.tera
+        output: client.js
+--- api.yaml
+n
+  }
+}
+--- .crank.manifest
+client:
+- clieme: s

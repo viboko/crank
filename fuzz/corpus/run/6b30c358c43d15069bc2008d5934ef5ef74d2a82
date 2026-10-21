@@ -1,0 +1,8 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/tera
+        output: sch for column in columns %}
+  {{ column }}{% if not loop.last %};

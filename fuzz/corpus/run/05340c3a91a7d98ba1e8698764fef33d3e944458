@@ -1,0 +1,15 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.}
+    {{ value | capitalize }},
+{ 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant % endif %}{ disndfor %}
+Open {% for day, tndif %}{% endfor %}.

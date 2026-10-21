@@ -1,0 +1,14 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+filters:
+  backwards: filters/backwaraml
+    tasks:
+      - template: words.txt.tera
+ let result = "";
+  taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.t  for ch in value {
+        result = ch.to_string

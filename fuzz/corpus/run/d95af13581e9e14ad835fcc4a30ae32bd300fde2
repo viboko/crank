@@ -1,0 +1,8 @@
+taskGroups: [{name: ., object: /.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- ifest
+g:- one.txt
+// a [
+old one
+// ]
+--t- wo.txme: menuo.
+y

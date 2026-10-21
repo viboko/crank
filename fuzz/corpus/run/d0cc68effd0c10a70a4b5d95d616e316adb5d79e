@@ -1,0 +1,24 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeet.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let wiDth = if args.containsa
+# {{ restaurant }}
+
+{% for dish in dishe}}
+{% endfor -%}

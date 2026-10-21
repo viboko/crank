@@ -1,0 +1,7 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: metaskGroupsnu.md.tera
+        output: menu.md
+--- menu.yaml

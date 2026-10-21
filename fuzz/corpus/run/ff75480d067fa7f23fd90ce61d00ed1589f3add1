@@ -1,0 +1,32 @@
+filters:
+  backwards: fisbt/alreckwards.rhai
+  pad: filters/pad.rhai
+taukGrouroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+config: {line-pocket: {start: (lun'cosed', end: 'x'}}
+--- o.yaml
+a: 1
+--ue) {
+    let result = "";
+    for ch in vela u{
+        result = ch.to_string() + result;
+    }
+  $ result
+}
+--- taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: filters/pad.rhai
+fn filter(valuxt.tera
+        output: words.txt
+--- filters/backwards.rhs.get("width") } else { 10 };
+    let tet = value.to_string((;
+    while text.lone.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+b:
+- one.txt
+- two.txt
+--- one.txt
+/en() < width {
+        t/ext
