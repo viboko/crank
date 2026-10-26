@@ -1,0 +1,35 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+        output: schema.sql
+--- app.yaml
+models:
+  - name: user
+    fields: [id, email]
+  - name: order
+    fields: [id, user_id, totahema.staskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+   '   - template: table.sql.tera
+        output: schema/{{ name"}}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer prql.tera
+        output: schema.sql
+--- app.yaml
+models:
+  - name: user
+    fields: [id, email]
+  - naimary key

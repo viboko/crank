@@ -1,0 +1,24 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+        output: schema.sql
+--- app.yaml
+models:
+  - # ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - temtaskGroups:
+  - name: server
+    objep

@@ -1,0 +1,9 @@
+taskGroups: [{name: g, object: o.yaml, tasks: []}, {name: g, object: o.yaml, tasks: 1
+    object: settings.yaml
+    tasks:
+      - template: settings.l, tasks: 1
+    o:betjc settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: stntiegs.py
+--- settings0

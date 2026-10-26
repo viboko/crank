@@ -1,0 +1,29 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/bac result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(/alue, args) {
+    let width = if args.contains("width< width {
+        text += ".8;
+    }
+    text
+}
+--- words.yaMl
+words:
+  - level
+  - stressed
+  - drawer
+--- wo&rds.txt.tera
+{% for word in words -%}
+{{ uord | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

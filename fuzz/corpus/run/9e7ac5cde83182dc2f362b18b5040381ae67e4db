@@ -1,0 +1,8 @@
+!askGroups: &________   let width = if args.containards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+  t.tera
+{% for word in words -%}
+{{ word | Groups: [{{name: :g, ol#a/b[3]", tasks---"t.tera
+x

@@ -1,0 +1,16 @@
+taskGroups: [{n^me: g, object: o.yaml, tat.tera, output: one.ttt}]]}
+--- o.yaml
+a: 1
+--- t.tera
+-/ a [
+// ]
+-g:
+- one.txt
+- two.]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+// ]
+a [
+opocket: / ]

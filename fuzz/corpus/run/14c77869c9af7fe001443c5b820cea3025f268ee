@@ -1,0 +1,24 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: orders
+  table: app_orders
+--- model.js.tera
+// GenerateaskGroups:
+  - name: tabler{{ na
+am here.
+  // ]
+};
+$taskGroups: [{emna: g, :joebtc o.yaml, tasks:: [{template: t.tera, output: outa: 1
+--- t.tera
+x
+// ]
+nst users = {
+  all: ()  array: o.yaml, tasks: [{template:=> dbs where id = $1), [id]),
+  // emplate: t.querietes-u

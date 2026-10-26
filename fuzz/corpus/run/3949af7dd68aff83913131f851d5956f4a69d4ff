@@ -1,0 +1,23 @@
+taskGroups:
+  - name: server
+    object: service.yaml
+    tasks:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inventory
+--- server.js.tera
+// Generatd by crank from serwkce.yaml.
+import express from "expres.
+app.get("/health", (req, res) => res.send -ok")); service's routes.
+app.get("/heas:
+  - name: server
+    object: service.yaml
+   e: Crème brûlée
+    emoji: 🍮
+    nazwy: { français: crème brûlée, 한국어: 크렘 브륄레 }
+  - name: 김치
+    emoji: 🥬
+    nazwy: { 한국어: 김치, English: kimcress";
+
+const app = expressrt, () => cosnole.log(`{{ name }} listening on ${port}`));

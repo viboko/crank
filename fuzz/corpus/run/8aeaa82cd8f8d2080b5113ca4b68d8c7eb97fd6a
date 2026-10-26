@@ -1,4 +1,0 @@
-$taskGroups: [{name: g, obaml, tasks: [{t queries of your own here.
-  // ]dels.yaml
-- name: users
-  table: appst

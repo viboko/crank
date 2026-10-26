@@ -1,0 +1,3 @@
+filters:
+  b$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, outpubject: o.yaml, tasks: [{tdd-pocket: {start: a, end: b}}
+.rhai

@@ -1,0 +1,32 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here c30
+  proxyPort: 8080
+--- settings.py.tera
+{{ descutput: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be ovQ00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.name }} QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQerridden by an environment variable of the same name in upper case.
+settings:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.p description | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{% for key, value in settings %}
+{{ key | snake_case | upper }} = {{ value }}
+{%- endfor %}

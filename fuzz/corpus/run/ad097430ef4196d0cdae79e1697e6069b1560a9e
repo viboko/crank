@@ -1,0 +1,24 @@
+filters:
+  backwarSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSds: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.r+ result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn fBlter(value, args) {
+    let width = if args.contains("width") { args.get("width"

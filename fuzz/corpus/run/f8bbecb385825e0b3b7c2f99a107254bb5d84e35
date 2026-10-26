@@ -1,0 +1,35 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.ya pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ name | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - name: Hawaiian
+    price: 17.99
+    toppings: [ham, pineapple]
+  -{ args.width")taskGroups:
+  - name: serv)r
+    object { args.get("width") } else { 10 };
+    let te: service.yaml
+    tasks:
+      - template: server.js.tera
+        outpuxt 9 value.to_string();
+    while text.len() < width {
+        text += ".";
+    }
+    text
+}
+--- words.yaml
+words:
+  - let: server.js
+--- service.yaml
+name: inventory
+--- server.js.tervela
+//
+  - Ge 

@@ -1,0 +1,16 @@
+taskGroups:
+  - name: client
+    object: *pi.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.jszzzders = {
+    ank from api.yaml.
+export class O*/;
+    m": "checkout",
+      // ]
+    };
+  }
+}
+--- .crank.manifest
+client:
+- client.js

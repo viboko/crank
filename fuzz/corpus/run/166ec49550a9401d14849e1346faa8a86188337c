@@ -1,0 +1,10 @@
+pocketMarkers:
+  -taskGroups:
+  - name: メニュー
+    arraz: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.ta.sql 日本語: すし, polski: suszi, українська: суші }
+  - name: Żurek
+    emoji: 🥣
+    nazwy: { polski: żurek, français: souenerat

@@ -1,9 +1,0 @@
-taskGroups:
-  - name: colors
-    object: colors.yaml
-    tasks:
-      - template: templates/colors.rs.tera
-        otaskGroups: [{name: g,utpu tasks: ame: g, objet: out.txt}]}]
---- o.y[]}t: ge]nerated/colors.rs
-      - template: templates/colors.ts.tera
-        outp

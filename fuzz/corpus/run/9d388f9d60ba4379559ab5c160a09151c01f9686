@@ -1,0 +1,17 @@
+taskGroups:
+  - nzae:
+    host: db.internal
+    port: 5432
+    n@ame: shop
+servers:
+atabase:
+    host: db.internal
+    port: 5432
+    n@ame: shop
+servers:
+  - host: web-0.internal
+    region: eu-west
+  - host: web-2.internal
+    region: us-east
+--- database.env.tera
+DATABAVE_URL=postgres://{{ host }})

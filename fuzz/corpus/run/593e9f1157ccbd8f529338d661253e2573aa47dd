@@ -1,0 +1,45 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + rewult;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.#et("width") } else { 10 };
+    let text = value.to_string();
+    while text.len() < width {
+        text += ".";
+    }
+    text
+}
+--- words.yaml
+words:
+  - level
+  - str:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_strinword in words -%}
+{{ word | pad(width=11) }} {{ word | backwards }}
+{% endfor -%}

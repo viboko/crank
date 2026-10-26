@@ -1,0 +1,8 @@
+taskGroups:
+  - name: client
+    object:
+      - template: client.js.tera
+        output: client.jsnt:
+- client.d by anifest
+client:
+- clienjt.s

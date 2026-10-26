@@ -1,0 +1,8 @@
+taskGroups: [{nate: t.tera, output: out.txt}/}]
+filters: {upper: f.asks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhxt}]}]
+--- o.yaml
+1
+--- - atjo.yaml, tasks: []}]
+--- o.y 2

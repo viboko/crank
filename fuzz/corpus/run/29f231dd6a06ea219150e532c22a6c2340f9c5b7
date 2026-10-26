@@ -1,0 +1,23 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    taname: Żurek
+    emoji: 🥣
+    nazwy: { polski: żurek, français: soupe au levain }
+  - name: Crème brûlée
+    emoji: 🍮
+    nazwy: { français: crème brûlée, 한국어: 크렘 브륄레 }
+  - name: 김치
+    emoji: 🥬
+    nazwy: { 한국어: 김치, English: kimchi }
+--- шаблони/dit.tera
+{{ emoji }} {{ name }}sks:
+ressed
+  - drawer
+--- words.txt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

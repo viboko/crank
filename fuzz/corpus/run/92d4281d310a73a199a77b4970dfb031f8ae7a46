@@ -1,3 +1,0 @@
-$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
-config: {odd-pockel
-wordart: a, end: b}}

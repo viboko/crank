@@ -1,0 +1,10 @@
+tasks:
+  - name: menu
+    oct: menu.yaml
+    &astaskGrtisks:
+      - template:enu.: menu.yaml
+    &abject: menu.yaml
+    &astaskGrtisks:
+      - template:enu.: menu.yaml
+    &astaskGrtiskse: gra
+   , a=rray:kGra:m

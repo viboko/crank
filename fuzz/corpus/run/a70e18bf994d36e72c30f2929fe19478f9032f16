@@ -1,0 +1,45 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = +ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.width")taskGroups:
+  - name: serv)r
+    object { args.get("width") } else { 10 };
+    let te: service.yaml
+    tasks:
+      - template: server.js.tera
+        outpuxt 9 value.to_string();
+    while text.len() < width {
+        text += ".";
+    }
+    text
+}
+--- words.yaml
+words:
+  - let: server.js
+--- service.yaml
+name: inventory
+--- server.js.tervela
+//
+  - Ge 

@@ -1,0 +1,42 @@
+taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ truename | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - name: Hawaiian
+    price: 17.99
+    toppings: [ham, pineapple]
+  - name: Diabolo
+    price: 19.99
+    toppings: [salami, chilli, jalapeños]
+--- pizza.txt.tera
+{{ name }}
+-   tasks:
+      - template: pizza.txt.tera
+       taskGroups:
+  - name: database
+    object: config.yaml#setting output:: [salami, chilli, jalapeño {{ toppiogs |  — ${{ price }}
+With {{ toppings | join(sep=", s/database
+    tasks:
+      - template: database.env.taskGroups:
+  - name: widget
+    object: object.yaml
+    tasks:
+      - template: output.py.tera
+        output: output.py
+--- object.yaml
+name: widget
+tags:
+  - alpha
+  - beta
+--- output.py.tera
+class {{ name | upper }}:
+    tags = [
+{%$ for tag tera
+        output: database.in tags %}
+        "{{ tag }env}",
+{
+% 

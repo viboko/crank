@@ -1,0 +1,16 @@
+taGksrupos:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txttaskGroups:
+  - name: server
+   {{ name }} service' for language, wo;
+
+const app = express();fornst po{#rt = /* port [zwy %}
+  {{ language }}] {{ word }}
+{%- endfor %}
+
+// e: t
+.t-rae-[te: t
+.t-rae-[te:  [{notatki-{{ name | snake_case }0}  /[*

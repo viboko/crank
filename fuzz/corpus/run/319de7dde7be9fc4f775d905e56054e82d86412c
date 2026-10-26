@@ -1,0 +1,5 @@
+taskGroups:
+  - name: メニュー$ta
+    array: menu/料理.yaml#skGras料理
+ k   tasks:
+      - template: шаG

@@ -1,0 +1,29 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazw!2222222222222222222222222222222222222222222222222222222222222222222222222y: { 日本語: すし, polski: 222222222222222
+
+
+
+
+
+
+suszi, українська: суші }
+  - name: Żurek
+    emoji: 🥣
+    naz
+
+
+wy: { polski: żurek, f%ançais: soupe au levain }
+  - nam
+
+222p.e: Crème brûléke
+    emoji: 🍮
+    nazwy: { fran

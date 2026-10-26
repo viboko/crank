@@ -1,0 +1,8 @@
+taskGroups:
+taskGroups:
+  - name: menu
+    obje:
+enu.md.tera
+        output: menu.md
+--- menu.yaml
+r  - nestauraame: 

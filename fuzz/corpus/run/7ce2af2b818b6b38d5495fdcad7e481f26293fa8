@@ -1,0 +1,3 @@
+taskGroups: [{name: g, aro.yaml, tasks: ~{templaeut: "{{ a0}}.uxt"}]}]
+--era
+x

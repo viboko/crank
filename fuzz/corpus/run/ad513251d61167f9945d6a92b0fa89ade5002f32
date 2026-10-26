@@ -1,0 +1,18 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settingsse
+    tasks:
+    taskGroups:
+  - name: tables
+    array: tables.yaml
+    task[s:
+    taskGroups:
+  - name: tables
+    array: tables.yaml
+  - template: table.sql.tera
+        output: tabl,.sql.ter{{ na
+am  - template: database host:  host }}:{{ port }}/{{ name }}
+--- server.: model.txt.tera
+{{ host }} ({{ regis: 3
+  maxRetries: 3
+  requestTime})

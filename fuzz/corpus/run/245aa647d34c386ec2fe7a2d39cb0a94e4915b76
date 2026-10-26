@@ -1,0 +1,22 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.y
+m-nlaa me: users
+  table: app_users
+- name: orders
+  table: app g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.y`ml
+a: 1
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: [{name:( g, taskGroups: [{name: g, object: o.yaml, tasks: [{template:- ou, {{ nmae }}!
+--- ./dth

@@ -1,0 +1,4 @@
+x-dish-tasks: &dish-tfilters:
+  backwarasks
+  - template: templates/page.html.teds: filtersra
+    output: "site/{{ id/

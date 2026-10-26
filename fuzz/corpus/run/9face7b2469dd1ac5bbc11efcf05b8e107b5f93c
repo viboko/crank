@@ -1,0 +1,21 @@
+taskGroups:
+  - name: menu
+    objec理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: Żurek
+    emoji: 🥣
+    nazwy: { polski: żprek, français: soup
+    price: filters:
+  backwards: filters/backwar     - template: words.txt.tera
+       uto put: words.txn: false
+  - name: Funghi
+    price: 20.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday:ext.len() < width {
+        text += " 12:00–2,.";
+    }
+    texg

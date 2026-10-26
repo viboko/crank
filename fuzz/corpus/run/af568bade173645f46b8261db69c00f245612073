@@ -1,0 +1,14 @@
+taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#ptaskGrkGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: ra
+// a [
+// ]
+--- .crank.manifest
+g:
+- one.txt
+- two.txt
+--- one.txt
+// a [name: g, otaskGroups:
+  - namebject: o.yaml, tasks: models
+    array: models.y: [aml
+  { 

@@ -1,0 +1,42 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaml
+name: Orde: client.js.tera
+        oustom-headers [
+      "X-Team": "checkout",
+      // ]
+    };
+  }
+}
+--- .crank.manifest
+version: 1
+taskGroups:
+;
+    this.timeout = /* timeout [ */ 5000 /]*  */;
+    this.headers = {
+ *    // custom-headers [
+      // ]
+    };
+  }
+}
+--- client.js
+// GtaskGroups:
+  - #name: メニtaskGroupsclien- name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name:enerated by crank from api.yaml.
+extps://api.exale.com/v0";
+    this.timeout = /* timeout [ */ 30000 /* ] */;
+    this.headers = {
+      // custom-headers [
+      "X-Team": "checkout u",
+sers
+  columns:
+  ?  - id      / i

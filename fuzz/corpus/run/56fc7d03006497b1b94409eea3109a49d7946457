@@ -1,0 +1,12 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{tencme: g, object: o.yaml, tasosame: g, object: o.yaml, tasks: [{template:out.txt}]}]
+filters: {spin: spin.rhai}
+--- spin.rhai
+fn f														mplate: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+g:
+- oneLLLLLLLLLLLLLLLLLLLLLLLLLLL!aLks

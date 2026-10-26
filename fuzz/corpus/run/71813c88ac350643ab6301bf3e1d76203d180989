@@ -1,0 +1,13 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - nam%e: words
+    object: wordhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhtaskGroups:
+  - name: client
+hhhhhhhh    object: *pi.yaml
+    tasks:
+      - hhhhtemplhhhhhhhhhhhhhhs.yaml
+   ate: clien

@@ -1,0 +1,8 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+    " - template: menu.md.tera
+    herita
+ dfor %}\
+O55555555555555555555555f %}{% endfor %}.

@@ -1,0 +1,13 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks        output: database.env
+  - name: primary
+    object: config.yaml#servers[Ы!    taskplate: server+txt.tera
+        output: primary.txt
+--- config.yamtaskGroupl
+shttings:
+  databas:
+  - name:$tables
+  se:
+      ah

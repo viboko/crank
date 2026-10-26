@@ -1,0 +1,19 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_stritaskGroups: [{name: g, a=rray: ,ps: [{nkkkkkkkkkkkkkkk: t.tera$taskGroupg,&objectasg,s: [{name: g, object:taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#piz sult
+}
+--- filters/pad.rhai
+fn filter(value, args) 

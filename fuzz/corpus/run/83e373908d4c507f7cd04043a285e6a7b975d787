@@ -1,0 +1,133 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ch in value {
+        result = ch.to_strtring() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filte(vlarueto_string();
+    while text.len() < width {
+        text += +.";
+    }
+    text
+--- ut: words.tvel
+  - stressed
+  tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

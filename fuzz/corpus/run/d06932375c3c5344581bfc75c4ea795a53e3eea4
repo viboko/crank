@@ -1,0 +1,14 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+gml
+a: 1
+--- t.tera
+// a [
+// ]
+--- .cranko
+// ]

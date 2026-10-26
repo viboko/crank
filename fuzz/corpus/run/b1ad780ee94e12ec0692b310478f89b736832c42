@@ -1,0 +1,5 @@
+$taskGroups: [{"						   vegetarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturda:y 12:00–23:0n dishes -%}imp loop.index }}. {{ dish.name }} — €{{ dish.price }}{% if dish.vegetarndex }}. {{ dish.name }} — €{{ dish.price }}{m

@@ -1,0 +1,20 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 0
+--- t.tera
+x
+--- .crank.manifest
+version: 1
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: wordtaskGroups:
+  gbject: words.yaml
+    tasks:
+      - template: words.txt.tera
+  xt
+filters:
+  b      output: words.txt
+--ackwlters/backwards.rhai
+fn fackwia

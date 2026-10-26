@@ -1,0 +1,9 @@
+Filt^rs:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+xt.len(~) < width { 
+       d | b: [{template: t.tera, 0
+--- menu.mdt: ouaurant }}
+
+{% for dish in di{hest.txt}] 

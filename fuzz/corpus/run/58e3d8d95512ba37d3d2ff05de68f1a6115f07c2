@@ -1,0 +1,25 @@
+x-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  -(name: desserts
+    aks
+--- menu.yaml
+starters:
+  - id: bruschetta
+    name: Bruschetta
+    price: 6
+mains:
+  - id: margherita
+    name: Margherita
+  erita
+    | upper }} ...ce }}

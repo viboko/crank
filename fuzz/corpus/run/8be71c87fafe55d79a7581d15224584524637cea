@@ -1,0 +1,6 @@
+taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#piz~as
+    tas*ks:
+      waaian
+    pr topp(sep=", ") }}.

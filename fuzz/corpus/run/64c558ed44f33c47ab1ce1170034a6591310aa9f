@@ -1,0 +1,10 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+    {name: g, object: o.yaml, tasks: [{template: t.tera, utupo:t out.txt}]}]
+config: {li res}t else { 05 };
+or dish in dishes -%}
+{{ loop if 
+m

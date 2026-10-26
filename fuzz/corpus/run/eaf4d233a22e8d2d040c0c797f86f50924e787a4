@@ -1,5 +1,0 @@
-taskGroups: [mplate: t.tera, output: out.txt}]}]
---t.tera, outp: 1
--// ]
---ra
-{{ a }}

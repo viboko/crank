@@ -1,0 +1,32 @@
+filters:
+ d: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    fo  alr ch in value {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    leaml.
+import { db } from "../db.js";
+
+export const {{ name }} = {
+  all: () => db.query("select * from {{ table }}"),
+  byId: (id) => db.query("select * from {{ table }} where id = $2", [id]),
+  // quers where emaiaml.
+explass OrdersClient {
+ crank.manifest
+models:
+- models/users.jst width = if args.contains("width") { args.get("width") _string();
+    while text.len() < width {
+        text +ards }}
+{% endfor -%}

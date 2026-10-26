@@ -1,0 +1,5 @@
+taskGroups:
+  - name: widget
+    object: object.yaml
+    tasks:
+    " - template output- template: object.yap

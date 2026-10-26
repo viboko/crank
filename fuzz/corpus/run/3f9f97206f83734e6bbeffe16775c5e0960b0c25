@@ -1,0 +1,11 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+---											""""""""""""""""""										: 12:00–23:0{{ restaurant }}
+
+{% foetarian %} (v){% endif %}
+{% endfor %}
+Open {% for day, time in hours %}{% if tim						"""""""""}{{ dendif %}{% endif %}{% endfor %}.

@@ -1,0 +1,13 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be overridden by an environment variable of the same name in upper 0
+--- settings.py.tera
+{{ description | wraps - name: メニュー
+    array: menu/料理.yaml#料理
+   ase | upper }} = {{ ?alue }}
+{%- endfor %}
