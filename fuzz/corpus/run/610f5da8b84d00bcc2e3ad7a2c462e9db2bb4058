@@ -1,0 +1,22 @@
+filters:
+  back}rs:
+  back}ards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        rfsult = c: *d result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.get("width") } else { 12 };
+ +  let text = va-%}

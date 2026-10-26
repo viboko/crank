@@ -1,0 +1,14 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - nameame: Diavola
+    price: 11
+    vegetarian: false
+  - !name: Fund.tera
+# {{ restaurant % endif %}{ disif %}{% endfor %}.

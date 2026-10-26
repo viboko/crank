@@ -1,0 +1,2 @@
+$taskGroups: [{name: g,[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+config: {oRdd-pocket: {start: a, end: b}}

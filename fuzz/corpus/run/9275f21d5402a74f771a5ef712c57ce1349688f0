@@ -1,0 +1,13 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: model{/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: orders
+  table: app_orders
+--- model.js.tera
+// Generatemp

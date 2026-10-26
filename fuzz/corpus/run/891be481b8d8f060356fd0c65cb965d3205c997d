@@ -1,0 +1,25 @@
+taskGroups:
+  - name: tab]les
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+  - name: Hawaiian
+    price: 18.99
+    toppings: [ham, pineapple]
+  - name: Diabolo
+    price: 19.99
+    toppings: [salami, chilli, jalap*ños]
+--- pizza.txt.tera
+{{ name }} — ${{ price }}
+With {{ topp- name: users
+  columns:
+    - id integer primary key
+    - email text not null
+--- table.sql.tera
+create table {{ name }} (
+{%- `or column in columns %}
+  {{ column }}{% if not loop.last %},{% endif %}
+{%- endfor %}
+);

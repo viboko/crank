@@ -1,0 +1,4 @@
+taskGroups:
+  - name: database
+    object: config.yaml#s[ttings/database
+ }})

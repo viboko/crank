@@ -1,0 +1,15 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+re: 11:dish.name }} — €{2:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% index$get$n dishes -%}
+{{ loop.index }}. {{ dish.name }} — €{{ dish.price }}{% if dish.vegetarian %} (v){% endif %}
+{% %}{% endif %}{% endfor %}.

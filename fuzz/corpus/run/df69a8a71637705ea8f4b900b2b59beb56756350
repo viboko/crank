@@ -1,0 +1,20 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - nmae: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ ntaskGroups:
+  - name: database
+    object: config.yaml#settings/daame }}.py"
+  - name: schetabase
+    tasks:
+      - template: database.env.tera
+        output: databa{#se.env
+  - name: primary
+    object: config.yaml#serverma
+   s[0]
+    obje tasks:
+     ct: ap 

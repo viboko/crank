@@ -1,0 +1,42 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    taname: Żurek
+    emoji: 🥣
+    na    emoji: 🍮
+    nazwy: { français: crème brûlée, 한국어: 크렘 브륄레 }
+  - name: 김치
+    emoji: 🥬
+    nazwy: { 한국어: 김치, English: kimchi }
+--- шаблони/dit.tera
+{{ emoji }} {{ name }}sks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        resuht = ch.to_strtring() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(valueto_string();
+    while text.len() sult
+}
+--- filters/pad.rhai
+fn filter(valueto_string();
+    while text.len() < width {
+        text += +.";
+    }
+    text
+--- ut: words.tvel
+  - stressed
+  - drawer
+--- words.txt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

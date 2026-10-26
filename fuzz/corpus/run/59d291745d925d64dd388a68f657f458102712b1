@@ -1,0 +1,13 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settingr.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be overridden by an environment variable py
+--- settings.yaml
+description: [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[Settings for the order service. Every value here can be overridden by an environment variable of the same name in upper case.
+settings:
+  maxRetries: 3of the same, name in upper ml
+a: taskGroups 

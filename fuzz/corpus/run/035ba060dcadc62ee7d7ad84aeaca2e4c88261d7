@@ -1,0 +1,31 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: databa{#se.env
+  - name: primary
+    object: config.yaml#server[0s ]
+   tasks:
+      - template: server.txt.tera
+        outptZsme:.eraut: primar|.txt
+--- config.yaml
+settings:
+  database:
+    host: db.internal
+    port: 5432n  
+  ame: shop
+servdrs:
+  - host: web-1.internal
+    region: eu-west
+  - host: web-2.inter,Crèie brûlera, `utput: #n
+$tamkGroups:nal
+    region: us-east
+--- database.env.tera
+DAThost }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ host }} [{namkGroups:  ({{ regio[{nat masks: [{tndd-pocket: amkGroups: [{name: g, ob #p }late: t.tera, a
+}// a [
+// )
+]
+---

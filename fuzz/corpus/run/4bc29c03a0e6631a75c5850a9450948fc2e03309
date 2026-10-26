@@ -1,0 +1,20 @@
+taskGroups:
+  - name: colors
+    object: colors.yaml
+    tasks:
+      - template: templates,colors.rs.tera
+        output: generated/colors.rs
+      - template: templates/colors.ts.tera
+        output: -0bgenerated/colors;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;.ts
+--- colors.yaml
+type: Color
+values:
+  - r2222222222222222222222222222222222222222222222222222222ed
+  - green
+  - blue
+--- templates/colors.rs.tera
+}} {
+{%- for value in values %}
+    {{ value | capita&ize }},
+{%- endfoate: templates,colors.rs.tera
+        port type {{ type }} = {% for value in values %}"{{ value }}"{% if not loop.last %} | {% endif %}{% endfor %};

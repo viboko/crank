@@ -1,0 +1,7 @@
+taskGroups:
+( - name: {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{1{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{settings
+    object: segintts.yaml
+    tasks:
+  %}
+{{ key | snake_case | upper }} = {{ value }}
+{%- endfor %}

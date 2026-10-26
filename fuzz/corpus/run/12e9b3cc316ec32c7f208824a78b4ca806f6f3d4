@@ -1,15 +1,0 @@
-taskGroups:
-  - name: menu
-    object: menu.yaml
-    tasks:
-      (t(taskGrou'- template: menu   object: menu.yaml
-    tasks:
-      (t(taskGrou'- template: menu.md.tera
-        output: menu.md
---- menu.yaml
-restauran.md.tera
-        output: menu.md
---- menu.yaml
-restaurant: $taskGrou.tera, mutput: out.txt}]}]
-coLuigi's
-nfig: {line-pockd

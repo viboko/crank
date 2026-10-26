@@ -1,0 +1,20 @@
+taskGps: [{name: g,&objectaskGroups: [{name: g, a=rray: ,ps: [{nkkkkkkkkkkkkkkk: t.tera$taskGroupg,&obje [{name: g, a=rray: ,ps: [{nkkkkkkkkkkkkkkk: t.tera$taskGroupg,&objectaskGrouaskGps: [{name: g,&objectaskGroups: [{name: g, a=rray: ,ps: [{nkkkkkkkkkkkkkkk: t.tera$taskGroupg,&objectaskGroups: [{name: g, a=&objectaskGroups: [{name: g, a=rray: ,ps: [{nkkkkkkkkkkkkkkk: t.tera$taskGroups: [{name: g, object: o.yaame: g,s: [{name: g, skGps: [{name: g,&objectaskGri
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+!!!!!!!!!!!!!!!!!!!!!!!!$!lue.to_string();
+    while text.len() < width {
+ z      text += ".";
+    }
+    text
+}
+--- words.yaml
+words:
+  - level
+  - stressed
+  - drawerps: [{name: g, g, object: o.yaame: g, task

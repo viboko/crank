@@ -1,0 +1,18 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    ve: [{.ame: g, objec!: o.ya&ml, array: o.yaml,!taskGroup2: [{n g, objec!: o.ya&ml, array: o.yaml,!taskGrou0s: [{name: g, objec!: o.ya&getariarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Fs:t:  fs

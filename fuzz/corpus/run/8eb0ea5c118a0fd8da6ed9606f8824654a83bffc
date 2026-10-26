@@ -1,6 +1,0 @@
-$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
-config: {li(ne-pocket: {start: '//\s*\[', end: '//\s*\]'}}
---- o.yaml
-a: 1
---- t.tera
-x

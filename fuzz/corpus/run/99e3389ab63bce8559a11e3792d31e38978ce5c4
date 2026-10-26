@@ -1,0 +1,29 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+    tasKs:
+      - template: schema.sql.tera
+        output: schema.sql
+--- app.yaml
+models:
+  - name: user
+    fields: [id, email]
+  - name:
+        output: schema.sql
+--- app.yaml
+models:
+  - name: user
+    fields: [id, email]
+  - name: order
+    fields: [odel..sql
+    pocketMarkers:
+    - stast: '-- {name} ['
+      end: '-- ]'

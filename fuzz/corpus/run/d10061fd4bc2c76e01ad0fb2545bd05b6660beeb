@@ -1,17 +1,0 @@
-filters:
-  backwards: filters/backwards.rhai
-  pad: filters/pad.rhai
-taskGroups:
-xt.len() < width { 
-       text += +.";
-    }
-    text
---- ut: words.tvel
-  - stressed
-  - drawer
---- words.txt.tera
-{% for wo pad(width=12) }} {{ word | backwards y }} {{ word | b: [{template: t.tera, 0
---- menu.md.tera
-# {{ restoutput: ouaurant }}
-
-{% for dish in dishest.txt}] 

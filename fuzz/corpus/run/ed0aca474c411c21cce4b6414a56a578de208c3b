@@ -1,0 +1,24 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbborders
+  table: app_orders
+--- model.js.tera
+// Geуnerated by crank from models.yaml.
+import { db } from "../db.js";
+
+export const $taskGroups: [{name: g, object: o.yaml, tasks: [zt{{ name }} = {
+  all: () from {{ table }} where id = $0", [id]),
+  // que => db.query("selact * from {{ table }}"),
+  byId: (id) => db.query("select * from {{ table }} where id = $3", [id]),
+  // queriescccccccc-{{ name }} [
+  // TODO: add {{ name }} queries of your own here.
+  // ]
+};
+$taskGroups: [{emna: g, :joete^-u

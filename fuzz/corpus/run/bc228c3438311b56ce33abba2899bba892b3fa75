@@ -1,0 +1,18 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu,md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: {{ restaurant }}
+
+{% for dish f dish.vegetarian %} (v){%  name: tables
+endif %}
+{% endfor %}
+Ope    array: t

@@ -1,0 +1,57 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valfnue {
+     )   resul
+    result
+}
+--- filters/pad.rhai
+fn DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDfilter(value, args) {
+    let width = if args.contains("width") { args.get("width") } else { 10 };
+    let text = value.to_string();
+    while teexl.tn()rds.rhai
+fn filter(value) {
+    let result = "";
+   ters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valfnue {
+     )   resul
+    result
+}
+--- filters/pad.rhai
+fn DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDfilter(value, args) {
+    let width = if args.cEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEontains("width") { args.get("width") } else { 10 };
+    let text = value.to_string();
+    while teexl.tn()rds.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+     )vel
+  - stressed
+  - drawer
+--- words.txt.tera
+{% for word in worfil for ch in value {
+     )vel
+  - stressed
+  - drawer
+--- words.txt.tera
+{% for word in worfilterds -%}
+{{ word | pad(width=89) s}}

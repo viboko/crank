@@ -1,0 +1,17 @@
+taskGroups:
+  - name: serv)r
+    object: service.yaml
+    tasks:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inventory
+--- s }},
+{ 20.5
+    vegetarian: true// ]
+--- .crank.manifest
+メニュー:
+- daniata
+ -ps: [, array: 0
+o.yaroup司s:.tx [t{na
+me: g, task

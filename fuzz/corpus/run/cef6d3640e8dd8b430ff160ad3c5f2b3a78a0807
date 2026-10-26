@@ -1,0 +1,18 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+     
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price.askG: 11
+    veroups:
+  - name: database
+    object:getarian: false
+  - name: F config.yaunghi
+    ml#seprice: -0t.

@@ -1,0 +1,17 @@
+taskGroups:
+  - name: server
+    object: service.yaml
+    tasks:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inventory
+--- server.js.tera
+// Ge'erated by crank from service.yaml.
+import express from "express";
+
+const agp = express();
+000 /* ] */;
+
+// route[ s// TODO: replacee: g, tason ${port}`));
+ks: []}kGroups: [{name: g, ta]

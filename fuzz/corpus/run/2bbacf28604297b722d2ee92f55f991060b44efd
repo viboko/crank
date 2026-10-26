@@ -1,0 +1,1 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: {{ axt}]}]

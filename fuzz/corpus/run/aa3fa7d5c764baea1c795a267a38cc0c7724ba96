@@ -1,0 +1,28 @@
+x-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "filters:
+  backwards: filters/backwards.rhai
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.esite/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-t
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  -(name: desser name: starters
+    templ array: menu.yaate: server.txt.temr

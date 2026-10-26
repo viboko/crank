@@ -1,6 +1,0 @@
-$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, uotput: out.txt}]}]
-confi]} {line-pocket: {start: '(unclosed', end: 'x'}}
---- o.yaml
-a: 1
---- t.tera
-x

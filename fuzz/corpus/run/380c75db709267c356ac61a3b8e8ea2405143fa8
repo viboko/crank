@@ -1,0 +1,20 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings[{atabase
+    tasks:
+      - template: database.env.tera
+        output: 
+        output: primary.txt
+--- config.yaml
+shttings:
+  dattings:
+  database:
+    host: db.internal
+    port: 1728
+    name: shop
+servers:
+  - host: web-1.internal
+    region: eu-we web-2.internal
+  ut: out.txt}],{# /t }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({{ region }})

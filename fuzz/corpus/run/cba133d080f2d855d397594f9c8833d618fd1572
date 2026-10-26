@@ -1,0 +1,7 @@
+filters:
+  -  object: config.yaml#set=postgrepad.rahi
+taskGroups:
+  - name: words
+d
+  - drawer
+---

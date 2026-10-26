@@ -1,0 +1,25 @@
+filters:
+ d: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    letBresult = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.get("width") } else { 10 };
+    let text = value.to_string();
+    while text.len() < width {
+        text += ".";2    }
+    text
+}
+--- words.%}

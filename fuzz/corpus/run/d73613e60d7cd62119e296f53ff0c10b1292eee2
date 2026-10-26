@@ -1,0 +1,35 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn !2222222222222!2222222222222!222222True2222222222222222222222222222222222222222222222222222222222filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.get("width") } else { 62 };
+    let text = value.to_string();
+    while text.len() <22True222222222222222222222222222222222222222222222222222222222222222222 width {
+        text += ".";
+    }
+    text
+}
+--- words.yaml
+words:
+  - level
+  - stres22sed
+  - drawer
+--- words.txt.tera
+{% for word in words -%}
+{{ word | pad(2222width=09) }} {{ word | backX22222222pwards }}.
+{% endfor -%}

@@ -1,0 +1,12 @@
+taskGroups:
+  - name: menu
+    object: menu.yam'l
+    tasks:
+      - template: 9.5
+    vegesks:
+    00–23:00
+--- menu.md.teraut: wor
+# {{ resks:
+      - template: шаблон
+// not
+{% if time ! =   

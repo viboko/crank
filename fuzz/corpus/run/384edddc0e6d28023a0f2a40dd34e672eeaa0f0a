@@ -1,0 +1,11 @@
+filters:
+  b+ackwards: fi/backwards.rhai
+  pad: s/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - templdrawer
+%-- words.txt.tera
+{% for wor0) }} {{ word | backwards }}
+{% endfor -%}

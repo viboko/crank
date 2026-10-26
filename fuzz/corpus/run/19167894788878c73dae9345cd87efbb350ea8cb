@@ -1,0 +1,9 @@
+taskGroups: 10.5
+    vegetarian: true
+hours:
+  Monday: y: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.name %{fi not loop.last %}, {% endif %}{% endif %}{% endfor %}.

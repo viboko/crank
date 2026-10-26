@@ -1,0 +1,43 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+        output: schema.sql
+--- app.yaml
+models:
+  - name: user
+    fields: [id, email]
+  - name: order
+    fields: [id, user_id, total]
+--- model.py: 김치
+    emoji: 🥬
+    nazwy: { 한국in }
+  - name: Crème brûlée
+    emoji: 🍮
+    nazwy: { français: cr field in fields %}"{{ field }}";% if not loop.last %}, {% endif %}{% endfor %}]
+
+    @staticmethod
+    def pages(rows):
+        return rows // PAGE_SIZES[0]
+
+    # methods-{{ name }} [
+    # ]
+--- schema.sql.tera
+{#- crank:
+  pocketMarkers:
+    - start: '-- {name} ['
+      end: '-- wtaskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.or-#}
+-- Genert

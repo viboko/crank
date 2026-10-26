@@ -1,0 +1,16 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template料理.yaml
+料理:
+  - name: 寿司
+   ess from "express";
+
+const app = exs();
+conshis[
+Najlepsze z łososiem. 🐟
+// ]
+--- .crank.manifest
+メニュレ:
+- dania/寿司.txt

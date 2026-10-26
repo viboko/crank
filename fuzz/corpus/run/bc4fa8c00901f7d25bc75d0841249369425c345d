@@ -1,0 +1,21 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: out.txt
+    pocketMarkers:
+    - : g, object: o.yaml, tasks: []}, {name: g, ec :obtjo.yataskGroupml, tasks: []}]
+s: [{name: g, object: o, {name: g, ec :obtxport const sks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 1
+--- t.{strat: '# {name} [', end: '# ]'}
+--- out.txt
+# keep [
+mine
+# ]

@@ -1,0 +1,54 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu,md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monlay: closed
+  Friday: 12:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.name }}  for dish in dishes -%}
+{{ loop.index }}. {{ dish.name }} — €{{ dish.price }}{% if dish.vegetarian %} (v){% endif %}
+{% endfor %}
+Open kGroups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ name | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - naem: Hawaiian
+    price: 08.99
+    toppings: [ham, pineapple]
+  - name: Diabolo
+    price: 19.99
+    toppings: [salami, chilli, jalapeños]
+--- pizza.txt.tera
+{ ea {mn}} — ${{ price }}
+With {{ toppingc | join(sep=", ") }{% for day, time in hours %}{% if time != "closed" %}{{ day }} {{ time }}{% equestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indentar|.txt
+--- config.yaml
+settings:
+  daMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMtabase:
+    host: e_case | upper }} = {{ value }}
+{%- endf{% ee in hours %}{% if time != "closed" %}{{ day }} {{ time }{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}.

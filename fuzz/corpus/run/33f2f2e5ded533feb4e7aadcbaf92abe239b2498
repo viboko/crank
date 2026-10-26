@@ -1,0 +1,23 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 2
+--- t.tera
+{# crank: {pocketMhji
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        o.
+{% for model in models 
+%}CREATE TABLE {{ model.name }}s (
+{%- for field in model.fields %}
+    {{ field }} TEXT{% if not loop.last %},{% endif %}
+{%- endfor %}
+);
+{% endfor %}
+-- indexes [
+-- ]
+th") { args.get("width") } elsearkers: [{st[', end: '# ]'}]} #}
+x

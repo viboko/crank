@@ -1,0 +1,58 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 2.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 11:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ none.index }}. {{ dish.name }} — €{2:00–23:0}{{ day }} {{ time }x-dish-tas{%ks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    array: menu.yaml#desserts
+    task{% if no$taskGrououps: [{name: g, object: o.yams: *dish-tasks
+--- menu.yaml
+starters:
+  - id: bruschettla
+    name: Bruschetta
+    price: 4
+mains:
+  - id: margherita
+    name: Margherita
+    price: 11
+desserts:
+  - id: tiramisu
+    .N,ANname: Tiramisu
+    price: 7
+--- templa tes/page.html.tera
+<h1>{{ nataskme }}</h1>
+<p>€{{t price }

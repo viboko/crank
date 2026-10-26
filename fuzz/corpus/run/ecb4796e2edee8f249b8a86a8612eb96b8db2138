@@ -1,0 +1,16 @@
+taskGroups:
+  - name: models
+?    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        outputX models/{{ name }}.rom {{ table }} where id = $1", [id]),
+  // queries-{{ name }} [
+  // TODO: add {~ name }} querie} from "../db.js";
+
+export const users =ers"),
+  byId- 2
+sk- t.tera
+x
+: (id). db >q=uery("select * from app_users where id = $1", [id]),
+  // queries-users [
+  byEmail: (email) 

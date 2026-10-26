@@ -1,0 +1,9 @@
+pocketMarkers: [{staryaml
+    tasks:
+      - template: words.txt.tera
+        output:tera, o]}]
+--}]
+--- o.yaml
+a: 0
+--- t.tera
+x

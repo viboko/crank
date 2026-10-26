@@ -1,6 +1,0 @@
-$taskGroups: [{name: g, oct: o.yaml, tasks: [{template: t.tera, output: out.txt@}]}]
-filters: {uppe}
---- o.yaml
-a: 5
---- t.tera
-x

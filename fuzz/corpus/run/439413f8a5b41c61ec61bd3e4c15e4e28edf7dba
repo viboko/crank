@@ -1,0 +1,32 @@
+filters:
+  backwards: filters/backwards.rhai
+taskGroups:
+  - name: database
+    object: config.yaml#settingsjjjjjjjjjjjjjjjjjjjjjjjjjjjj/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      -sult = ch.to_string() + resutaskGroups:
+  - name: widget
+    object: object.yaml
+    tasks:
+      - template: s:
+  - name: #widget
+    object: object.yaml
+    tasks:
+      - template: output.py.tera  port: 5432
+    name: shop
+servers:
+  - host: web-1.itaskGroups:
+  - name: greenternal
+    region: eu-west
+  - host: web-2.
+  lt;
+    }
+    result
+}
+--- filters/padinternal
+    regf  -n na 

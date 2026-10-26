@@ -1,0 +1,31 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yaml
+a: 0
+--- t.tera
+// a [
+1/ ]
+--- .crank.manifest
+g:
+- one.txt
+- two.txt
+--- one.txt
+// a [
+olt
+// o.yaml, tasks]
+--- .crank.o.yaml
+a: 0
+--- t.tera
+// a [
+// ]
+--- .crank.manifest
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- mmodel.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_u+%

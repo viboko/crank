@@ -1,0 +1,21 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: modfl.js.tera
+        output: models/{{ name }}.js
+--- models.y
+m-nlaa me: users
+  table: app_users
+- name: orders
+-- o.y`ml
+a: 1
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - pat[ h:{name:( g, tas,kGroups: [{name: g, object: o.yaml, tasks: [{template:- ou, {{ nmae }}!
+--- ./dth

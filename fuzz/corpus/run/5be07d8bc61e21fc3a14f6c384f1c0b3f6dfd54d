@@ -1,0 +1,10 @@
+taskGroups: 10.5
+    ve$1", [id]),
+  // queries-{{ name }} [
+  // TODO: add {{ name }}
+--- models/users.js
+// getarian: true
+hours:
+  Monday: y: 12:00–23:00
+--- menu.md.tera
+# {name %{fi not loop.last %}, {% endif %}{% endifn4 %}{% endfor %}.

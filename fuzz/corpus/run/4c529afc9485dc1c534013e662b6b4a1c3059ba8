@@ -1,0 +1,7 @@
+pocketMarkers: [{start: '# [', end: -# ]taskGroups:
+  - name: colors
+    object: colors.yaml
+    tasks:
+      - template: templates/colors.rs.tera
+        output: generated/colors.late: templates/co0blors.ts.tera
+        output: generated/colors;;;;;;;;;;;;;;;;;loop.last %} | {% endif %}{%<endfor %};

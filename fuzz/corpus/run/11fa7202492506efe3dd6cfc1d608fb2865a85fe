@@ -1,0 +1,13 @@
+taskGroups:
+  - name: settimnk
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+ [{name: : [{tasks: [{template: t.tera, output:-out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rh-ai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(value) { value }
+--- otemplate: t.terar %}

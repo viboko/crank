@@ -1,0 +1,38 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primar|.txt
+--- config.y- a: 1t.teraks:aml
+settiary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primar|.txt
+--- config.yaml
+settings:
+  database:
+    host:taskGroups: [{name: g, array: o.yaml, tasks: [$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// a [
+/* b [ */ x
+// ]
+/* ] */{templat db.internal
+    eport: 5432
+    name: shop
+    region: us-east
+--- database.env.tera
+DATABASE_URL=postg: t.res://{{ host }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({{ ]}]region 
+--era}}
+x
+)

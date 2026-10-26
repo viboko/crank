@@ -1,0 +1,4 @@
+$taskGroups: [0name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+-- o.yaml
+a: taskGrrray: o.yaml, tas}}}
+

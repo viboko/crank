@@ -1,0 +1,6 @@
+taskGro object: "o.yaml#a[xe: g, object: o.yaml, tings.py.tera
+        output: settings.py#--- settings.yaml
+descriptiotaskn: Settase | upper }} = {{ vadue }}
+{%- endfor %}s: [{template: t
+.tera, output: one.txt}]}]
+--t: "o.yaml#a[x]/", tasks1

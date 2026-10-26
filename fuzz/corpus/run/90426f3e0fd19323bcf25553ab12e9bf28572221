@@ -1,0 +1,3 @@
+taskGroups: [{nription: Settings fordfor the order service. Every value here can  can be overriddenPPPPPPQsbe overrname in object: "o.yaml#a/b[3]", tasks: [{template: t.tera, output: out.tx]"--- settings.yaml
+description: Settings fordfor the order service. Every value here can  can be overriddenPPPPPPQsbe overridden by an environment va t.tera
+x

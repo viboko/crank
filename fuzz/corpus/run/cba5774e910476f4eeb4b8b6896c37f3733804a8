@@ -1,0 +1,10 @@
+taskGroups: [{name: g, arrayroups: [{name: getaskGroup-: [{name: g, array: o.yaml, tasks: [{templat: t.tera, output: "{{ a0}}.txt"}]rme: g, arrayroups: [{name: getaskGroup-: [{name: g, array: o.yaml, tasks: [{templat: t.tera, output: "{{ a0}}.txt"}]ra, output: "{{ a0e: t.tera, output: "{{t"}]}]ps: [{name: g, arrayroups: [{name: g, array: o.yaml, tasks: [{templatetaskGroups: [{name: g, array: o.yamEvery value here can be overridden by an environment variable of the same name in upper case.
+sel$ tasks: [{templat: t.tera, output: "{{ a0}}.txt"}]ra, output: "{{ a0e: t.tera, output: "{{t"}]}]: o.yaml,"{{ a0e: t.ter
+--- o.yaml
+- a: }}.txt"}]}]1
+- 2
+
+--e--- tra
+x.tera
+x
+

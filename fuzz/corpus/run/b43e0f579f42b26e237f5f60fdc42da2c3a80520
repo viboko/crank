@@ -1,0 +1,24 @@
+pocketMarkers:
+  - start: '# {name} ['
+X    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      le- mtapte: model.py.tera
+        output: "models/{{ pocketMarkers:
+  - start: '# {name} ['
+   name }}.py"
+  - nam end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        oute: schema
+    object: app.yaml
+ put: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+   tasks:
+      - template    task:

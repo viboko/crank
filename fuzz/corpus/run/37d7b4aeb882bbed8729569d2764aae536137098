@@ -1,0 +1,45 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filt {s/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filtidth") { args.get("width") } else { 1 words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    resu0 };
+    let text = value.to_stringserver.js.tera
+        output: server.js
+--- sel
+    tas:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inveRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR fe {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filtrds }*
+{%  0
+- 2
+sk- t.teendforra
+x -%
+}

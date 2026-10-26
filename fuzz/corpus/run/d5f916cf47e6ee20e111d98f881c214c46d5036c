@@ -1,0 +1,9 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: name: Margherita
+    prsh.vegetarian %} (v){% endif %}
+{% endfor %}
+O55555555555555555555555f %}{% endfor %}.
