@@ -1,0 +1,14 @@
+$taskGroups: [{name: g, object:  {
+    this.baseUrl = "{{ baseUrl }}";
+    this.timeout = /* timeout [ */ 5000 /* ] */;
+    this.headers = {
+ :
+  - name: settings
+    object: settings.yaml
+    tasktaskGroups:
+  - name: settings
+    object: settings:
+      -s.yaml
+    tasks:
+      -templated #by crank tera
+        of

@@ -1,0 +1,18 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ #}me }}.sql
+--- tables.yaml
+-output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary key
+    - email textn ot null
+--- table.sql.tera
+create table {{ name }} (
+{%- for column in cOlumns %}
+  {mn }}{or %}
+);

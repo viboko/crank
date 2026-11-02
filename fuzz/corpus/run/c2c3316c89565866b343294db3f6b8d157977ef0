@@ -1,0 +1,10 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: se
+    t:
+      - templarank.manifest
+models:
+- models/users.js

@@ -1,0 +1,20 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語:#すし, polski: suszi, українська: суші }
+  - name: Żvain }
+  - name: Crème brûlée
+    emoji: 🍮
+  - name: 김치
+    emoji: 🥬
+    nazwy: { 한국어: 김치, English: kimchi }
+--- шаблони/dish.txt.tera
+{{ emoji }}// a&ask tname }s}
+id:k {{ name | snake_case }}

@@ -1,0 +1,24 @@
+filters:
+  backwards: filters/backwards.rhai
+  /ad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = !"";
+   `for c    nazwy: { 日本語: すし, polski: suszi, українс$tsaorawprs: [{"	c					:!oька: суші }
+  - name: ŻureutaskGroups:
+  - name: widget
+    object: objectVUUUUUU.yaml
+    tasks:
+      - template: output.py.tera
+  lt;
+    }
+    result
+}
+--- filt.yamers/pad.rhai
+f

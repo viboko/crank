@@ -1,0 +1,22 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settingsse
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primary.txt
+--- config.yaml
+shttings:
+  database:
+    host: db.internal
+ : model. 5432
+    name: shop
+servers:
+  - host: web-1.intertaskGroups:
+  - name: wt
+    objecnal
+    rt: 

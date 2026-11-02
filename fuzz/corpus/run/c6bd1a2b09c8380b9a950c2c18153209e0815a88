@@ -1,0 +1,7 @@
+$tt: o.yaml, tasks:.rhai}
+--- f.rhai
+fn filtyaml, t }
+--- o.yaml
+a: 0
+--- t.tera
+x

@@ -1,6 +1,0 @@
-taskGroups: [{name: g, array: o.yamla, output: "{{ a0}}.txt"}]}]
---- o.yaml
-- a: 0
-- 2
---- t.tera
-x

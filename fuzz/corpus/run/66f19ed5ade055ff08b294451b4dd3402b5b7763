@@ -1,0 +1,25 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: data+ba{#se.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primar|.txt
+--- config.yaml
+settings:
+  database:
+    host: db.inter - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primar|.txt
+--- config.yaml
+settings:
+  database:
+    hosort }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({{ region }})

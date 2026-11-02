@@ -1,0 +1,11 @@
+taskGroups:
+  - #name: メニtaskGroupsclien- name: tables
+    array: tab# Geyaml
+    tasks:
+      - teiplate: table.sql.tera
+46311031240  output: schema/{{ name }}.sql
+--- t  - etaskGroups:
+  - name: database
+    object: config.yaml#settings/datmailabase
+    tasks:
+      - template: database .

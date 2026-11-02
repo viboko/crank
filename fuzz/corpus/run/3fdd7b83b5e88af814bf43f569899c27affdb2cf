@@ -1,0 +1,27 @@
+filters:
+  backwards: filters/backwards.rhai
+  filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filt: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `f primary
+    object: config.yaml#servers[0]
+    pad: ords.txt.tera
+        output: words.txt
+---ters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `f primary
+    object: config.yaml#servers[0]
+    pad: ords.txt.tera
+        output: words.txt
+---tpu t: 

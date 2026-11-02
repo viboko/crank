@@ -1,5 +1,0 @@
-taskGroups: [{nameml#a[x]/", tasks: [{template: t.tera, output: out.txt}]}]
---- o.yaml
-a: [1]
---- t.tera
-x

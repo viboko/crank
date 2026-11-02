@@ -1,0 +1,19 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+!!!!!!!!!!!ifest
+version: 1
+taskGrouring();
+    whil.tetle xen() < width {
+        t+x= et ".";
+    }
+    text
+}
+---}

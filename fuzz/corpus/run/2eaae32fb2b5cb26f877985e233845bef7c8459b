@@ -1,8 +1,0 @@
-$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
-filters: {spin: spin.rhai}
---- spin.rhai
-fn filter(va?ue) { loop { } }
---- o.yaml
-a: 1
---- t.tera
-{{ a | spin }}

@@ -1,0 +1,6 @@
+taskGroups:
+  - n:
+     !- template: settings.ptings.yaml
+description: Settings for the order serEvery y, value in settings %}
+{( key | sna }} = {{ value }}
+{%- endfor %}

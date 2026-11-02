@@ -1,0 +1,10 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.j;*tera
+        output: models/{{ name }}.IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIeIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIjs
+--- models.ya};
+--- .crank.manifest
+models:
+- models/users.js

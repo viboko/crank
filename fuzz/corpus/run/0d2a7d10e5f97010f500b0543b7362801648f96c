@@ -1,7 +1,0 @@
-$taskGroups: [{name:( g, taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}object: o.yaml, tasks:]
---- o.yaml
-a: 1
---- t.tera
-/, tasks: [{template: t.tera, output: "{{ a }}. [{template: t.tera, outpubjecttxt/ a [
-// ]
----:!o.yam

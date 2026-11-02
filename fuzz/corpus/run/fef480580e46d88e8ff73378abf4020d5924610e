@@ -1,0 +1,37 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.ya}l
+料理:
+  - ntrueame:  🥣
+    nazwy: { polski: żurek, français: soupe au levain }
+  - name: Crèmed in nazwy %}
+  {{ language }}: {{ word }}
+{%- endfor %}
+
+// notatki-{{ name | snake_case }}taskGrtaskGroups:
+  - name: models
+    array: models.yaml
+ oups:
+  - name: m#[en
+Bra   tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.y
+m-nlaa me: users
+  table: app_users
+- name: orders
+  table: app g, object: o.yaml, tasks: [{teut.txt}]}]
+--- o.y`ml
+a: 1
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: [{name:( g, tas,kGroups: [{name: gku, object: o.yaml

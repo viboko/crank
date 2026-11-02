@@ -1,0 +1,16 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ nam
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: out.txt
+    pocketMarkers:
+    - {start: '# name}} [', end: '# ]   pocketMarkers:
+    - {start: '# name}} [', end: '# ]'}
+--- ou, {{ nmae }}!
+--- ./dth

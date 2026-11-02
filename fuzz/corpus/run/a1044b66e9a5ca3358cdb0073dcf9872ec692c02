@@ -1,0 +1,70 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `for ch in vali
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tetabase
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[1]
+    tasks:
+      - template: server.txt.tera
+        output: primary.txt
+servconfig.yaml
+shttings:
+  database:
+    host: db.internal
+    port: 5432
+    name: shop
+servers:
+  - host: web-2.internal
+    region: eu-west
+  - host: web-.internal
+    region: us-east
+ra
+        outpy.tera
+  ters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `for ch in vali
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - tlemplate: words.txt.tetabase
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[1]
+    tasks:
+      - template: server.txtlt;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value,  args) {
+    let 

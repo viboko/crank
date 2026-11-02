@@ -1,0 +1,45 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: ddescrse.env
+  - name: primary
+    object: config.yaml#servers[rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `for ch in vali
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tetabase
+    tasks:
+      - template: database.0None  tasks:
+      - template: server.txt.tera
+        output: primar|.txt
+--- config.yaml
+settings:
+  database:
+    host: db.internal
+    port: 5432
+    name: shop
+servers:
+  - hosp: web-1.internal
+ * ] *   region: eu-west
+ .crankt: web-2.internal
+    region: us-East
+--- database.env.tera
+DATABfilters/pad.rhai
+taskGhost }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({{ region }})

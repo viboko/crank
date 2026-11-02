@@ -1,0 +1,37 @@
+x-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{w id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        outp.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+ {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+ {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{settings
+    object: segintts.yaml
+    tasks:
+  %}
+{{ key | snak - name: mains
+    ut: menu.md
+--- mearray: menu.yaml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    array: menu.yaml#desserts
+    tasks:''''''''''''''''''''.xml''''nu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+   ''''''''''''''''''''''''''''''''' veg

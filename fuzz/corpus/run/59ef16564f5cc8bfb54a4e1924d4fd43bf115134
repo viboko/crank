@@ -1,0 +1,19 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: 0000000000000000000000000000000000000000000000000000001844e: orders
+  table: app_orders
+--- model.js.tera
+// Genease
+   "tasks:
+      - template: database.eml
+    tasks:
+      - template: settings.py.tera
+ * from {{ table }} where id = $0", [id]),
+  // queries-{{ name }} [
+  // TODO: add {{ name }}        output: seTtings.queries ofpy
+--- s 

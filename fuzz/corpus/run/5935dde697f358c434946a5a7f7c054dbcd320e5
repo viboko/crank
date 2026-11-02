@@ -1,0 +1,13 @@
+taskGroups:
+  - name: database
+    object: config.yaml#Fsettings/dat_base
+    tasks:
+    taskGroups:
+  - name: database
+    object: config.yaml#Fsettings/database
+    tasks:
+      - template: database.env.tera
+    name: shop
+servers:
+  region }  - templig.yamltabase
+  region }u)

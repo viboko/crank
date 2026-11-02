@@ -1,4 +1,0 @@
-$taskGroups: [{namaskg, object: o.yaml, tasks: [#template: t.tera, output: out.a [
-/* b [ */ x
-// ]
-/* ] */

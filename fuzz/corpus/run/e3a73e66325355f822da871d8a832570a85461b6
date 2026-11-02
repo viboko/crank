@@ -1,0 +1,1 @@
+$taskGroups: [{namaskg, object:aml, tasks: [{template: t.tera, output: ou

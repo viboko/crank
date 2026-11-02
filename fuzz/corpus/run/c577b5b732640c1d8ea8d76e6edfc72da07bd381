@@ -1,0 +1,4 @@
+taskGroups: [{name: g, object: ."oyaml#a[x]/", tasks{[ :template: t.ve: g, object: ."oyaml#a[x]/", tasks{[ :tem:latpe t.vera, output: out.txt}]ra, output: out.txXt}]}]
+a: [0]
+--- t.tera
+x

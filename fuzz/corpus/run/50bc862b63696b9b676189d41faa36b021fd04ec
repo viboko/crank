@@ -1,0 +1,19 @@
+taskGroups:
+  - name: widget
+    object: object.yaml
+    tasks:
+      - template: output.py.tera
+        output: output.py
+--- object.yaml
+name: widget
+tags:
+  - alpha
+  - beta
+--- output.py.tera
+       ou   this.headers = {
+      // custom-heaper }}:
+    tags = [
+{%- for tag in t]ags %}
+  #     "{{ tag }}",
+{%- endfor %}
+    ]

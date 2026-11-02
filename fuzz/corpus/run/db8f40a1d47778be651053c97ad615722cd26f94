@@ -1,0 +1,56 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let resutaskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant:ce: 10.true
+hours:
+  Monday 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loo: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        lt = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+  $ result
+}
+--- filters/p-- filters/backwards.rhai
+fn filter(valu: words
+    object: words.yaml
+    tasks:
+      - template: words.txte {
+        result = ch.to_string() + result;
+    }
+  $ result
+}
+--- filters/p-- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {for word in words -%}
+{{ word | pad(width=18)   output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   taskGroups::tt55555555555555555555555555of noty l:o555555555555555500000000012861934301395841478ch.to_string() + result; }} {{ word | backwards }}
+o{% endfor -%}

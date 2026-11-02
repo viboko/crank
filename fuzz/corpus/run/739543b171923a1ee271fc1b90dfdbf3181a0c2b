@@ -1,0 +1,9 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: !able.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yamlJ- name: users
+  columns:
+    - i.tera, o

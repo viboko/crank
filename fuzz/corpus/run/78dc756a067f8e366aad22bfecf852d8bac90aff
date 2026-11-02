@@ -1,0 +1,14 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filtersfil/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(val`e) {
+    let result = "";
+  ters:
+  backwards: fi  lters/bfa

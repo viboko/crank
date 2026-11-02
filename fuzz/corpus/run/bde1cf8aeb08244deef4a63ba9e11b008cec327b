@@ -1,0 +1,25 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 2
+--- t.tera
+{# crank: {pocketMhji
+  pad: filters/pad.rhai
+taskGroups:
+  - name: wordsd: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yamlloop.last %},{% endif %}
+{%- endfor %}
+);
+{% endfor %}
+-- indexes [
+-- ]
+th") { ar
+    object: words.yamlloop.last %},{% endif %}
+{%- endfor %}
+);
+{% endfor %}
+-- indexes [
+-- ]
+th") { args.get("width") } elsearkers: [{st[', end: '# ]'}]} #}
+x

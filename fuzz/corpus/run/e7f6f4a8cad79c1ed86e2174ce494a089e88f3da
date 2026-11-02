@@ -1,0 +1,34 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.ttt}]}]
+--- o.yaml
+a: 1
+--- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxt.tera
+-/ a [
+// ]
+-g:
+- one.txt
+- imps]}]
+--- o.yaml
+a: 1
+--- t.ter`
+// a [
+// ]
+a [
+opocket: /taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+{# crank: {pocketfnMarkers: [{startxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxt.tera
+-/ a [
+// ]
+-g:
+- one.txt
+- imps]}]
+--- o.yaml
+a: 1
+--- t.ter`
+// a [
+// ]
+a [
+opocket: /taskGroup: '#  [', end: ]'# ]'}]
+} #}
+x

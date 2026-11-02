@@ -1,0 +1,15 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: w%ords.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn fi ch     price: 11
+    vegetarian: fal w%ords.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filtems.

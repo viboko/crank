@@ -1,0 +1,24 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+     )   resul
+    result
+}
+--- filters/pad.rhai
+fn DDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: kGrtaps:
+  "daniїнська: суші
+a-/{{ name }}.txt"
+--- menu

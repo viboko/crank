@@ -1,0 +1,9 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+?   tasks}
+      - template: client.js.tEra
+        output: client.js
+--- ap.iya}l
+name
+- client.js

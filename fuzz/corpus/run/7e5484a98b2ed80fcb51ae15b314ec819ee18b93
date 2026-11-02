@@ -1,0 +1,35 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+descriptуion: Settings for the order service. Every value here can be overridden by an envera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be ovQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQerridden by an environment variable of the same name in upper case.
+settings:
+  maxRetries: 4
+  requestTimeout: 77
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeouPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valu%e {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args# ") }}
+ value in settings %}
+{{ key | snake_case | upper }} = {{ value }}{%
+- endfor %}

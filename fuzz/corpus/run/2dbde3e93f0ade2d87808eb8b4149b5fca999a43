@@ -1,7 +1,0 @@
-taskGroups: -- o.yaml=a: 1
--tempk:s [{template: tt{template:e.txt}]}]`
---- o.yaml[
-// ]
-a [
-old two
-// ]

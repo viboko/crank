@@ -1,0 +1,7 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{templ
+-&0k? one.txt
+// a / c
+--- two.txt
+// a [
+old two
+// ec

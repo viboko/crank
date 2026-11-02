@@ -1,0 +1,4 @@
+taskGroups: [{nameml#a[x]/", tasks: [{template: t.tera, output: out.txt}]}]
+--- o: [1]
+ t.tera
+x

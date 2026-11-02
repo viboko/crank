@@ -1,0 +1,22 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        resulapp.listen(port, () => console.log(`tas{{ name ce's routes.
+app.get("/health", (onst app = express(UUUUUUU);
+const port = /* port [ */ 3000 /* ] */;
+
+// routes - drawer
+--- words.txt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfnr -%}

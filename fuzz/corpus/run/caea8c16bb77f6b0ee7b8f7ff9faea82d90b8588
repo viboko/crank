@@ -1,0 +1,15 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+  00000000000b0000000000000000000000005844672len409710364  let result = "";
+    for ch in value {
+        re{ wordindex$set$ | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

@@ -1,0 +1,9 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.ttt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+-/ a [
+/ a [
+// ]
+a [
+opocket: / ]

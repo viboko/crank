@@ -1,0 +1,12 @@
+filters:
+  Zackwards:filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pal.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: wordevalt
+--- (for ch in value {
+!      filter/(value, a

@@ -1,0 +1,13 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+    " - template: menu.md.tera
+        output: name: Margherita
+%}\
+O555555555555555555 dfor %}\
+O55555555555555555555555f %}{% entemplate: menu.md.tera
+        output: name: Margherita
+%}\
+O555555555555555555 dfor %}\
+O55555555555555555555555f %}dfor %}.

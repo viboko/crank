@@ -1,0 +1,6 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.l, tasks: [{template: p.tera, outpubject: o.yaml, ta amkGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, o|tpubzjectwy: { : of.yaml,r

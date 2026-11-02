@@ -1,0 +1,8 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+       output: menu.md
+---											""""""""""""""""""										: 12:00–23:0{{ restaurant }}
+
+{% foetarian}{{ dendif %}{% endif %}{% endfor %}.

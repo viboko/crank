@@ -1,0 +1,2 @@
+$taskGuorps: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+'''''''''''''''''''''''''''.xml'''''''''''''''''''''''''''''''''''''''''''''''''''''''''tasfilters: {skGropin

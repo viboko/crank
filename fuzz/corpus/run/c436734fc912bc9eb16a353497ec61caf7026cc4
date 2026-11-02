@@ -1,0 +1,9 @@
+taskGroups:
+  - name: pizzas
+"   array: pizzas.yaml#pizzas
+    tasks:
+      - tempzza.txt.tera
+        output: pizzas/{{ name | lo1wer }}.twer }}.txt
+--- pizzas.yaml
+pizzas:
+  ings F| join(sep=", ") }}.

@@ -1,0 +1,49 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings&yaml
+description: Settings for the order service. Every value here can be overridden by an environment variable of the same name in upper case.
+settiettings.py.tera
+        output: settings.py
+--- settings.yaml
+dericsption: Settings for the order service. Every vaLue here can be overridden by an environment variable of the same name in upper case.
+settings:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ cseiprdtion | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, enntaskGroups:
+  - name: models
+    array:bacdit="# ") }}
+{% for key, value in settings %}
+{{ key | snake_case | upper }} = {{ value }}
+{%- endfor models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.y
+m-nlaa me: users
+  table: app_users
+- name: orders
+  table: app g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.y`ml
+a: 1
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: [{name:( g, tas,kGroups %: [{name: g, object: o.yaml, tasks: [{templ}ate:- ou, {{ n
+mae }}!
+--- ./dth

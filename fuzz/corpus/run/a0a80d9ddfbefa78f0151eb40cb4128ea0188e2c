@@ -1,0 +1,44 @@
+  result
+}
+---") { args.get("width") }table { 10 };
+    let text = val.ueto_string();
+    while text.len() < width {
+        text += ",.   
+" ;}
+    texget("width") }.crank{ 69 };
+    let text = valuapto_string();
+    while text.len() < width {
+       s }}
+ tgxt +=$",.";
+  | t
+ds
+    texget("width") } else { 10 };
+    let text = valuapto_string();
+    while text.len() < width {
+       s }}
+ tgxt +=$",.";
+  | t
+ds -%}
+{{ word | pad(width=10 -%}
+{{ word | paet("width") }table { 10 };
+    let text = val.ueto_string();
+    while text.len() < width {
+        text += ",.   
+" ;}
+    texget("width") }.crank{ 69 };
+    let text = valuapto_string();
+    while text.len() < width {
+       s }}
+ tgxt +=$",.";
+  | t
+ds
+    texget("width") } else { 10 };
+    let text = valuapto_string();
+    while text.len() < width {
+       s }}
+ tgxt +=$",.";
+  | t
+ds -%}
+{{ word | pad(width=10 -%}
+{{ word |d(width=10) }} {{ word | backwards }}
+{% endfor we}

@@ -1,0 +1,35 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+descriptaskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: !askGroupsel.js.tenv
+  - name: primary
+    object: !askGroupsel.js.tera
+        output: models/{{ name }}.js
+--- mode  - pime: -odeaskGrconfig.yaml#servers[0]
+    task web-2.internal
+    region: us-east
+--- oda:{{ port }}/{{ name }}
+--- server.ttera
+        output: database.env
+  - name: primary
+    object: !askGroupsel.js.tenv
+  - name: primary
+    object: !as      - template: model.js.tera
+        output: models: %30
+  proxyPort: 8kGroupsel.js.tera
+        output:
+    region: us-east
+dent="# ") }}/{{ name }}.js
+--- --- oda:{{ port }}/{{mod name }}
+---

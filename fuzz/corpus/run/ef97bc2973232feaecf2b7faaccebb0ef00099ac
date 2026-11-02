@@ -1,0 +1,10 @@
+%KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+taskGroups:
+  - name:[{naobject: words.yaml
+    tasks:
+      - %ds.tx5t
+--- filters/backwards.rhai
+fn filwidthalue) {
+    let result = "";
+    for ch in valu-e {
+        result = ch.to_string([KKKKKKKK0KKKKKKKKKKKKKKKKKKKKt

@@ -1,0 +1,5 @@
+taskGroups:
+  €{2:00–23:00
+  Satureay: 06:00–23:00
+--- d.meun.mtera
+# {{ ast %an %ime }{% if not loop.last %for %}.

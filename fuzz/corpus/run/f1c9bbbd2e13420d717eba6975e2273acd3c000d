@@ -1,0 +1,16 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for th variable of the same name in upper cas environment variable of the same name in upper case.
+settings:
+  maxRetries: !3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+ }}
+{%- endfor %}

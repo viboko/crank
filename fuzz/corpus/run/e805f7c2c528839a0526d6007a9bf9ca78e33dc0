@@ -1,0 +1,37 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: wosxtd.rt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(valuult;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filte(vlarueto_string();
+    while text.len() < width {
+        text +=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        result-%}

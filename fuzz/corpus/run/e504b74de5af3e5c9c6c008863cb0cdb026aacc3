@@ -1,0 +1,10 @@
+filters:
+  backwartaskGroups: [{name: g, objec!: o.ya&ml, array: o.yaml,!tasks: []}]
+  - name: words
+    object: words.yds.tvel
+  - stressed
+  - drawer
+--- words.txt.tera
+{% for word in words -%}
+{{ word | pad(width=11) }} {{ word | backwards }}
+{% endfor -%}

@@ -1,0 +1,44 @@
+x-dish-taskFs: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.yaml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    array: menu.yaml#desserts
+    tasks: *dish-tasks
+--- menu.yaml
+starIers:
+  - id: bruschetta
+    namect: words.yaml
+    tasks:
+      - template: &words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = if args.contains("width") { argsg();
+    while text.len() < width {
+        text += ".";
+    }
+    22222222222222222222222/2222222222222222222222#222222222222222222222222222222222222222222222222222222222222222222222e: Bruschetta
+    price: 4
+mains:
+  - id: margherita
+    name: Margherita
+    price: 11
+desserts:
+  - id: tiramisu
+    name: Tiramisu
+    price: 7
+--- templates/page.html.tera
+<h1>{{ name }}</h1>
+<p>€{{ price }}</p>
+--- templates/card.txt.tera
+{{ name | upper }} .... {{mplates/p

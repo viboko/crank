@@ -1,0 +1,18 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+   l
+--- table.sql.tera
+create table {{ t.tera
+//
+a /[/  ]'a [
+o
+);
+ld two
+// ]

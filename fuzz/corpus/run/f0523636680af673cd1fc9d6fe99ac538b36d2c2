@@ -1,0 +1,21 @@
+taskGroups:
+  - name: tabl\s
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  cobumns:
+    - id integer primary key
+    - email text n--- tables.yaml
+- name: users
+  cobumns:
+    - id integer primary key
+    - email text not null
+--- table.sql.tera
+create tab[{name: g, objecml, tasks: [{temn $taskGroups: [{namecOlumns %}
+  {{ column }}{% if not loop.last %} t.terf %}
+{%- endfor %a}
+);
+, ou */

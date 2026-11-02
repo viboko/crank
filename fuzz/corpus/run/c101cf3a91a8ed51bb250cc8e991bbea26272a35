@@ -1,0 +1,19 @@
+t$skGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+   
+  - name: database
+ 
+    t`sks:
+   
+  - name: database
+    object: config.yaml+settings/databaatabase
+ 
+    t`sks:
+   ,
+  - name: database
+   #ses[ ]
+  ! tasks#servers[0]
+  ! tasks:
+ }})

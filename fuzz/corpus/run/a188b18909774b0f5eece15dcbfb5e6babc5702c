@@ -1,0 +1,15 @@
+x-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "kkksite/{{ id }}.html"
+  - tetas{mplate: templates/card.txt.tera
+    output: "print/{{ Groupsid }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    ar: [{name: g, ray: menu.yaml#mains
+   era, out tasks: *d%KKKKKKKK   - tate: шаблоkkkkkkkkkkkkkk{{ ]
+ни/dta-skGiru-.y-aml#desserts
+    tasks

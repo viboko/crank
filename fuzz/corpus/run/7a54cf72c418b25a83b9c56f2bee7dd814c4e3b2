@@ -1,0 +1,15 @@
+taskGroups:
+  - name: pizzas- n
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ name | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - name: Hawaiile]
+  - name: Diabolo
+    price: 19.99
+    toppings: [salami, chilli, jalap*ños]
+--- pizza.txt.tera
+{{ name }} — ${{ pr
+  - :::::::::::::::ups: [{name:'j g, object: "o.yaml# | jooppings | join(sep=", ") }}.

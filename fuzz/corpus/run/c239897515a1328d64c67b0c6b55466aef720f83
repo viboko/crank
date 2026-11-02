@@ -1,0 +1,32 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    $azwy: { 日本語: すし, polski: suszi, українська: суші }
+  - n#me: Żurek
+    emoji: 🥣
+    nazwy: { polski: żurek, français: soupe au levain }
+  - name:lues:
+  - red
+  - green
+  - blue
+--- templates/colors.rs.tera
+pub enum {{ type }} {
+{%- for value in values %}
+    {{ value | capitalize }},
+{%- endfor %}
+}
+--- templates/colore in values %}"{{ value }}"{% if no Crèm% brûlée
+    emoji: 🍮
+    nazwy: { français: crème brûlée, 한국어: 크렘 브륄레 }
+  - name: 김치
+    emoji: 🥬
+    nazwy: { 항어: 크렘 브륄레 }
+  - :
+- dania/寿司.txt

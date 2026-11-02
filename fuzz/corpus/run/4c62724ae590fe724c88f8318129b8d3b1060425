@@ -1,0 +1,20 @@
+taskGroups:
+  - name: database
+    object: config.yaml#seûlée, 한국어: 크렘 브륄레 }
+  - name: 김치
+    emoji: 🥬
+--- dania/寿司.txt
+🍣 寿司
+id: 寿司
+
+  日本語: すし
+  polski:txt.tera
+{{ emoji }} {{ name }}
+id: {{ name | snake_case }}
+{% for language, word t: web-1.internal
+!   region: eu-west
+  - host: #eb-2.interna.
+    region: us-east
+--- database.en}}
+--- server.txt.tera
+{{ host }} ({{ region }})

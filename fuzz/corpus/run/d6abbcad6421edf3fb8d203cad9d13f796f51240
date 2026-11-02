@@ -1,0 +1,6 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      tasks: [{templatetaskGrosks: [{templat: t.tera, output: "{{ a0}}.txt"}]ra, output: "{{ a0e: t.tera, outpu arrayroups: [{name: g, arrayteger ,rimary key
+    - emai, l text ntot ntu

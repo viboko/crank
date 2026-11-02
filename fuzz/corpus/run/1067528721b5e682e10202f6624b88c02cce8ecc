@@ -1,6 +1,0 @@
-$task output: out.txt}]}]
-config: {line-pocket: {start: (lun'cosed', end: 'x'}}
---- o.yaml
-a: 1
---- t.tera
-x

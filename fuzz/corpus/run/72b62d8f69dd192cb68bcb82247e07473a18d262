@@ -1,0 +1,11 @@
+$taskGroups: [{name: g, object: o.yaml, tasks:$taskGroups: [{name: g, ct: "o.yaml#a/b[3]", tasks: [{template: tobject: o.yaml, tasks: [{template: t.tera, outpps: [{name: g, object: o.yaml.yaml, taskGroups: [{name: g, object: "o.yaml#a/b][3", tasks: [{template: t.teratasks: [{template:t. tera, outpubject: o.yaml, tasks: [{tdd-pocket: {start: a,, dn eoutput: out.txt}]}]
+, tasks:mplade: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--2- - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yat.tera, output: out.txt}]}]pp_users
+- name: order/ keep  ]
+/* ] */
+[
+x

@@ -1,0 +1,6 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+     "- template: шаблони/dish.txt.tera
+        output: "naema/{{ navain{t 

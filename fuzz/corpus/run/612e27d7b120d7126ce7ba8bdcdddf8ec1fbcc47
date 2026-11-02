@@ -1,0 +1,33 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valu-e {
+        result = ch.to_string() + result;
+    }
+    result
+}
+// G--- filters/pad.rhai
+fn filter(value, args)  else { 10 };
+    let text = value.to_string();
+    while text.len() < width {
+      line  text += ".";
+    }
+    text
+}
+--- words.yaml
+words:
+  - level
+  - stressed
+  - drawer
+--- wo&rds.txt.tera
+{backwards }}
+{% endfor -%}

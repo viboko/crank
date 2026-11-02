@@ -1,0 +1,74 @@
+$taskGroups: [{name:aml, tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filtyaml, tasks: [{tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--taskGroups: [{name: g, object: o.yaml, taasks: [{tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(value) { value }
+--- otemplate: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(value) { value }
+--- o.yaml
+a: 1
+--- t.tera
+- o.yaml
+a: 1
+
+--- f.rhai
+fn filter(value) { value }
+--taskGroups: [{name: g, object: o.yaml, taasks: [{tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(value) { value }
+--- otemplate: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(value) { value }
+--- o.yaml
+a: 1
+--- t.tera
+- o.yaml
+a: 1
+--- er(value) { value }
+--- otemplate: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+-y.--o aml
+a: 1
+--- er(v--- er(value) { value }
+--- otemplate: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+-y.--o aml
+a: 1
+--- er(value) { value }
+--- o.yaml
+a: 1
+--- t.tera
+xfn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(value) { value }
+--- o.yaml
+a: 1
+--- t.tera
+x

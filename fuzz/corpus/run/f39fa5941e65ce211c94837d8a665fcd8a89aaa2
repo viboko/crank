@@ -1,0 +1,22 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ n*me }}.py"
+  - name: schema
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+        output: schema.sql
+--- app.yaml
+models:
+  - name: user
+    fields: [id, email]
+  - name: order
+    fields: [id, user_id, total]
+--- model.py.tera
+# Genera(
+{%- for field in model.fields %}
+    {{ field }} TEXT{% if not loop.l'
+      end: '-- ]'

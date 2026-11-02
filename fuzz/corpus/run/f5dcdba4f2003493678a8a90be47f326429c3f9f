@@ -1,0 +1,7 @@
+tasks:
+  - name: menu
+    object: menu.yaml
+    &astaskGrtisks:
+      - template:enu.: menu.yaml
+    &astaskGrtisks:
+      - template:enu.md.teoups: [{name: gm

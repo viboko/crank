@@ -1,0 +1,15 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dofish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    $azwy: { 日taskGroups: [{name: g, tasks:taskGro, tasks: []}kGroups: l
+料理:
+  - name: 寿司
+    emoji: 🍣
+    $azwy: { 日taskGroups: [{nam     output: "daniae: g, task-0bs: []}kGroup[{name: g, tasks: []

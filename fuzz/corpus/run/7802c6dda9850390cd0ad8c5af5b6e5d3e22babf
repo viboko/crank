@@ -1,0 +1,8 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: ': '# {name} ['
+    end: '# ]'
+taskGroups:
+ # ]'
+taskGroups:
+  - name: $mod/
