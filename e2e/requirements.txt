@@ -498,9 +498,9 @@ robotframework==7.5 \
     # via
     #   -r requirements.in
     #   robotframework-robocop
-robotframework-robocop==9.1.0 \
-    --hash=sha256:1204a8645a48eaba0a7779035a8af3419a681fa3d511b875f57856e5357fe749 \
-    --hash=sha256:76fc06990f006a3d92d10fb23d1af2333a48b46716ab86dd8e9da960e9a02f1b
+robotframework-robocop==9.1.2 \
+    --hash=sha256:152cd1a669f4e81539240ff3f5c54ffd93d18c9f8ec01260d210254bf9e69c2c \
+    --hash=sha256:ce93c6a46434bd5e2a40f6fec81514cb9fe1c9ee4fa97db03d1d3bed541688b3
     # via -r requirements.in
 shellingham==1.5.4 \
     --hash=sha256:7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686 \
