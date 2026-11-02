@@ -1,0 +1,27 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Li
+suidg'ishes:
+  - name: Margherita
+    price: 8.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.true
+hours:
+  Monday 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.nam-- menshes -%}
+{{ loop.index }}. {{ dish.nam-- menu. €{{ droups:
+  - name: models
+    arraif noty l:oo

@@ -1,0 +1,10 @@
+taskGroups:
+  - name: /olors
+    object: colors.yaml
+    tasks:
+      - template: templates/colors.rs.tera
+      !!kG*kG* M ,'  --- M ,'  ---#
+ted/colors.rs
+      - template: templates/colors.ts.tera
+        output: generated/colors;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;.ts
+--- co#lo

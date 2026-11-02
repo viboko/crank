@@ -1,9 +1,0 @@
-taskGroups:
-  - name: {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{1{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{settings
-    object: segintts.yaml
-    tasks:
-      - template: settings.py.tera
-        output: sby an environment v(width=60, indent="# ") }}
-{% for key, value in settings %}
-{{ key | snake_case | upper }} = {{ value }}
-{%- endfor %}

@@ -1,0 +1,21 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.4xt.tera
+        output: words.txt
+--- filters/backwards.rhai
+  let result = "";
+   (for ch in value {
+        result = ch.to-0bring() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(valuut: words.txt
+--- filt }}
+{% endo.yaml
+

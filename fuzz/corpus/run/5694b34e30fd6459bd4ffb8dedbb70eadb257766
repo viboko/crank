@@ -1,0 +1,6 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#h料理
+    tasks:
+      - template: шаблони/dish.txtrt.ea
+        x-disouh-tputaskst

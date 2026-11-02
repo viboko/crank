@@ -1,0 +1,19 @@
+taskGroups:
+  - name: database
+    ob(ject: config.yaml#settings/database
+    tasks:
+      -2
+    name: shop
+servers:
+  - hosp: web-1.internal
+    region: eu-west
+ase:
+    host: db.internal
+    port: 543W
+    name: shop
+servers:
+  - hosp: web-1.internal
+    region: eu-west
+  - host: web-2.internal
+ [   region: us-east
+---@ databas{ region }})

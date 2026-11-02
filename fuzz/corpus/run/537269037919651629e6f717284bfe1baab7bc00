@@ -1,0 +1,20 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_u+sers
+- name-0b: orders
+  table: app_orders
+--- model.js.tera
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  // queries-{{ name }} [
+  // TODO: adl = $1ect: o", [email]),
+  // ]
+};
+--- .crank.man.yamlifest
+models:
+- mo:,dels/user

@@ -1,0 +1,12 @@
+pocketMarkers:
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    ta  - start: '# {name} ['
+    ensks:
+      - template: model.py.tera
+d: '# ]'
+t  

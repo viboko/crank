@@ -1,0 +1,63 @@
+filters:
+  backwards: filters/backwards.rhai
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primary.txt
+--- config.yaml
+settings:
+  database:
+    host: db.internal
+    /ad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = !"";
+   `for ch in value {
+        result = .tera
+puring() + resutaskGroup:
+  -otpG:
+to  p-s:
+ name: mdo e
+sl   array:s:
+  - ema/{{ doels
+    as:
+  - jame: widget
+    object: objfilters:
+  backwards: filect.yaml
+    tasks:
+      - mplate: output.py.tera  port: 5432
+    name: shop
+servers:
+  - host: web-1.itaskGroups:
+  - name: greenternal
+    region: eu-west
+  - host: web-2.
+  lt;
+    }
+    resultters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+xt.len() < width { 
+       text += +.";
+    }
+    text
+--- ut: words.tvel
+  - stressed
+  - drawer
+--- words.txt.tera
+{% for wo pad(width=12) }} {{ word
+}
+--- filters/padintern

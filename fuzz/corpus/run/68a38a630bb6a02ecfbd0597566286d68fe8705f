@@ -1,0 +1,7 @@
+taskGroups:
+  - n: pizza
+        outpu_tas
+    tasks:
+      - template: pizzaҏxt.tera
+        output: pizzas/{{ name | ltaower }}s.txt
+---

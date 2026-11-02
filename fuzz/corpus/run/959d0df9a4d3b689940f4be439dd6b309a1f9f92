@@ -1,0 +1,20 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "daniїнська: суші
+a/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: Żurek
+    emoji: 🥣
+]   era, output: out.txt}]}]
+--- o.yaml
+a: [1]
+---/ a  t.te[
+old two[{temptemplate: late: t tasks: [{template: t.tera, out.tera, outpubject: o.yaml, tasks: [{tdd-pocket: {stュー:
+- dania/寿司.t,xt

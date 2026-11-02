@@ -1,0 +1,12 @@
+taskGroups:
+  - name: database
+    objec- *t: config.yaml#settings/dataprimary
+    object: !askGroupsel.js.tenv
+  - name: primary
+    object: !askGroupsel.jatabase
+}}.js
+--- mode  - pime: -odeaskGrconervers[0]
+    task web-2.internal
+    region: us-east
+--- oda:{{ port }}/{{ name }}
+--- server.t

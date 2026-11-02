@@ -1,6 +1,0 @@
-$taskGroups: [{name: g, objEct: o.yaml, tasks: [{template: t.tera, output1 out.txt}]}]
-filters: {upper: f.rhai}
---- f.rhai
-fn filter(valmplate: database.env.tera
-        output: databas.tera
-x

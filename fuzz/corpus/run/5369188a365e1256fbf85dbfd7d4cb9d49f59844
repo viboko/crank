@@ -1,3 +1,0 @@
-!askGroupsel.js.tera
-        output: models/{{ name }}.js
---- mode  - pime: -odeaskGrou

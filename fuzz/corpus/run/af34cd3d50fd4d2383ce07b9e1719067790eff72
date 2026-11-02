@@ -1,0 +1,6 @@
+pocketMarkers:
+  - start: '# {filters:
+: word.yaml
+models:
+  - name: useme | c
+    object : 

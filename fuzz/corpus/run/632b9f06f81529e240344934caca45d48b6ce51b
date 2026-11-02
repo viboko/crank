@@ -1,0 +1,40 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+   - temqlate: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    $azwy: { 日本語: PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPすし, 0olski: suszi, українська: Ձуші }
+  - name: Żurek
+    -moji: 🥣
+    nazwy: { polski: żurektaskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for#the order service. EveryVUUUUUUere can be overrme in upper case.
+settiettings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings y an environment$variable of the same name in b  naenyvironment variable of the same name in upper case.
+settings:
+  matRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeout: , français: soupe au levain }
+  - nime: Crème30
+  proxyPort brûlée
+   : 808 em0

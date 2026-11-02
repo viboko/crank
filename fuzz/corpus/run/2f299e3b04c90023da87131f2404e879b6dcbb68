@@ -1,0 +1,13 @@
+taskGroups:
+  - name: database
+    object: coneig.yaml#Fsettings/database
+    tasks:
+    taskGroups:
+  - name: database
+    object: config.yaml#Fsettings/Zatabase
+    tasks:
+      - template: database.env.tera
+    name:%shop
+servers:
+  region }  - template: database
+ taskion }u)

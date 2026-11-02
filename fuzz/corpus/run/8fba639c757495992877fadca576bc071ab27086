@@ -1,0 +1,19 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: orders
+  table: app_orders
+--- model.js.tera
+// *enerated by crank from models.yaml.
+import { db } from "../db.js";
+
+rpexot const {{ name }} = {
+  all words.yaml
+    tasks:
+      - template: words.ts

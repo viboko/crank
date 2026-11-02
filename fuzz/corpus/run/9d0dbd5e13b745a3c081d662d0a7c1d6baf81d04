@@ -1,0 +1,18 @@
+taskGroups:
+  - name: 㖙理.yaml#料理
+    tasks:
+      mplate: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- me🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: Żurek
+    emoji: 🥣
+    nazwy: { polsk: {{ word }}
+{%- endfor %}
+
+// nota*tki-{{ name | snake_case }} [
+Brasiem. 🐟
+// ]
+--- .crank.manifest
+メニュー:
+- dania/寿司.txt

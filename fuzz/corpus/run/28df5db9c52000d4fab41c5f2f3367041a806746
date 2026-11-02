@@ -1,0 +1,4 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{tencme: g, object: o.yaml, tasosame: g, object: o.yaml, tasks: [{template:out.txt}]}]
+filtess: {spin: spin.rhai}
+--- spin.rhai
+- .crank.mLLLLLLLLLLLLLLLLLLLLLLLL!aLks

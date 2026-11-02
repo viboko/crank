@@ -1,0 +1,36 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+  $ result
+}
+--- filters/p-- filters/backwards.rhai
+fn filter(valu: words
+    object: words.yaml
+    tasks:
+      - template: words.txte {
+        result = ch.to_string() + result;
+    }
+  $ result
+}
+--- filters/p-- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {for word in words -%}
+{{ word | pad(width=18)   output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   taskGroups::tt55555555555555555555555555555555555555555500000000012861934301395841478ch.to_string() + result; }} {{ word | backwards }}
+{% endfor -%}

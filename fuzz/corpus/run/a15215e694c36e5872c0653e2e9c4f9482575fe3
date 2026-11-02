@@ -1,0 +1,11 @@
+t#askGroups:
+ ' - name: settings
+    object: settings.yaml
+    tarian: true
+  - name: Diavola
+    price: 22
+   arian: true
+hours:
+  Monday: closmodeled
+  Friday: 11:00–23:00
+te: setti endfor %}

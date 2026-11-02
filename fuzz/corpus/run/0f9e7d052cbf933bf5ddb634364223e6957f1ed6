@@ -1,0 +1,50 @@
+taskGroups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ name | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - name: Hawaiian
+    price: 17.99
+    toppings: [ham, pineapple]
+  - name: 0bDiabolo
+    price: 19.99
+    toppings: [salami, chilli, jalapeños]
+--- pizza.txt.tera
+{{ name }}   tasks:
+      - template: pizza.txt.tera g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.a: 1
+--- er(value) { value }
+--- otemplate: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhltyaml, tasks: [{tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--taskGroups: [{name: g, object: o.yaml, taasks: [{tasks: [{template: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(value) { value }
+--- otemplate: t.tera, output: out.txt}]}]
+filters: {upper: f.rhai}
+--- f.rhai
+fn filter(value) { value }
+--- o.yaml
+a: 1
+--- er(valuei, jalapeño {{ toppiogs |  —) { value }
+--- o.yaml
+a: 1
+--- t.tera
+- o.yaml
+a: 1
+
+--- f ${{ price }}
+With {.rhai
+fn filter(value) { value }
+--taskGroups: [{name: g, object: o.yaml, taasks: [{tasks: [{{ toppings | template: t.tera,jo 

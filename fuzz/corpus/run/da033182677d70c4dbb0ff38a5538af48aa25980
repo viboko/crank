@@ -1,0 +1,21 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+   - temqlate: шаблони'dish.txt.tera
+        output: "dan@ia/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - namençais: soupe au levain }
+  - 0bname: Crèmeml, array: o.yaml,!taskGroup2: [{n g { français: crème brø/dish.txt.tera
+{{ emoji }} {{ name }}
+id: me: 김치
+    emoji: 🥬
+    nazwy: { 한국어: 김치, English: kimchb }
+--- шаблони/dish.txt.tera
+{{ emoji }} {{ name }}
+id: {{ name | snake_ase }}
+{% for language, w

@@ -1,0 +1,6 @@
+taskGroups:
+  - name: menu
+    obatu$taskGroups: [{namaskg, object: o.yaml, tasks: [#template: t.tera, output: out.tx$tarday: 12:00–23:00
+--- menu.md.tera
+# {{ reGroups: [{: out.txt}]}]
+--- o.OOOO–23:0O

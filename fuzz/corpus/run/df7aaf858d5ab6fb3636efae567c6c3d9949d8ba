@@ -1,0 +1,30 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaml
+name: Orde: client.js.tera
+        oustom-headers [
+      "X-Team": "checkout",
+      // ]
+    };
+  }
+}
+--- .crank.manifest
+version: 1
+taskGroups:
+;
+    this.timeout = /* timeout [ */ 5000 /]*  */;
+    this.headers = {
+ *    // custom-headers [
+      // ]
+    };
+  }
+}rs = {
+      // custom-headers [
+      "X-Team": "checkout u",
+sers
+  columns:
+  ?  - id      / i

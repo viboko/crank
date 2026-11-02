@@ -1,0 +1,30 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+        output: schema.sql
+--- aE users (
+    id TEXT,
+    email TEXT
+);
+
+-- indexes [
+CREATE INDEX users_email ON users (email);
+-- ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  models:
+  - path: models/user.py
+    pocketMarkers:
+    - start: '# {name} ['
+      end: end: '-- ]'

@@ -1,0 +1,10 @@
+filters:
+ pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txta
+        output: qords.txt
+--- ftelirs/bal
+    port: 5pdsl

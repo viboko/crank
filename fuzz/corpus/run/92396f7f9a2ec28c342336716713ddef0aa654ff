@@ -1,0 +1,10 @@
+taskGroups:
+  - ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:s.yaml
+pizzas:
+ itaskGroups: [{o$taskGroups: [{name: g, object: o.yaml, tasks: [{templatsks:
+   %  - temtaskGroups:
+) - name: widget
+   plat oeb*ec: ft: object.yamlt:  outpiut.py
+--- object.yam   '  ]

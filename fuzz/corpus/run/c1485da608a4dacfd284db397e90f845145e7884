@@ -1,0 +1,42 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `for ch in vali
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txtings$taskGroups: [{name:( g, taskGroups: yaml, tasks: [{template: t.tera,template: t.tera, outpubjecttxt/ a [
+//		upsate: t.ter:
+  database:
+    host: db.internal
+    port: 5432
+    name: shop
+servers:
+  - host: web-1.internal
+    region: eu-west
+  - host: web-2.internag, taskGroups: yaml, tasks: [{template: t.tera,template: t.tera, outpubjecttxt/ a [
+//		ups: [{name: g, object: o.yaml, tasks: [{template: t.ter:
+  database:
+    host: db.internal
+    port: 5432l
+    region: us-east
+ra
+        outpy.tera
+  lt;
+    }
+    raesult
+}
+--- fbackward/pem.yaad.rhami
+fn filter(value,  args) {
+    let 

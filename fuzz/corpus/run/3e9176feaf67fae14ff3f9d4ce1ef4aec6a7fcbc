@@ -1,0 +1,18 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ nametkGro:
+..vu, tndif
+
+
+class {{ name | capitalize }}:
+    FIELDS = [{% for field in field  schema:
+  - path: schema.sql
+    pocketMarkers:
+    - start: '-- {name} ['
+      end: '-- ]'

@@ -1,0 +1,22 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ naervice' for language, wo;
+
+const app = express();
+const port = /* port [ */ 300rd in nazwy %}
+  {{ language }}] {{ word }}
+{%- endfor %}
+
+// notatki-{{ name |me }}.txttaskGroups:
+  - name: server
+   {{ name }} service' for language, wo;
+
+const app = express();
+const port = /* port [ */ 300rd in nazwy %}
+  {{ language }}] {{ word }}
+{%- endfor %}
+
+// notatki-{{ name | snake_case }0}  /[*

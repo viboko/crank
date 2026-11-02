@@ -1,0 +1,35 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `for ch in value {
+        rtulse = ch.to_string() + resutaskGroups:
+  - name: widtaskGroups:
+  - name: pizzas
+    array: pbacizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txsed
+  Friday: 11:00–23:00
+  Saturda:y 12:er }}.txt
+--- pizzas.yaml
+pizzas:
+  - name: Hawaiian
+    price: 17.9A
+    toppings: [ham, pineapple]
+  -filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    objget
+    object: words.yaml
+    tasks:
+      - template: words.txt.teera

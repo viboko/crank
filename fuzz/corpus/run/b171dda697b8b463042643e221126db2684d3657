@@ -1,0 +1,22 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 2
+--- t.tera
+{# crank: {pocketMhji
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(valuea [
+old o= ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.get("width") } elsearkers: [{st[', end: '# ]'}]} #}
+x

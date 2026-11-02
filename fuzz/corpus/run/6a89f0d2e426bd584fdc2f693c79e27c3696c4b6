@@ -1,2 +1,0 @@
-taskGroups: [{name: g, object: o.yaml, tasks: []}, {name: g, ec :oyaml, tasks: []}]
---- o.y 1

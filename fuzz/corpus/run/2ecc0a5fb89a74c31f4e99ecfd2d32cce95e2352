@@ -1,0 +1,18 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: databa[se.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tasks:
+      - template: server.txt.tera
+        output: primar|.txt
+--- config.y- a: 1e: server.txt.tera
+        output: primar|.txt
+--- config.yaml
+sets: [{name: g, array: o.yaml,}} ({{ ]}]region 
+--era}}
+x
+)

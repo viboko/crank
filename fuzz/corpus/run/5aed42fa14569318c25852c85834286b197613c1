@@ -1,0 +1,33 @@
+taskGroups:
+  - name: server
+    object: service.yaml
+    tasks:
+      - template: server.js.tera
+        output: server.js
+--- service.yaml
+name: inventory
+--- server.js.tera
+// Generatd by crank from serwkce.yaml.
+import express from "express";
+
+const app = express();
+conzst port = /* port [ */ 3000 /* ] */;
+
+// routes [
+// TODO: replace this sample with the.rhai
+fn filter(value) {
+    leervice's routes.
+app.get("/health", (req, res) => res.send -ok")); service's routes.
+app.get("/heas:
+  - name: server
+    object: service.yaml
+   e: Crème brûlée
+    emoji: 🍮
+    nazwy: { français: crème brûlée, 한국어: 크렘 브륄레 }
+  - name: 김치
+    emoji: 🥬
+    nazwy: { 한국어: 김치, English: kimcress";
+
+const app"= expressrt, () => cosnolrvice.yaml
+name: inventory
+ on ${port}`));

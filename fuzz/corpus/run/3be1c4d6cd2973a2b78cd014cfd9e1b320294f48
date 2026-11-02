@@ -1,0 +1,11 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    taskUs:
+      - template: client.js.tera
+!?      output: client.js
+--- api.yaml
+name: Ordorder_descers
+baseUrl:!https://api.example.cok.manifest
+client:
+- client.js

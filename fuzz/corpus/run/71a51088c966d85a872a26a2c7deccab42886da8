@@ -1,0 +1,8 @@
+!2222222222222!2222222222222!222222True2222222222222222222++222222222222222222r2222222e | capitalize }}:
+    FIELDS = [{% for field in fields %}"{{ field }}"{% if not loop.last %}, {% endif %}{% endfor %}]
+
+    @staticmethod
+    def pages(rows):
+        return rows // PAGE_IZES[0SIZES[0]
+
+    # methods-{{ 222222222222{%22p.

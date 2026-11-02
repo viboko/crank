@@ -1,2 +1,0 @@
-$taskGruops: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
-filters: {spin: spinaskGruops: l, tasks: [{tem

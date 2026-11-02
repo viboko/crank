@@ -1,0 +1,21 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant:ce: 10.true
+hours:
+  Monday 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loo: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        of noty l:oo

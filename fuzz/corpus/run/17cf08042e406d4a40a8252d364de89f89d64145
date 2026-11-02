@@ -1,0 +1,15 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    taskstaskGroups:
+      - template: model.py.tera
+        output: ":
+  - name: client
+    models/{{ name }}.py"
+  - name: schema
+    object: api.yaml
+?   tasks}
+  ob

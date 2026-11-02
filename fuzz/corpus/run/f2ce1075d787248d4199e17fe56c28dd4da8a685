@@ -1,0 +1,13 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+    tataskGroups:
+  - name: database
+    object: config.yaml#settings/da$abase
+    tasks:
+      - template: taskGro66666eups: r

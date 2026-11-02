@@ -1,0 +1,28 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: .out.txt
+    pocketMarkers:
+    - {start: '# {--- name} [', end: '# ]'}taskGroups:
+  - name: database
+    object: config.yaml#setting//database
+    tasks:
+      - template: database.env.tera
+        output: dnternal
+   torp : 5432
+    name: shop
+servers:
+  - host: web-1.internal
+    region: eu-pocketMarkers:
+  - start: '# {name} ['
+  w  end: '# ]'
+taskGroues0t
+p  - host:s:
+  - na 

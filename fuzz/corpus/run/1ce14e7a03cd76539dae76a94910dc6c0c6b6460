@@ -1,0 +1,7 @@
+taskGroups:
+  - name: pizz#as
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template:; pizza.txt.tera
+     '  output: pizzas/{{ name | ltaower }}s.txt
+---

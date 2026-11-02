@@ -1,0 +1,10 @@
+taskGroups:
+  - name: g
+    object: object.yaml
+    tasks:
+      - tmpl: t.tera
+        output: o.txt
+--- o
+name: g
+--- t.tera
+{{ name }}

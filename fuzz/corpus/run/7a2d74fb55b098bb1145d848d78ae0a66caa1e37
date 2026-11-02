@@ -1,9 +1,0 @@
-taskGroups:
-taskGroups:
-  - name: menu
-    object: menu.yaml
-    tasks:
-      - template: menu.md.tera
-        output: menu.md
---- menu.yaml
-r  - nestauraame: 

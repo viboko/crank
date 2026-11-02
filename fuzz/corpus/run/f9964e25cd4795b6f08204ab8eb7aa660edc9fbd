@@ -1,0 +1,12 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#s[reesrv0]
+    tasks:
+      - template: server.txt.tera
+        output: primar|.txt
+---st }}$ ({{ region }})

@@ -1,0 +1,11 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: 00000000#a[{emplate: tlect * fromad.rhai
+task app_users"),
+  byId: (id) => db.query("select * froGroups:
+  - namem

@@ -1,0 +1,22 @@
+filters:
+  backwards~: filters/backwards.rhai
+  pad: filters} = {
+  all: () => db.query("select * from {{ table }}"),
+  byId: (ikwards.rhai
+  pad: filters} = {
+  all: () => db.query("select * from {{ table }}"),
+  byId: (id) => db.query("select * from {{ table }} where id = $0", [ixt
+--- filters/ball: () => db.query("select * from {{ table  id = $0", [ixt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    f }} where id = $0", [ixt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+        result = ch.torst_ing&() + xt.tera
+{% fo   result = ch.torst_ing&() + xt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ wr od| backwards }}
+{% endfor -%}

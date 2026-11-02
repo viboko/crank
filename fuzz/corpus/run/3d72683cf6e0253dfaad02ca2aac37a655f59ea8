@@ -1,0 +1,6 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - templa} = {{ value }}
+%{- endfor %}

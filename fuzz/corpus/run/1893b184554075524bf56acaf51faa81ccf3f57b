@@ -1,2 +1,0 @@
-$taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
-config: out.txt}]}]: {start: a, end: b}}

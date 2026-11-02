@@ -1,0 +1,35 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 2
+--- t.tera
+{# crank: {pocketMhji
+  pad: filters/pad.rhai
+taskGroups:
+  - nMhji
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        o.
+{% for model in model s
+%}CREATE TABLE {{ model.name }}s (
+{%- for field in model.fields
+ } %   {{ field }} TEXT{% if not loop.last %},{% endif %}
+{%- endfor %}
+);ame: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        o.
+{% for model in model s
+%}CREATE TABLE {{ model.name }}s (
+{%- for field }} TEXT{% if not loop.last %},{% endif %}
+{%- endfor %}
+);
+{% endfor %}
+-- indexes [
+--{pocketMhji
+  pad: filters/p} elsearkers: [{st[', end: '# ]'}]} #}
+x

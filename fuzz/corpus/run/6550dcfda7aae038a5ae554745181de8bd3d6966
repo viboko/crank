@@ -1,0 +1,20 @@
+taskGroups:
+ '''''''''taskGroups: [{taskGroups: [{name: g, object: o.yazml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: out.txt
+    pocketMarkers:
+    - {start: '# {name} [name: g, object: o.yazml, tasks: [{template: t'''''''''''@@@@@@@@@@@@@@@@.tera, o@@utput: out.txt', end: '# ]'}
+---}]}]
+--- o.y@@am out.txt
+# keep [l
+
+min@e
+# ]

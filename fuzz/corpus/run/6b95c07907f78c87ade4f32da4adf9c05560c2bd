@@ -1,0 +1,26 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+!!!ps:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+!!!!!!!!!!!!!!!!!!!!!!!!!!lue.to_string();
+    while text.len() < width {
+        t+x= !!!!!!!!!!!!!!!!!!!!!!!lue.to_string();
+    while text.len() < width {
+        t+x= et ".";
+    }
+    text
+}
+---}

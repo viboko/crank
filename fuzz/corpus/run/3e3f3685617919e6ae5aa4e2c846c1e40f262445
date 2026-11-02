@@ -1,0 +1,5 @@
+pocketMarkers: [{start: '# [', end: '# ]'}]
+taskGroups: [{name: g, object: o.yaml< tayaml
+a: 1
+--- t.tera
+x

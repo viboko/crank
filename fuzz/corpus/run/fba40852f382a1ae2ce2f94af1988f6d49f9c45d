@@ -1,0 +1,7 @@
+$tsect: o.yaml, tasks: [{uemate: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 0
+--- t.tera
+x
+--- .crank.manifest
+- out.txt
