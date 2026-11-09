@@ -1,0 +1,13 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a [ */"30000 /* ] */;
+    this.heade's = {
+      // custom-headers [
+      "X-Team": "checkout",
+      // ]
+    };
+  }
+}
+--- .crank.manifest
+version: # ]
+|

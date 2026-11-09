@@ -1,0 +1,12 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+    |    output: database.env
+  - name: o.yaml
+a: 1
+--- t.tera
+{{ a | seu-wes0t
+  - host: web-2.internal
+    region: us-east{ host }} ({{ region }})R

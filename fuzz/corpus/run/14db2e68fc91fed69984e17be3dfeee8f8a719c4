@@ -1,2 +1,0 @@
-$taskGroups: [{ct: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
-co-pocket: {start-pocket: {start: a, end: b}}

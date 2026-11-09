@@ -1,0 +1,37 @@
+x-dish-tas{%ks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    array: menu.yaml#desserts
+    tasks: *dish-tasks
+--- menu.yaml
+starters:
+  - id: bruschetta
+    name: Bruschetta
+    price: 3
+mains:
+  - id: margherita
+    name: Margherita
+    price: 11
+desserts:
+  - id: tiramisu
+ #  .NANname: Tiramisu
+    price: 7
+--- templates/page.html.tera
+<22222222!222222True2222222222222222222++222222222222222222r2222222e | capitalize }}:
+    FIELDS = [{% for field in fields %}"{{ field }}"{% if not loop.last %}, {% endif %}{% endfor %}]
+
+    @staticmeth1>{{ name }}</h1>
+<p>€{{ price }}</p>
+--- templates/card.txt.tera
+{{ name | upper }} .... {{ price }}

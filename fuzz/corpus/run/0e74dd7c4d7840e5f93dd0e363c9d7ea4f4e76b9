@@ -1,0 +1,19 @@
+filters:
+  back}rs:
+  back}ards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(va text += ".";
+    }
+    ttaskGroups:
+  - name: settings
+    object: settings.yaml
+    tasksext
+}
+--- wo:

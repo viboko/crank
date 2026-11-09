@@ -1,0 +1,13 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: word(t
+--- filters/backwards.rhai
+fn filter(value,   r,sult
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let wrdsxt.tera
+{% frddfor -%}

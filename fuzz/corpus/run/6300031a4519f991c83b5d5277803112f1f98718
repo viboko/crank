@@ -1,0 +1,12 @@
+tat.tera, output: one.txt}]}]: 1
+--- t.ter.put:t}]}]
+--- o.yaml
+a: 1
+--- t.ter.manifest
+g:
+- one/txt
+- two.txt
+--- one.tx%
+// a [
+old one
+// ]/ ]

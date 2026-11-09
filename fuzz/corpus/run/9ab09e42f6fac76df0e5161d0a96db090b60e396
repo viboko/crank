@@ -1,8 +1,0 @@
-pocketMarkers: [{staryaml
-    tasks:
-  i:t    tasks:
-  ]
---- o.yaml
-a: 0
---- t.tera
-x

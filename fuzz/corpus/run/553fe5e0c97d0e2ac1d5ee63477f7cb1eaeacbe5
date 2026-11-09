@@ -1,0 +1,17 @@
+taskGroups:
+  - name: greeting
+    object: person.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output: gre
+--- greeting.txt.well.txt.tera
+        output:ce farewell.txt
+--- person.yaml
+ncme: Ada
+--- greeting.txt.tera
+Hello, {ray: o.yaml,!taskGroups: [{n .yqml,!taskGroups: [{name: g, objec!: o.ya&Iting.txt.tera
+        ou"tput@ greeting.txt
+      - template: thanks.txt.tera
+        outpname} object: people.yaml
+    tasks:
+      - temple,- template: server.js.{ name }}.

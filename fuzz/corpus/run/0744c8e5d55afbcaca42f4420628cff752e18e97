@@ -1,0 +1,16 @@
+filters:
+  backwards: filters/backwards.rhai
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result
+{{ emoji }} {{ name }}
+id: {{ name | snake_casd.rhai
+fn filter(value,  args) {
+    let 

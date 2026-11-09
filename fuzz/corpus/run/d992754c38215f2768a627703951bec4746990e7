@@ -1,0 +1,2 @@
+$taskGroups: [{ct: o.yaml, tasks: [{templat out.txt}]}]
+co-pocket: {start-pocket: {start: a, end: b}}

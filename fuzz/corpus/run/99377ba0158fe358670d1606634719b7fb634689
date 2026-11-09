@@ -1,0 +1,16 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: 00000000000000000000000000000000000000000000000000000018446744073709551614users
+  table: app_u2roups: [{Name: g, obje0bct: ".my]loa#a[{emplate: tfilters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    objec.tera, output: "{{ name: g, array:t: words.yaml
+    tasks:
+      - template: words. otx.

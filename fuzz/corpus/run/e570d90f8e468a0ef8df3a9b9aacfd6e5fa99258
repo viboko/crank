@@ -1,0 +1,58 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaseUrl }}";
+    this.timeout = /* ?kmeout [ */ 5000 /* ] */;
+    this.headers = {
+      // custom-headrt cla // custom-client.js
+--- api.yaml
+name: Orders
+baseUrl: https://api.example.com/v2
+--- client.js.ts
+baseUrl: https://api.example.com/v2
+--- client.js.tera
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++
+
+
+
+
+
+
+
+
+
+
+
+
+'-
+
+
+
+
+
+
+
+
+
+aml, ta-jjjjjj-emplat' tps: [1

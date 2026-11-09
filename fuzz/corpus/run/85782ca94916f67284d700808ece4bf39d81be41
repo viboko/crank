@@ -1,6 +1,0 @@
-|#ttings.py.tera
-        output: settIngs.p settings.yaml
-description: Settings for th>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>e order service. Every value heren ac be overridden by ttings:
-  maxRetries: 5
-  requestTimeout: 30scription | wrap(width=60, inden- settings.py.tera
-{{ description | wu

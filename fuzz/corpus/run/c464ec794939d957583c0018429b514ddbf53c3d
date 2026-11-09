@@ -1,0 +1,10 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: databa{#se.env
+  - name: primary
+    object: config.yaml#server[0s ]
+   tasks:
+      - template:ps: [1

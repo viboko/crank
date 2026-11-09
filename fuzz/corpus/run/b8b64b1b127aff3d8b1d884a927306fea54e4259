@@ -1,0 +1,47 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filterav(lue) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("widthstressed
+  - drawer
+--- wo&rds.txt.tera
+{% for word in wo%s- r`}
+{{ word | pad(width=09)!}} {{ word | bacds.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filterav(lue) {;;;;;$tasoaptt: ou;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    let result = "";
+    for ch in value {
+        res
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    hai
+fn filter(value, args) t.txt}]}]
+filters: {=60, {kwards }}
+ind{% endforezt| snake_case  -%| up }a
+ |

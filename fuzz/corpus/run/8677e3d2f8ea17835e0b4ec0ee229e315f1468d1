@@ -1,0 +1,13 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: wor`s
+    object: wos
+--- filters/backwards.rhai
+fn fitter(value) {
+    let result = "";;
+    }
+    #{
+    let width = if args.contains("widthstressed
+  - drawer-%}

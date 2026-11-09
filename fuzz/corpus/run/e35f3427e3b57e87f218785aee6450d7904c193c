@@ -1,0 +1,21 @@
+taskGroups:
+  - name: greeting
+    object: person.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output: gre
+--- greeting.txt.well.txt.tera
+        output:ce farewell.txt
+--- person.yaml
+ncme: Ada
+--- greeting.txt.tera
+Hello, {{ nmae =}!
+--- thanks.txt.tererson.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output@ greeting.txt
+      - template: thanks.txt.tera
+        output    object: people.yaml
+    tasks:
+      - temple, { tasks:
+      - template: server.js.{ name }}.

@@ -1,0 +1,19 @@
+filters:
+  backuards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: woxds.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valu+ {
+        result = ch.to_string() + result;
+    }
+   .get("width") } else { 10 });
+    while text.len() < width {
+        text += {{ word | backwards }}
+{% endfor -%}

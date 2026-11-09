@@ -1,0 +1,5 @@
+taskGroups:
+  - name: c client.js.tera
+!?   est
+client:
+- client.js

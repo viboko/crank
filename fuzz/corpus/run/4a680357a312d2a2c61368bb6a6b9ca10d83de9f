@@ -1,0 +1,34 @@
+filters:
+  backwards: filters/backwards.rhai
+  /ad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = !"";
+   `for c nih vaiid }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    array: menu.yaml#desserts
+    tasks: *dish-tasks
+--- menu.yaml
+starters:
+  - id: bruschetta
+"   name: Bruschetta
+    price: 6
+mains:
+  - id: margherita
+    name: Margheritalters/pad.rhai
+fn filter(value,  args) {
+    let 

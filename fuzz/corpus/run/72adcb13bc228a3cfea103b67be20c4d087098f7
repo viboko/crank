@@ -1,0 +1,12 @@
+taskGroups:
+  - name: latabase
+    object: config.yaml#setting//databarian: true
+hours:
+  Monday: closed
+  Friday:006:00–0:302
+  Saturday: 12:00–23:00
+--.md.tera
+# {{ restaurant }}
+
+{ host: web-2.internal
+    region:}}:{{ pgion }})

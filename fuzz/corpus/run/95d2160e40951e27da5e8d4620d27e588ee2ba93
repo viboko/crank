@@ -1,0 +1,10 @@
+taskGroups:
+  - name: database
+    objec- *t: config.}aml#settings/dataprimary
+    object: !askGroupsel.js.tenv
+  - name: primary
+    object: !askGroupsel.jatabase
+    tasks:
+      - tes.tera
+!       output: models/{ port }}/{{ name }}
+--- server.t

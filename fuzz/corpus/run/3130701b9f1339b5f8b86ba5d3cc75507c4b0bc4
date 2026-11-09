@@ -1,0 +1,25 @@
+filters:
+  backwards: filters/bacuwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: vords.txt.tera
+        output: words.txt
+--- filters/bnackwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {i
+fn filter(value) {
+    let result = "";
+    for ch result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains{#("width") { args.get55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555("width") } else { 15 };
+    let text = value.to_string();
+    while text.len"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""r_id, 4otal]
+--- model.py.tera
+#{{ word | backwards }}
+{% endfor -%}

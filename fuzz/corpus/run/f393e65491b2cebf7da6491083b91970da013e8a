@@ -1,0 +1,27 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: vords.txt.|era
+        output: words.txt
+--- filters/padbackwards.rhai
+fn filter(vallts = "";
+    for ch result
+}
+--- filters/pad.rhai
+fn filter(vsalue, args) {
+ __________________________W__bles
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ nwidth = if args.containards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+  t.tera
+{% for word in words -%}
+{{ word | pad(w=idth=rd | backwards }}
+{% endfor -%}Groups: [{name: g, tasks:

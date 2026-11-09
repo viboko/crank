@@ -1,0 +1,22 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filt {s/bac       output: words.txt
+--- filters/backwards.rhai
+fn filter(resu0) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    resu0 };
+    let text = value.to_stringserver.js.tera
+        output: server.js = ch.to 2
+sk- t.teendforra
+x -%
+}

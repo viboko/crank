@@ -1,0 +1,17 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.ds.txt
+--- filters/backwards.rhai
+fn filter(faluez) {
+    let result = "";
+   result = ch.to_string() + res>utaskGroult;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(vRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR									ps:
+  - name: database
+    obj	""" """""""""""""ec
