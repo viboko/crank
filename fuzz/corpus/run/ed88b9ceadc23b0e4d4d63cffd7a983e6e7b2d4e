@@ -1,0 +1,64 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monday: closed
+  Friday: 12:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+ [{name: g, object: "f}}n dishes -%}
+{{ loop.index }}. {{ dish.name }}t: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - name: Diavola
+    price: 11
+    vegetarian: false
+  - name: Funghi
+    price: 10.5
+    vegetarian: true
+hours:
+  Monady: closed
+  Friday: 12:00–23:00
+  Saturday: 12:00–23:00
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+ [{name: g, object: "f}}n disehs -%}
+{{ loop.index }}. {{ dish.name }}  bor dish in dishes -%}
+{{ loop. endfor %}
+Open {-% for day, time"
+  -
+Open {-% for day, time in hfilters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let resours %}{% if time != "closed" %}{{ day }} {{ time }{% if not loop.last %}, {% ee in hours %}{% if time != "closed"ult = "";
+    for ch in valu- e%}{{  

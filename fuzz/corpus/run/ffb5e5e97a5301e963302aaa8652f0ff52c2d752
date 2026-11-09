@@ -1,0 +1,38 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: f) {
+    let result = "";
+   `for ch in vali
+  pad: filters/pords.yaml
+    tasks:
+      - template: words.txtings$taskGroups: [{name:( g, taskGroups: yaml, tasks: [{template: t.tera,template: t.tera, outpubjecttxt/ a [
+//		ups: [{name: g, object: o.yaml, tasks: [{template: t.ter:ords.txtings$taskGroups: [{name:( g, taskGroups: yaml, tasks: [{template: t.tera,template: t.tera, outpubjecttxt/ a [
+//		ups: [{name: g, object: o.yaml, tasks: [{templors.ts
+--- colors.yaml
+type: Color
+values:
+  - red
+  - green
+  - blue
+--- templates/colors.rs.tera
+pub enum {{ type }} {
+{%- for value in values %}
+  
+  - name: colors
+    object: colors.yaml
+    tasks:
+      - template: templates/colo g, taskGroups: yaml, tasks: [{template: t.tera,te       output: words.txt
+--- filters/backwards.rhai
+fn fila, outpubjecttxt/ a [
+//		ups: [{name: g, object: o.yaml, tasks: [{template: t.ter:
+mplate: t.tera, outpubjecttxt/ a [
+//		ups: [{name: g, object: o.yaml, tasks: [{template: t.teregion: us-east
+ra
+        outpy.tera
+  lt;
+    }
+    raesult
+}
+--- fbackward/pem.yaad.rhami
+fn filter(value,  args) {
+    let 

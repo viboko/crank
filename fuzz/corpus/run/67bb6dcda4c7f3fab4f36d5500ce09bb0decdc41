@@ -1,0 +1,16 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be overri,den by an environment varirvice. Every value here can be overri,den4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444 by an environment variable of the same plate: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be overri,den by an environment varirvice. Every value here can be overri,denname in uppGer0cas080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{% for key, value in settings %}
+{{ key | snake_case | upper }} = {{ value }}
+{%- endfor %}

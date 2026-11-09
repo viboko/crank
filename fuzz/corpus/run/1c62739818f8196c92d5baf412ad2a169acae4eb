@@ -1,0 +1,12 @@
+taskGroups:
+  - name: menu
+    objec理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: Żurek
+    emoji: 🥣
+    nazwy: { polski: żprek, français: soup
+    price: filters:
+  backwards: filters/backwar     - template: words.txt.tera
+ exg

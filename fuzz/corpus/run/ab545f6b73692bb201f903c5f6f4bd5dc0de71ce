@@ -1,0 +1,13 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer primary taskGroups: [{name:ay: o(t(taskGrou-jjjjjj-'jjjjj-'-jjjjj*jjjjj.yaml, tasks: [{template: t.tjjjjjjjjjjjjjjjj-t(taskGrou-jjjjjj-'-jjjjj*jjjjjjjjjjjjjjjjjjjjjera, output: "{{ a0}}.(t(taskGrou-jjjjjj-'-M'-jjjjj*jjjjjjjjjjjjjjjjjjjjj-t(taskGrou-jjjjjj-'jjjjj-'txt"}]}]
+--- o.yaml
+- a:key
+   

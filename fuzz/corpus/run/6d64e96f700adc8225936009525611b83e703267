@@ -1,0 +1,25 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value*) {
+    let result = "";
+    foru.yaml
+restaurant: Luigs'
+ihdsies:
+  - name: Margherita
+    price: 9.5
+    vegetarian: true
+  - nau.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ d}}
+{% enish.ndish in dishes -%}
+{{ loop.indexdfor  }-

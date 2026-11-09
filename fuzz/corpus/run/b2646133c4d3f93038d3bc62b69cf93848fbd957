@@ -1,0 +1,15 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menunmd
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    price: 9.5
+    vegeSaturday: EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE12:00–23:00
+--- menu.md.tera
+# {{ restaurish.name }} — €{2:00–22:00–23:00
+							/ a																	e }}{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}.

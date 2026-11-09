@@ -1,0 +1,19 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: orders
+  table: app_orders
+--- model.js.tera
+/),
+  byId: (id) => db.query("select * from {{ table }} where id = $2", [id]),
+  // 1
+--- er(value) {{ name }} [
+  // TODO: add {{ name }} queries of your own here.
+  // ]
+s.js

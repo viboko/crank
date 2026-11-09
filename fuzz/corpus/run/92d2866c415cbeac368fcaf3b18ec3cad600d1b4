@@ -1,0 +1,8 @@
+taskGropus:
+  - na/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, #olаїнська: суші }
+  - n)ame: Żurek
+    em$tin{t 

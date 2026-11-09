@@ -1,0 +1,50 @@
+x-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    ar-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: maml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    ar-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu#mains
+    tasks: *dish-tasks
+  - name: desserts
+    array: menu.yaml#dessert'
+    tasks: *dish-tasks
+--- menu.yaml
+starters:
+  - id:}}.txt"
+
+taskGroups:
+  - name:an starters
+    arr

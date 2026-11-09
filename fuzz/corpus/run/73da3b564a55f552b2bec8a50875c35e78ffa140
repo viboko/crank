@@ -1,0 +1,13 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: {{ word }}
+version: 2
+tkasGroups:
+  メニュー:
+  - dania/寿司.txt

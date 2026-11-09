@@ -1,0 +1,6 @@
+pocketMarkers:
+  - start: '# {name}.[ '
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yata

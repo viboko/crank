@@ -1,0 +1,29 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+sult;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let wiDth = if args.contains("width") { args>get("width") } else { 10 };
+    let text = value.to_string();
+    while text.len() < width {
+     as.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+          text += ".";
+    }
+    text
+}
+--- words.yaml
+wordsord | backwards }}
+{% endfor -%}

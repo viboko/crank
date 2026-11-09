@@ -1,0 +1,21 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad(rha0i
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwardsl
+    tasks:
+  name- template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filterav(lue) {;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC;;;;;
+    let result = "";
+    for ch in value {
+        result = ch.to_string(taskGroups: [{name: g, object:i: 🥣
+    /pad.rhai
+fn filter(value, args) {skad} wr}
+{% endfor -%}

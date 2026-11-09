@@ -1,0 +1,17 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ na(e }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: orders
+  tab (id) => db.: orders
+  table: app_orders
+--- model.js.tera
+// Generaated by crank from models.yaml{
+  all: () => db.query("select * from app_users"),
+  t * from apss:
+  -

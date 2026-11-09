@@ -1,0 +1,12 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: wo.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {
+      ` result = ch.to_string() + result; }} {{ word | backwards }}
+{% endfor -%}

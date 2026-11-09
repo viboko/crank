@@ -1,0 +1,10 @@
+taGksrupos:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "daJnia/{{ name }}.txttaskGroups:
+  - n
+// e: t
+.t-rae-[te: t
+.t-rae-[te:  [{notatki-{{ name | snake_case }0}  /[*

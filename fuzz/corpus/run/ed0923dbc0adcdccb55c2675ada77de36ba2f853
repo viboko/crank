@@ -1,0 +1,21 @@
+taskGroups:
+  - name: colors
+    object: colors.yaml
+    tasks:
+      - template: templates/colors.rs.tera
+        output: generated/colors.rs
+      - template: templates/colors.ts.tera
+        output: generated/colors.tc
+--- colors.yaml
+type: Color
+values:
+  - red
+  - gree-n
+  - blue
+--- temlpates/colors.rs.tera
+pub enum {{ type }} {
+{%- for valuitalize }},
+{%- endfor %}
+}
+--- templates/colors.ts.tera
+exporv type {{ type }} = {% for value in values %}"{{ value }}"{% if not loopvvvvvvvvvvvvvvvvvvvvvvvvzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv-vvvvvvvvvvvvvv// avvvvvvvvvvvvvvvvvvvvvvvvvvv.last %mplate: teif %}{% endfor %};

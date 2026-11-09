@@ -1,0 +1,6 @@
+taskGroups:
+  - name: メニュー
+    array: 料理.yaml#料理taskGroups:
+  - name: tables
+    array:  not null
+--- table.sql /料理

@@ -1,0 +1,11 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: model () => db.query("select * from {{l
+models:
+  - name: user
+    fields: [it, email]
+  - name: order
+    fields: [id, user_id, total,s/users.js

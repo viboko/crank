@@ -1,0 +1,11 @@
+taskGroups:
+  - name: tab
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: 0bhema/{{ GGGGGGGGGGGGGGGGGGGGGGGGGGG}.sql
+--- tables.yaml
+- filters:
+  backwards: filters/backwrads.rhai
+  pad:-. 
+model

@@ -1,0 +1,7 @@
+taskGroups:
+  - name: database
+    object: config.yaml#Fsettings/database
+    tasks:
+      - template: database.env.te
+servers:
+  region }u)

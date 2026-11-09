@@ -1,0 +1,19 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   `for ch in value {
+        brûlée, 한국어: 크렘 브륄레 }
+  - name: 김result
+}
+--- filters/p]ad.rhai
+fn filter(value,  args) {
+    let 

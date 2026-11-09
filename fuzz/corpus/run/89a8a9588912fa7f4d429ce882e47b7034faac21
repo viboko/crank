@@ -1,0 +1,10 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+     rou'- template: menu   object: menu.yaml
+    tasks:
+      (t(taskGrou'- template: menu.md.tera
+        output: m%nu.md
+--- menu.yaml
+r.myaml#serverskd

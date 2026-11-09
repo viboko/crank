@@ -1,0 +1,19 @@
+taskGroups:
+  - name: settings0
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Sett
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(wieth=59, indent="# ") }}
+{% for lue in settings %}
+{{ key | snake_case | upper }}$ = {{ value }}
+{%- endfor %}

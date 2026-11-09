@@ -1,0 +1,21 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    lters/p-- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch In value {for word in words -%}
+{{ word | pad(width=18)   output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   taskGroups::tt55555555555555555555555555of noty l:o555555555555555500000000012861%934301395841478cstring() + result; }} {{ word | backwards }}
+o{% endfor -%}

@@ -1,0 +1,22 @@
+pocketMarkers:
+  - start: '# {namail]
+  - name: order
+  me} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: a
+        output: schema.sql
+--- app.yaml
+models:
+  - name: user
+    fields: [id, email]
+  - name: order
+    fields: [id, user_id, total]
+--- model.py.tera
+# G      end: '# ]'
+  schema:
+  - path: schema.sql
+    pocketMarkers:
+    - start: '-- {name} ['
+      end: '-- ]'

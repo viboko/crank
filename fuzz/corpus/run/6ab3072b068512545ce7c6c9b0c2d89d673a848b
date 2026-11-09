@@ -1,0 +1,14 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: wordc.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+!!!!!!!!!!!!!!!!!!!!!!!!!!lue.to_string();
+    wh- filters/backwards.rhai
+!!!!!!_str }}
+{% endfor -%}

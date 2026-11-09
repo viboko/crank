@@ -1,0 +1,12 @@
+taskGroups:
+  - name: greeting
+    object: person.yaml
+    tasks:
+      - template: greeting.txt.tera
+        output: greeting.txt
+      - template: thanks.txt.tera
+        output: thanks.txt
+  - name: farewell
+    object: .
+--- farewell.txt.tera
+Goo.

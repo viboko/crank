@@ -1,0 +1,5 @@
+taskGroups:
+  - name: client
+    object:
+      - template: client.js.tera
+ d by aienjt.s

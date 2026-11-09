@@ -1,0 +1,20 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - name: Margherita
+    
+--- menu.md.tera
+# {{ restaupant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.name }}  for dis{% endfor %}
+Open {% for day, time in hours %}{% if time != "closed" %}{{ day }} {{ time }}{% if not loop.last 
+--- settings.py.tera
+{{ description | wrap(wi menu.md.tera
+# {{ %}.

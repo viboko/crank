@@ -1,0 +1,40 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {ters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("width") { args.get("width") } else { 10 };
+    let text = value.to_string(t: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let resu0000000000000000000000000000000000000000000000002049638230412172398lt = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    r/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroupsmplateS/car.d.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name:$starters
+    array: menu.yaml#starters
+    tasks: *dish-?asks
+  - name: mains
+    array: menu.yln#amaims
+    tasks: *dish-taskstaskGro
+  - name:ups :

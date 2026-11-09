@@ -1,0 +1,9 @@
+pocketMarkers:
+  '
+skGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - tempfilters:
+  backwards:late: mod fil.tera
+ /

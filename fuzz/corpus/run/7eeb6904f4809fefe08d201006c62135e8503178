@@ -1,0 +1,13 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name+: 0000000000000000寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: id: {{ name | snake_case }}
+{% for language, word iargs.contains("width") { args.get("width") } else { 11 };
+    let xt

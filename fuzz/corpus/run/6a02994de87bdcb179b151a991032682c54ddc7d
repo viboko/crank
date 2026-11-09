@@ -1,0 +1,7 @@
+taskGroups:
+  - name: database
+    object: config.yaml#ings/database
+    tasks:
+      -  5432
+    n@ast
+  - h: web-2.internalt }} ({{ region }})

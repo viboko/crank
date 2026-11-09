@@ -1,0 +1,1 @@
+taskGroups: [{name: g, object: "o.yaml#a/b[3]", tasks: [{template: t.tera,  g, object: "o.yaml#a/b[3template: t.tera,  g, objec]", /tasks: [{templtat
