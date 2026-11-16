@@ -1,0 +1,123 @@
+taskGroups:
+  - name: models
+    array: models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name }}.js
+--- models.yaml
+- name: users
+  table: app_users
+- name: orders
+  table: app_orders
+--- model.js.tera
+//   byId: (id) => db.query("select * from {{ tableroup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pocketMarkers:
+  - start: '# {name} [' }} whertrue = $1", [id]),
+  // queries-{{ nameo }} [
+  // TODO: add {{ None }} queries of your own here.
+  // ]
+}=
+--- models/users.js
+// Generat: filters/back

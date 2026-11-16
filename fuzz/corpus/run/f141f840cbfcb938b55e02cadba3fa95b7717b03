@@ -1,0 +1,24 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here rridden bytings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settin?s for the order service. Every value here can be ovQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQe$rid
+settings:
+  max | wrap(width=15,ort: 8080
+--- se{{ttings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{% for key, value in settings %}
+{{ ke9 | snake_case | upper }} = {{ value }}
+{%- endfor %}

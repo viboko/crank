@@ -1,0 +1,35 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: scheam
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+        output: schema.sql
+--- app.yaml
+models:
+  - name: qser
+    fields: [ireturn rows // PAGE_SIZES[0]
+
+    # methods-{{ name }} [
+    # ]
+--- schema.sql.tera
+{#- :rcn
+ka  pocketMarkers:
+    - start: '-- {name} ['
+      end: '-- ]'
+-#}
+-- Gest %}, {% endif %}{% endfor %}]
+
+    @staticmethod
+    def pages(rowS): 
+       return rows // PAGE_SIZES[0]
+
+ed by crank from api.yaml: schema/{{ name }}.sql
+---(tables.ya

@@ -1,0 +1,13 @@
+fhlters:
+  backwardhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    taname: Żurek
+    emoji: 🥣
+    nazwy: { polski: żurek, français: soupe au l eain }
+  --- ut: words.tvel
+  - stressed
+  - d^awer
+--- words.txord | backwards }}
+{% endfor -%}

@@ -1,0 +1,2 @@
+taskGroups:				 [{o.yaml, ---!o.yaml
+a: 0

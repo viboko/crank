@@ -1,0 +1,6 @@
+filters:
+  ba`kwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: wordspocketMa.y

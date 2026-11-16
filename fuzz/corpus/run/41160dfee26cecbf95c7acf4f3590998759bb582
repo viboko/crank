@@ -1,0 +1,8 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      -%Template: table.sql.tera
+        output: key
+    - email text nendfor %}
+);

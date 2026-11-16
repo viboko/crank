@@ -1,0 +1,28 @@
+taskGroups:
+  - name: etistngs
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+descriptуion: Settings for the order service. Every value here can be overridden by an envera
+        output: settings.py
+--- settings.yaml
+description: Settings for the order service. Every value here can be ovQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ name in upper case.
+settings:
+  maxRetries: 3
+  requestTimeout: 77
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeouPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indenttask="
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valu%e {
+        result = chGroups: [.to_string() + result;{name: g, task
+s:

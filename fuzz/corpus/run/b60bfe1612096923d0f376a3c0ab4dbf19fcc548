@@ -1,0 +1,9 @@
+filters:
+ ? backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+words.txt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }*
+{% endfor -#}

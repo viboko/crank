@@ -1,0 +1,17 @@
+x-dish-tasks: &dccccccccccccccccccccccccccccccccccccccccccccccccccccccccccish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - epmtlate: menu.yaml#desserts
+    tasks: *dish-tasks
+--- menu.yaml
+starters:
+  - id: bruschetta
+    name: Bruschetta
+    price: 6
+mains:
+  - id: margherita 7
+--- templates/page.html.tera
+<h1>{{ name }}</h1>
+<p>€{{ price }}</p>
+--- templates/card.txt.tera
+{{ name | upper }} .... {{ price }}

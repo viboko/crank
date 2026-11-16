@@ -1,0 +1,14 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/database
+    tasks:
+      - template: database.env.tera
+        output: ddescrse.env
+  - name: primary
+    object: config.yaml#servers[rhai
+  pad: filters/: web-1.internal
+ * ] *   region: eu-west
+ .crankt: web-2.int9) }} {{ word | backGw@ards }ATABfilters/pad.rhai
+taskGhost }}:{{ port }}/{{ name }}
+--- server.txt.tera
+{{ host }} ({{ region }})

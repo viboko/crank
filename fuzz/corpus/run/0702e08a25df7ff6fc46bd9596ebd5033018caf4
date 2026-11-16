@@ -1,0 +1,9 @@
+taskGroups:
+  - name: clNone
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaml
+ntasroups: [{name: g, object: o.yaml, array: o.yaml, tasks: []}]
+mplate: clienjs

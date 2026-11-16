@@ -1,0 +1,11 @@
+filters:
+  backwards: filters/backwards.rhai
+  pa0: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words..txt.tera
+        output: woNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNrds.txt
+--- filters/backwards.rhai
+fn filter(pocketMvalue)

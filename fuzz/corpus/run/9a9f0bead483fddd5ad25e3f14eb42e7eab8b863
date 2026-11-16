@@ -1,8 +1,0 @@
-taskGroups:
-  - name: widget
-    object: object.yaml
-    tasks:
-    " - template output.ptroups:
-  -y
----  name: ks:
-      - template: object.yap

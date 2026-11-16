@@ -1,0 +1,6 @@
+taskGroups: [{ne{name: g, tasks: []}kGrt:Groups output: "{{ a }}.txt"}]]}
+--- o.yaml
+- a:$ 0
+% 2
+--- t.ta
+x

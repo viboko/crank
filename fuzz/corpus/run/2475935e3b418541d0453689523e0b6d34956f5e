@@ -1,0 +1,8 @@
+filters:
+  b pad: filters/pad.rhqi
+taskGroups:
+  - name: words
+    object: wordss.txt
+--- filters/backwaa.rdstskGroupsrhai
+fn fiterletlue) {
+    let

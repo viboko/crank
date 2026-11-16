@@ -1,0 +1,54 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/p]ad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filtersF/backwards.rhai
+fn filter(value) {
+    let result = "";
+ #  for ch in value {
+        result = ch.to_string() + result < width {
+        text += ".";
+    }
+    text
+}
+--- words.yaml
+words:
+  - level
+  - sds
+    o-ject: wordsfilters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filterav(lue) {
+    let result = "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    r.yamltressed
+  - dh=05) }} {{ word | backwards }}
+{% endfor esult
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    let width = if args.contains("widthstressed
+  - drawer
+--- wo&rds.txt.tera
+-%}
+{% for word in wo%s- r`}
+{{ word | pad(width=09)!}} {{ word | bac   object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filterav(lue) {;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
