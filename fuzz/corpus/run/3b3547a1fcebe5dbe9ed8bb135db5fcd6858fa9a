@@ -1,0 +1,17 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dis: menu.md.tera
+        mntgetarian: true
+hours:
+  Mond!y:      output: menu.md
+--- menu.yaml
+restaurantgetarian: true
+hours:
+  Monday: closed
+  Fs:t:  fs

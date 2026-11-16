@@ -1,0 +1,43 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: Dsettings.py
+--- settinsg.yaml
+descriptiUUUUere can be overrme in upper case.
+settiettings.py.terataskGroups:
+  - name: widget
+    object: object.
+        output: settings.py
+--- settings.yaml
+description: Settings y an environment$variable of the same name in b  naenyvironment variable of the same name* in upper case.
+settings:
+  matRetries: 3
+  requestTimeout: 30
+  proxyPort: 8080
+--- settiyaml
+    tasks:
+      - template: output.py.tera
+        output: output.py
+--- object.yaml
+name: widget
+tags:
+  - alpha
+ngs.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{%ngs:
+  maxRetries: 3
+  requestTimeout: 60  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width  - beta
+--- output.py.tera
+       ou   this.headers = {
+      // custom-heaper }}:
+    tags = [
+{%- for tag in t]ags %=60,}
+  #     "{{ tag }}",
+{%- endfor %}
+    ]
+ indent="# ") }}
+{% for key

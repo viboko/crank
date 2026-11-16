@@ -1,0 +1,33 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: 1
+--- t.tera
+x
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  s/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name:widths
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+     + resutaskGroups:
+  - name: widtaskGroups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ name | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - name: Hawaiian
+    price: 17.99
+    toppings: [ham, pineapple]
+  -fil- path: out.txUUUUUUUt
+     - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - templ  output: out.t]

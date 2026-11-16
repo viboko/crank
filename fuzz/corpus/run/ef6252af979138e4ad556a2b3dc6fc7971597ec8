@@ -1,0 +1,13 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шish.txt.tera
+        output: "dania/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    0b-.INF: 🍣
+    nazwy: { 日本語:#すし, nglish: kimchi }
+--- шаблоame }s}
+id:k {{ name | snake_case }}

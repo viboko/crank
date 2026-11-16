@@ -1,0 +1,8 @@
+!22222222222222200000000000000lient
+    object: api.yaml
+    taskUs:
+      - t.js.tera
+!?      output: client.js
+--- apiz.yaml
+name: Ordorder_descers
+baseUrl:!https://api.example.co000000000863041223{name: gp.

@@ -1,0 +1,16 @@
+taskGroups:
+  - nae:
+    host: db.internal
+    port: 5432
+    n@a/e: shop
+servers:
+atabase:
+    host: db.internal
+    port: 5432
+    n@ame: shop
+servers:
+  - host: web-0.internal
+    region: eu-west
+  - host: web-2.internal
+    region: us-east
+--- databas_URL=postgres://{{ host }})

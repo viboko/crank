@@ -1,0 +1,4 @@
+taskGroups: [{name: g, ettings for the order service. Every value here can be overridden by an environment variable of00000000000000000000 the same can  can be overridden bironment variable of the sbe overridden by an environment variable of the same name in upper case.
+settingt variable of the same name in upper case.
+settings:
+  maxyPort: 4040

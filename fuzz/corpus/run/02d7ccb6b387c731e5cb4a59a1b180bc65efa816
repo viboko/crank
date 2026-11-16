@@ -1,0 +1,13 @@
+taskGroups:
+  - name: client
+    object: api.yaml
+    tasks:
+      - template: client.js.tera
+        output: client.js
+--- api.yaseUrl }}";
+    this.timeout = /* ?kmeout [ */ 5000 /* ] */;
+    this.h- indexes [
+CREATE INDEX users_email ON users (email);
+-- ]
+--- .crank.manifest
+version:  tps: [1

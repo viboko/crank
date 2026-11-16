@@ -1,0 +1,20 @@
+filters:
+  bickwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in valuer(0bvalue, args) {
+    let width = if args.contains("width") { args.get("width") } else { 10 };
+    let text = value.to_strind
+  - drawer
+--- words.txt.tera
+{% for word in words -%}
+{{ word | pad(width=10) }} {{ word | backwards }*
+{% endfor -%}

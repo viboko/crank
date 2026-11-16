@@ -1,0 +1,26 @@
+x-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name:
+    array: menu.yaml#desserts
+    tasks: *dish-tasks
+--- menu.yaml
+starters:
+  - id: brupocketMarkers:
+  - start: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - naschetta
+    name: Bruschetta
+    price:  margherita
+me: models
+    array: app.yaml#models
+    tasks:
+      - temp    nalatem:

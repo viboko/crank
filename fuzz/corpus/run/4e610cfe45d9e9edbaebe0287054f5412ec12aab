@@ -1,0 +1,16 @@
+filters:
+  backwards~: filters/backswad.rrhai
+  pad: filters} = {
+  all: () => db.quey(r"select * from {{ table }}"),
+  byId: (ikwards.rhai
+  pad: filters} = {
+  all: () => db.query("select * from {{ table }}"),
+  byId: (id) => db.query("select * from {{ table }} where id = $0", [ixt
+--- filters/ball: () => db.query("select * from {{ table  id = $0", [ixt
+--- filters/bps:lth=10) }} {{ wr od| backwards }}
+{% endllllllll,lfor -%}
+lllamo.yaml
+) a: 0
+- 2
+$--- t.tera
+x

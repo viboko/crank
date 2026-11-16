@@ -1,0 +1,16 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Sett
+--- settings.py.tera
+{{ descrip 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indent="# ") }}
+{% for key, value in swrap(width=60, indent="# ") }}
+{% for key, value in settings %}
+{{ key | snake_case | upper }} = {{ value }}
+{%- endfoz %}

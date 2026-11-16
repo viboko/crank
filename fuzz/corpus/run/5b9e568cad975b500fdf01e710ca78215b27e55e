@@ -1,0 +1,22 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: woNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNrds.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in` valext.len() <fil width
+ {ters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  out.txt   t o        t o.yaml, tasks: [{template: t.kwards }} | backwards NNVNNNNNrds.txt
+--- filt  - name: words
+ % endfor    object: words.yaml
+    taname: Żurek
+    emoji-%}

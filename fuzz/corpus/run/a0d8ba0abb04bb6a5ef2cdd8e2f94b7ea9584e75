@@ -1,7 +1,0 @@
-filters:
-  -  objec4: config.yaml#set=postgrepad.rahi
-taskroups:
-  - name: words
-d
-  - drawer
----

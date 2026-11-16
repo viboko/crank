@@ -1,0 +1,15 @@
+t$skGroups:
+  - name: database
+    et ce: database
+ 
+    tasks:
+   
+  - name: database
+ 
+    tasks:
+   
+  
+  - name: data  !#ses[ ]
+  ! tasksrs[0]
+  ! tasks:
+ }})

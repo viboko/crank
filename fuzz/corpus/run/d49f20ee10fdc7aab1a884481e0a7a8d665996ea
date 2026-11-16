@@ -1,0 +1,7 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '# ]«'
+taskl.py.tera - \ame: models
+    array: app.yamp.yaml#models
+    tasks:
+      - template: model. = [{% fo2

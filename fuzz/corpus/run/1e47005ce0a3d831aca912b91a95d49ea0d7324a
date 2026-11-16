@@ -1,6 +1,0 @@
-taskGroups:
-  #     -tery
---- object.yaml
-name: widget
-tags:
-  - } ({{ region }})
