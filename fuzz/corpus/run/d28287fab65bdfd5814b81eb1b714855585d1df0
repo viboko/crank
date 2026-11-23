@@ -1,0 +1,30 @@
+x-dish-tas{%ks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  - name: desserts
+    array: menu.yaml#desserts
+    tasks: *dish-tasks
+--- menu.yaml
+starters:
+  - id: bruschetta
+    name: `ruschetta
+    price: 3
+mains:
+  - id: margTTTTTTTint/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    taskns
+    tasks: *dish-tasks
+  - namDS = [{% forprice }}

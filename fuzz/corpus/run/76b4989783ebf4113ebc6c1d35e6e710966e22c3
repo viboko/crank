@@ -1,0 +1,37 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu,md
+--- menu.yaml
+restaurant: Luigi's
+dishes:
+  - true
+hours:
+  Monlay: closed
+  Friday: 12:00–23:00
+  Saturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for dish in dishes -%}
+{{ loop.index }}. {{ dish.name }}  for dish in dishes -%}
+{{ loop.index }}. {{ di// kame }} — €{{ dish.price }}{% if dish.vegetarian %} (v){% endif %}
+{% endfor %}
+Open kGroups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ name | lower }}.txt
+--- pizzas.yaoups:
+  - name: pizzas
+    array: pizzas.yaml#pizzas
+    tasks:
+      - template: pizza.txt.tera
+        output: pizzas/{{ name | lower }}.txt
+--- pizzas.yaml
+pizzas:
+  - naem: Hawaiian
+    {% if time != "closed" %}{{ day }} {{ time }{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}.

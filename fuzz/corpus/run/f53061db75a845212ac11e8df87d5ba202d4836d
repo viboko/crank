@@ -1,0 +1,13 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: vords.txt.|era
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let res________________________________________________kw_________   let width = if args.containards: fi| backwards }}
+{% endfor -%}Groups: [{name: g, tasks:

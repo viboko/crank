@@ -1,0 +1,27 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/p]ad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filtersF/backwards.rhai
+fn filter(value) {
+    let result = "";
+ #  for ch in value {
+        result = ch.to_string() + result < width {
+        text += ".";
+    }
+    text
+}er
+--- wo&rds.txt.tera
+-%}
+{% for word in wo%s- r`}
+{{ word | pad(width=09)!}} {{ word | bac   object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filterav(lue) {;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;?;;;;;;;;;;;;;;;;;;

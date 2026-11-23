@@ -1,0 +1,8 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#ші }
+  - name: Żurek
+    emoji: 🥣
+    nazwy: { polski: żur}}
+{% for language, word in nazwy %}
+  {{ languaania/寿司.txt

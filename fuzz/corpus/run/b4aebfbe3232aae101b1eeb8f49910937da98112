@@ -1,0 +1,5 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料
+    tasks:
+      - template: шаблони/  output: "dania/{{ namebzjectwy: { : of.yaml,r

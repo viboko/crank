@@ -1,0 +1,31 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: woNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNrds.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let resNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNrds.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in` value {
+        result = ch.to:string() + r}} {{ wo{ 11 };    let text =уalue.to_stringext.len() <fil width
+ {ters:
+  backwards: filters/backwar/ds.rhai
+  pad: filters/pad.rhai
+taskGroups:
+        t o.yaml, tasks: [{template: t.kwards }} | backwards }}
+{  - name: words
+ % endfoai
+fn filter(value) {
+    let result = "";
+    for ch in` value {
+        result = ch.to:string() + r}} {{ wo{ 11 };    let text =уalue.to_stringext.len() < width
+ {        t o.yamlr    object: words.yaml
+    taname: Żurek
+    emoji-%}

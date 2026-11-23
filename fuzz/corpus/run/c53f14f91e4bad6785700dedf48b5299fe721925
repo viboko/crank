@@ -1,0 +1,13 @@
+taskGroups:
+  - name: menu
+    object: menu.yaml
+    tasks:
+      - template: menu.md.tera
+        output: menu.md
+--- menu.yaml
+restaurant: Luigi's
+dSaturday: 12:00–23:00
+--- menu.md.tera
+# {{ restaurant }}
+
+{% for %}.

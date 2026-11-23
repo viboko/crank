@@ -1,0 +1,9 @@
+pocketMarkers:
+  - start: '# {name} ['
+    end: '' ]'
+taskGroups:
+  - name: modelsilters/pad.rhai
+fn filter(valuefilters:
+ , args) {
+  backwards: filters/backwards.rh   leai
+ t  pwi

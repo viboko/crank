@@ -1,0 +1,11 @@
+filters:
+  backwards: filtersrhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: 0ords.txt.tera
+        output: words.- words.txt.tera
+{% for word in wores -%}
+{{ word | pad(width=10) }} {{ word | backwards }}
+{% endfor -%}

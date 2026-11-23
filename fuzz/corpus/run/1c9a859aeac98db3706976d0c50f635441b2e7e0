@@ -1,0 +1,17 @@
+x-dish-tas{%ks: &dish-tasks
+  - template: templates/page.h|ml.tera
+    output: "site/{{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx id }}.html"
+  - template: templates/card.txt.tera
+    output: "print/{{ id }}.tobject: oxt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: mains
+    array: menu.yaml#mains
+    tasks: *dish-tasks
+  - name:name }}</h1>
+<p>€{{ price }}</p>
+--- templates/card.txt.tera
+{{ name | upper }} .... {{ price }}

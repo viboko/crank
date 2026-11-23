@@ -1,0 +1,8 @@
+taskGroups:
+  - name: database
+    object: config.yaml#settings/d`tabase
+    tasks:
+      - template: database.env.tera
+    |    wes0t
+  -type_ofweb-2.internal
+    region: us-east{ host }} ({{ region }})R

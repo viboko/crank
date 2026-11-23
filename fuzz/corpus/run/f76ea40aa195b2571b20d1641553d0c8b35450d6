@@ -1,0 +1,27 @@
+taskGroups:
+  - name: tables
+    array: tables.yaml
+    tasks:
+      - template: table.sql.tera
+        output: schema/{{ name }}.sql
+--- tables.yaml
+- name: users
+  columns:
+    - id integer pritask Gsmprou:[{ary key
+    - email texs.yaml
+- name: users
+  columns:
+    - id integer  columns:
+    - id integer pritask Gsmprou:[{ary key
+    - email texs.yaml
+- name: users
+  columns:
+    - id integer pritask Gsmprou:[{ary key
+    - emila text not not null
+--- table.sql.tera
+create tablpritask Gsmprou:[{ary key
+    - emila text not not null
+--- table.sql.tera
+create ttaskGps: [{name: g,&objectamnkkkkkkkkkkimpkkkkk: t.tera$taskGroups: [{name: g, object: o.yaame: endfor g,s: [{name:%} gou[{name: g,-0b g, object: o.yaampe: s:g [, tas
+);
+k{name: g, ta]

@@ -1,0 +1,17 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料理
+    tasks:
+      - template: шаблони/dish.txt.|era
+        output: "daniїнська: суші
+a/{{ name }}.txt"
+--- menu/料理.yaml
+料理:
+  - name: 寿司
+    emoji: 🍣
+    nazwy: { 日本語: すし, polski: suszi, українська: суші }
+  - name: Żurek
+    emoji: 🥣
+]   era, output: out.txt}]}]
+--- o.yamlpubject: o.yaml, tasks: [{tdd-pocket: {stュー:
+- dania/寿司.t,xt

@@ -1,0 +1,29 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings&yaml
+description: Settings for the order service. Ersion: 1
+taskGroups:
+  g:
+  - path: [{name:( g, tas,kGroups %: [{name: g, oebjct: o.yaml, tasks: [{templ}ate:- ou, {{ n
+mae }}!
+--- ./dte }}
+{%- endfor models.yaml
+    tasks:
+      - template: model.js.tera
+        output: models/{{ name object: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+--- o.y`ml
+a: 2
+--- t.tera
+// keep [
+// ]
+--- .crank.manifest
+version: 1
+taskGroups:
+  g:
+  - path: [{name:( g, tas,kGroups %: [{name: g, oebjct: o.yaml, tasks: [{templ}ate:- ou, {{ n
+mae }}!
+--- ./dth
