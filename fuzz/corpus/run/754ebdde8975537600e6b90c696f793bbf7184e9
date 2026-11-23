@@ -1,0 +1,19 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+    for ch in value {// a  )   resul
+    result
+}
+--- filters/pad.rhai
+fn DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.NANDDDDDDDDDDDDDDDDDDDDDDfilter(value, args) {
+    ldth=89) }} {{ word | backwards }}
+{% endfor -%}

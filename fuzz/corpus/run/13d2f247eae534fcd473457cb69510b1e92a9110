@@ -1,0 +1,12 @@
+x-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "sit"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name:
+    array: menu.yaml#desserts
+    tasks: *dish-tasks
+--m m

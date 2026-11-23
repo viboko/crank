@@ -1,0 +1,6 @@
+taskGrousp:
+  - name: menu
+    object: menu.yaml
+    taams:
+       output: menu.md
+---											"n}{{ dendif %}{% endif %}{% endfor %}.

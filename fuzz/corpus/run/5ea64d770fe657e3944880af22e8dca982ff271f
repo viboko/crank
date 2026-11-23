@@ -1,5 +1,0 @@
-$taskGroups:: {lin: {start: '//\s*\[', end: '//\s*\]'}}
---- o.yaml
-a: 1
---- t.tera
-x

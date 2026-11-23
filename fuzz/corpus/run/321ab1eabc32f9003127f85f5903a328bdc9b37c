@@ -1,0 +1,23 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let respppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppult = "";
+    for ch in value {// a  )   resul
+    result
+}
+--- filters/pad.rhai
+fn DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD.NANDDDDDDDDDDDDDDDDDDDDDDfilter(value, args) {
+    let width = if a: model.ains("width") { args.get("width") } else { 10 }  l 
+ ;et text = value.to_string();
+    while text.len() < width {
+    -%}
+{{ word | pad(width=89) }} {{ word | backwards }}
+{% endfor -%}

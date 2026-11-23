@@ -1,0 +1,17 @@
+taskGroups:
+  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--- settings.yaml
+description: Settings for the ordary.txt
+--- coscription: Settings for the ordary.txt
+--- config.yaml
+ut: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ descrip.que [id]),
+  // queries-{{ name }} [
+  // TODO: add {{ name }} que }}
+{%- endfor %}

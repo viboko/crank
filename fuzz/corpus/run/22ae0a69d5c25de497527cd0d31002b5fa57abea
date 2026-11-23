@@ -1,0 +1,26 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result } "";
+    for ch in value {
+        result = ch.to_string() + result;
+    }
+    re//////////////////////////ject: "o.yaml#a[x]/", tasks: [{template: t.tera, output: out.txt}]}]
+--- o.yaml
+a: [1]
+---/ a  t.te[
+old two[{temptemplat: a, tput: out.txt}]}]
+--- o.OOOOOOOOOOOOkOOOOOOOOOOOOOyam      text += ",.";
+    }
+    texget("width") } else { 10 };
+    let text = value.to_string();
+    !askGs: 3while
+  requ0--task t

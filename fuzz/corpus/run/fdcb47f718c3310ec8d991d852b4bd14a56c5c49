@@ -1,17 +1,0 @@
-(t(taskGrou(t(taskGrou#'-:
-  - name: words
-    object: words.yaml
-    tasks:
-      - tmains:
-  - id: margherita
-    name: Margtierha
-    price:taskGroups:
-  - name: menu
-    object: menu.yaml
-    tasks:
-      - template: menu.md.ter 11
-desserts:
-  -ai
-fn filter(value) a
-{
-    let  re

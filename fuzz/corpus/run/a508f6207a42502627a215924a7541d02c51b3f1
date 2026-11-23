@@ -1,0 +1,8 @@
+pocketMarkers:
+  - start: '# {name} ['
+X    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template    task:

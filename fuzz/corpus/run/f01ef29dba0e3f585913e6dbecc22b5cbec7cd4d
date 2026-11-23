@@ -1,0 +1,12 @@
+taskGroups: [{name: g, object: o.yaml, tasks: [{template: t.tera, output: one.txt}]}]
+--- o.yamlN
+a: 0
+--- t.tera
+// a [
+0era
+// a [
+// ]
+--- .crank.manifest
+taskGroups:
+  - e }}.js&--- mmozel.s/{{ name }}.js
+--- models.yae: app_u+%

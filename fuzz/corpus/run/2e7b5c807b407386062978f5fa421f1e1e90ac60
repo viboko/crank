@@ -1,0 +1,5 @@
+taskGroups: [{name: g, array: -o.yaml, tasks: [{template: t.tera, ou\tput: "{ t.tera, ou\tput: "{{ aaml
+- a: 1
+- 2
+--- t.tera
+x

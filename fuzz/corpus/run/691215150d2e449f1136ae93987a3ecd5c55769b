@@ -1,0 +1,16 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: wosds
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn fil(vrte0lue) {
+  }
+---  rseult
+}
+--- filters/pad.rhai
+f7777777777777777777777get("widt

@@ -1,0 +1,23 @@
+pocketMarkers:
+  - start: '# {namez ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.ayml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+        output: schema.sql
+--- app.yaml
+m-- modl.tera
+{#- crank:
+  pocketMarkers:
+    - start: '- schema:
+  - path: schema.sql
+    pocketMarkers:
+    - start: '-- {name} ['
+      end: '-- ]'

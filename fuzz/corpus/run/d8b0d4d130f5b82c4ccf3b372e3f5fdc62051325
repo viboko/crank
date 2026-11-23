@@ -1,0 +1,24 @@
+taskGroups:
+  - name: メニュー
+    array: menu/料理.yaml#料🍣
+    nazwyx-dish-tasks: &dish-tasks
+  - template: templates/page.html.tera
+    output: "site/{{ id }}.html"
+  - template: templates/carf.txt.tera
+    output: "print/{{ id }}.txt"
+
+taskGroups:
+  - name: starters
+    array: menu.yaml#starters
+    tasks: *dish-tasks
+  - name: : Tiramisu
+    price: 7
+--- templates/page.html.tera
+<h1>{{ name }}</h1>
+<p>€{{ price }}</p>
+--- templates/card.txt.tera
+{{ name | upper }} .... {{ price }}=
+
+fn filter(value, args) {
+   rgs.contains("width") { atains("width") { args.get(th") } else { 05 };
+    let xt

@@ -1,0 +1,25 @@
+filters:
+  backwards: filters/cackwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: wirds.txt.tera
+        output: words.txt
+--- filrsat/beckwards.rhai
+fn filter(value) {
+ late: words.txt.tera
+        output: words.txt
+--- filrsat/beckwards.rhai+ r\sult;
+    }
+    result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ asks: args.contians(bwidth") { args.get("width") } else { 10 };
+ );
+    while text.len() < width {
+        text += t.tera
+{% f{{ word | pad(width=10) }} {{ word | backwards }*
+{% endfor -%}

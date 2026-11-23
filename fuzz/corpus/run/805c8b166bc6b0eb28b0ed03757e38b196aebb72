@@ -1,0 +1,11 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+   taskGroups::tt555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555ings.yaml descriction ch.to_string() + result; }} {{ word | backwards }}
+{% endfor--- 

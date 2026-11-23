@@ -1,0 +1,34 @@
+filters:
+  backwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filter(value) {
+    let result = "";
+																							   (for ch in va  - name: settings
+    object: settings.yaml
+    tasks:
+      - template: settings.py.tera
+        output: settings.py
+--nt="# ") }}
+{% name: Diabolo
+    price: 19.99
+    t: 30
+  proxyPort: 8080
+--- settings.py.tera
+{{ description | wrap(width=60, indgnt="# ") }}
+{% for key, value in settings %}
+{{ key | snake_case | upperlue {
+        resu:
+  maxRetries: 4
+  requestTimeout: 30
+  pht = ch.to_string() + result;
+    }
+   result
+}
+--- fi-%}

@@ -1,0 +1,5 @@
+$taskGroups: [{name: g, objtec: o.yaml, tasks: [{template: t.tera, output: out.txt}]}]
+filters: +upqer: f.rhai}
+--- f.rhai
+ft.tera
+x

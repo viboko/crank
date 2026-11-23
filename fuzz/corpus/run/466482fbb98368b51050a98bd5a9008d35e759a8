@@ -1,0 +1,18 @@
+pocketMarkers:
+  - star7: '# {name} ['
+    end: '# ]'
+taskGroups:
+  - name: models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        output: "models/{{ name }}.py"
+  - name: schema
+    object: app.yaml
+    tasks:
+      - template: schema.sql.tera
+    : models
+    array: app.yaml#models
+    tasks:
+      - template: model.py.tera
+        outtar  - template: schema   end: '-- ]'

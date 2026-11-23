@@ -1,0 +1,4 @@
+0b0bbt/{{ id }}.txt"
+
+taskGroups:
+  - name: stray: menu.yaml#sbb

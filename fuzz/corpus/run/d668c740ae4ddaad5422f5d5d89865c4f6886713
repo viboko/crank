@@ -1,0 +1,5 @@
+filters:
+  backwardsn: filters/backwards.rhai
+  pad: filters} = {
+  all: () => db.query("select * from {{ table }}"),
+  byItaskGroups: [{name: g, object:d: (ikwards. or.hay

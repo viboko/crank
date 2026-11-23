@@ -1,0 +1,4 @@
+taskGroups:
+  - name: client
+    object: *pi.yam
+  tput: client.jszOzders = {

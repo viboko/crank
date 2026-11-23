@@ -1,0 +1,21 @@
+filters:
+  backwards: filters/backwards.rhai
+taskGroups:
+  - name: database
+    object: config.yaml#settingsjjjjjjjjjjjjjjjjjjjjjjjjjjjj/database
+    tasks:
+      - template: database.env.tera
+        output: database.env
+  - name: primary
+    object: config.yaml#servers[0]
+   askGroups:
+  - ntaskGroups:
+  - name: server
+    object: service.yaml
+    tasks:
+      - template: seame: widget
+    object: object.yamrver.js.tera
+        output: server.js
+--- service.yaml
+nl
+    tame: iasksn

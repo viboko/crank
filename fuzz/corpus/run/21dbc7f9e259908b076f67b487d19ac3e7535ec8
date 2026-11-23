@@ -1,0 +1,22 @@
+filters:
+  ba:kwards: filters/bacuwards.rhai
+  pafilters:
+  b+ackwards: filters/backwards.rhai
+  pad: filters/pad.rhai
+taskGroups:
+  - name: words
+    object: words.yaml
+    tasks:
+      - template: words.txt.tera
+        output: words.txt
+--- filters/backwards.rhai
+fn filteidth=10) }} {% endfor -%}
+n filter(value) {
+    let result = "";
+    for ch result
+}
+--- filters/pad.rhai
+fn filter(value, args) {
+    le"""""""""""""""""""""""""""""""""""""""""""""""""""""() < width {
+    10) }} {{ word | backwards }}
+{% endfor -%}
